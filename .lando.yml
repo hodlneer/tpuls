@@ -1,0 +1,33 @@
+name: ntg004
+recipe: drupal9
+config:
+  php: '7.3'
+  composer_version: 2
+  via: 'apache:2.4'
+  webroot: dist
+  database: 'mysql:5.7'
+  drush: true
+  xdebug: false
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  gulp:
+    service: node
+  yarn:
+    service: node  
+proxy:
+  appserver:
+    - ntg004.lndo.site
+services:
+  database:
+    creds:
+      user: database
+      password: database
+      database: ntg004db
+  node:
+    type: node:16
+    ssl: true
+    globals:
+      gulp-cli: 'latest'
