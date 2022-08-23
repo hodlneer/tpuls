@@ -1,0 +1,65 @@
+// Text card, optional image/icon, title
+.text-card {
+  padding-left: calc($grid-gutter-width/2);
+  padding-right: calc($grid-gutter-width/2);
+  margin-bottom: 3.5rem;
+
+  &--icon {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .heading-4 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-weight: 300;
+  }
+
+  .sponsor {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: -.75rem;
+    margin-bottom: 0;
+
+    span {
+      font-size: .8125rem;
+      color: #999;
+      line-height: 1;
+      position: relative;
+      top: 1px;
+    }
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 0 0 4px;
+      height: 21px;
+    }
+  }
+}
+
+.col-left {
+  .text-card {
+    &--icon {
+      height: 72px;
+    }
+    .heading-4 {
+      font-size: 1.5rem;
+      margin-bottom: 0.625rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+
+  }
+}

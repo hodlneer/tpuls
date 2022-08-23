@@ -1,0 +1,29 @@
+dd {
+  margin-bottom: .375rem;
+  margin-top: .125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+dd + dt {
+  margin-top: 1rem;
+}
+
+ul.link-list {
+  li {
+    padding: 9px 0;
+
+    &:first-of-type {
+      padding-top: 0;
+    }
+
+    a {
+      color: $input-color;
+      text-decoration: none;
+
+      &:hover, &:focus, &.active {
+        color: $link-color;
+      }
+    }
+  }
+}

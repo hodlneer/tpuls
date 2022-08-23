@@ -1,0 +1,26 @@
+<div class="text-card{{#if card.align }} text-{{card.align}}{{/if}}">
+
+  {{#if card.image }}
+  <div class="text-card--icon">
+  {{#if card.url }}<a href="{{teaser.url}}">{{/if}}
+    <img class="img-fluid" src="{{card.image}}" alt=""/>
+  {{#if card.url }}</a>{{/if}}
+  </div>
+  {{/if}}
+
+  {{#if card.title }}
+  <h4 class="heading-4">{{#if card.url }}<a href="{{teaser.url}}">{{/if}}{{card.title}}{{#if card.url }}</a>{{/if}}</h4>
+  {{/if}}
+
+  {{#if card.text }}
+  <p>{{{card.text}}}</p>
+  {{/if}}
+
+  {{#if card.sponsor-label }}
+  <div class="sponsor">
+    <span>{{card.sponsor-label}}</span>
+    <img src="{{card.sponsor-image}}" alt=""/>
+  </div>
+  {{/if}}
+
+</div>

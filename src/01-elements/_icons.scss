@@ -1,0 +1,322 @@
+.icn-twitter {
+  @include svg-icon;
+  height: 20px;
+  width: 24px;
+  background-image: url(../../src/images/icons/twitter.svg);
+
+  &:hover,
+  &:focus {
+    background-image: url(../../src/images/icons/twitter-blue.svg);
+  }
+}
+
+.icn-facebook {
+  @include svg-icon;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../src/images/icons/facebook.svg);
+
+  &:hover,
+  &:focus {
+    background-image: url(../../src/images/icons/facebook-blue.svg);
+  }
+}
+
+.icn-pinterest {
+  @include svg-icon;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../src/images/icons/pinterest.svg);
+
+  &:hover,
+  &:focus {
+    background-image: url(../../src/images/icons/pinterest-blue.svg);
+  }
+}
+
+.icn-instagram {
+  @include svg-icon;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../src/images/icons/instagram.svg);
+
+  &:hover,
+  &:focus {
+    background-image: url(../../src/images/icons/instagram-blue.svg);
+  }
+}
+
+.icn-linkedin {
+  @include svg-icon;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../src/images/icons/linkedin.svg);
+
+  &:hover,
+  &:focus {
+    background-image: url(../../src/images/icons/linkedin-blue.svg);
+  }
+}
+
+.icn-arrow {
+  @include svg-icon;
+  background-image: url(../../src/images/icons/fancy-arrow.svg);
+  width: 20px;
+  height: 21px;
+
+  &:hover, &:focus {
+    background-image: url(../../src/images/icons/fancy-arrow-blue.svg);
+  }
+}
+
+.icn-arrow-dk {
+  @include svg-icon;
+  background-image: url(../../src/images/icons/fancy-arrow-dk.svg);
+  width: 15px;
+  height: 15px;
+
+  &:hover, &:focus {
+    background-image: url(../../src/images/icons/fancy-arrow-blue.svg);
+  }
+}
+
+.icn-comments {
+  @include svg-icon;
+  background-image: url(../../src/images/icons/bubble.svg);
+  width: 24px;
+  height: 22px;
+
+  &:hover, &:focus {
+    background-image: url(../../src/images/icons/bubble-blue.svg);
+    span {
+      color: white;
+    }
+  }
+
+  span {
+    color: #676767;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 11px;
+    font-weight: 700;
+    top: 3px;
+    left: 0;
+    height: 10px;
+    width: 24px;
+    position: absolute;
+    text-align: center;
+    text-indent: 0;
+  }
+}
+
+.icn-bookmark {
+  @include svg-icon;
+  height: 22px;
+  width: 15px;
+  background-image: url(../../src/images/icons/bookmark.svg);
+
+  &:hover, &:focus {
+    background-image: url(../../src/images/icons/bookmark-blue.svg);
+  }
+
+  &.icn-text {
+    background-size: 15px 22px;
+  }
+}
+
+.icn-compare {
+  @include svg-icon;
+  height: 26px;
+  width: 24px;
+  background-image: url(../../src/images/icons/compare.svg);
+
+  &:hover, &:focus {
+    background-image: url(../../src/images/icons/compare-blue.svg);
+  }
+
+  &.icn-text {
+    padding-left: 2rem;
+    line-height: 24px;
+    background-size: 20px 24px;
+  }
+}
+
+.icn-info {
+  @include svg-icon;
+  background-color: #959595;
+  border-radius: 8px;
+  height: 16px;
+  line-height: 15px;
+  text-align: center;
+  text-indent: 0;
+  min-width: 16px;
+
+  &::before {
+    content: "i";
+    color: white;
+    font-family: $font-family-serif;
+    font-size: .625rem;
+    font-weight: 700;
+  }
+
+  &:hover {
+    background-color: $blue-light;
+  }
+}
+
+.icn-list {
+  @include svg-icon;
+  height: 21px;
+  width: 23px;
+  background-image: url(../../src/images/icons/list.svg);
+
+  &:hover, &:focus, &.active {
+    background-image: url(../../src/images/icons/list-blue.svg);
+  }
+}
+
+.icn-grid {
+  @include svg-icon;
+  height: 21px;
+  width: 21px;
+  background-image: url(../../src/images/icons/grid.svg);
+
+  &:hover, &:focus, &.active {
+    background-image: url(../../src/images/icons/grid-blue.svg);
+  }
+}
+
+.icn-map {
+  @include svg-icon;
+  height: 22px;
+  width: 27px;
+  background-image: url(../../src/images/icons/map.svg);
+
+  &:hover, &:focus, &.active {
+    background-image: url(../../src/images/icons/map-blue.svg);
+  }
+}
+
+.icn-mail {
+  @include svg-icon;
+  height: 15px;
+  width: 20px;
+  background-image: url(../../src/images/icons/mail.svg);
+
+  &:hover, &:focus, &.active {
+    background-image: url(../../src/images/icons/mail-blue.svg);
+  }
+
+  &.icn-text {
+    height: auto;
+    background-size: 20px 14px;
+    padding-left: 1.65rem;
+    font-weight: 400;
+    font-size: .8125rem;
+  }
+}
+
+.icn-delete {
+  @include svg-icon;
+  height: 16px;
+  width: 14px;
+  background-image: url(../../src/images/icons/trash.svg);
+
+  &:hover, &:focus, &.active {
+    background-image: url(../../src/images/icons/trash-blue.svg);
+  }
+
+  &.icn-text {
+    height: auto;
+    background-size: 15px 16px;
+    padding-left: 1.125rem;
+    font-weight: 400;
+    font-size: .8125rem;
+  }
+}
+
+.icn-export {
+  @include svg-icon;
+  height: 14px;
+  width: 14px;
+  background-image: url(../../src/images/icons/export.svg);
+
+  &:hover, &:focus, &.active {
+    background-image: url(../../src/images/icons/export-blue.svg);
+  }
+
+  &.icn-text {
+    height: auto;
+    background-size: 14px 14px;
+    padding-left: 1.25rem;
+    font-weight: 400;
+    font-size: .8125rem;
+  }
+}
+
+.icn-photo {
+  @include svg-icon;
+  height: 14px;
+  width: 16px;
+  background-image: url(../../src/images/icons/photo.svg);
+
+  &:hover, &:focus, &.active {
+    background-image: url(../../src/images/icons/photo-blue.svg);
+  }
+
+  &.icn-text {
+    height: auto;
+    background-size: 16px 14px;
+    padding-left: 1.25rem;
+    font-weight: 400;
+    font-size: .75rem;
+    background-position: left 2px;
+  }
+}
+
+.icn-check {
+  display: inline-block;
+  position: relative;
+  height: 10px;
+  width: 13px;
+
+  &::after {
+    @include checkbox-check;
+    top: 0;
+    left: 0;
+  }
+}
+
+.icn-sort-up,
+.icn-sort-dn {
+  @include svg-icon;
+  height: 15px;
+  width: 10px;
+  background-image: url(../../src/images/icons/sort-arrow.svg);
+
+  &:hover, &:focus, &.active {
+    background-image: url(../../src/images/icons/sort-arrow-blue.svg);
+  }
+}
+.icn-sort-dn {
+  transform: rotate(180deg);
+}
+
+// "icn-text" class for icons shows text
+.icn-text {
+  color: $body-color;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 20px;
+  padding-left: 1.5rem;
+  text-decoration: none;
+  text-indent: 0;
+  width: auto;
+  background-position: left center;
+
+  &:hover,
+  &:focus {
+    color: $link-color;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,186 @@
+$home-findvenue-midpoint: 1015px;
+
+// home
+.home {
+
+  .mi-logos {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1.875rem 0 1.375rem;
+
+    .logo {
+      margin: 0 1rem 0.875rem;
+      height: 18px;
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
+
+  .text-card {
+    margin-bottom: 2.5rem;
+  }
+
+  .find-venue {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    .find-venue-hero-form {
+      background-color: transparent;
+
+      h2 {
+        color: $white;
+        margin-bottom: 1.5rem;
+      }
+
+      .btn {
+        margin-top: 1rem;
+      }
+
+      @media (min-width: map-get($grid-breakpoints, md)) and (max-width: $home-findvenue-midpoint - 1) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        h2 {
+          font-size: 2.75rem;
+        }
+
+        .col-sm-4 {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+
+        .btn {
+          white-space: normal;
+        }
+
+        .ms-choice {
+          line-height: $input-height-inner;
+          height: $input-height;
+        }
+
+        .form-control {
+          font-size: 1rem;
+          line-height: $input-btn-line-height;
+          height: $input-height;
+        }
+      }
+
+      @media (min-width: $home-findvenue-midpoint) {
+        padding-left: 3.25rem;
+        padding-right: 3.25rem;
+      }
+    }
+  }
+
+  .heading-2,
+  .heading-2-sm {
+    margin-bottom: 1rem;
+  }
+
+  .spotlight {
+
+    .eyebrow {
+      display: inline-block;
+      font-style: italic;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      border-top: 6px solid $blue-light;
+      padding-top: 1rem;
+      margin-bottom: .5rem;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    .heading-2 {
+      color: $body-color;
+
+      &:hover {
+        color: $blue;
+      }
+
+      @include media-breakpoint-down(md) {
+        font-size: 2.5rem;
+      }
+    }
+
+  }
+
+  .lead-sm {
+    line-height: 1.875rem;
+    margin-bottom: .5rem;
+  }
+
+  .arrow-link {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 28px;
+    margin-top: 1rem;
+    background-image: url(../../src/images/icons/arrow-graydk.svg);
+
+    @include media-breakpoint-down(xs) {
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  .teaser-grid .row > div {
+    margin-bottom: 80px;
+  }
+
+  .newsletter {
+    padding: 1.5rem 1.5rem .5rem;
+  }
+
+  .video-card.featured {
+    .video-card--details {
+      padding: 1.875rem 0;
+    }
+  }
+
+  .teaser-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .teaser.video {
+      height: 100%;
+    }
+  }
+
+  .teaser.video {
+    .teaser-image {
+      position: relative;
+
+      &:after {
+        @include video-play-button;
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -27px;
+        margin-left: -27px;
+        width: 54px; height: 54px;
+        background-size: 54px 54px;
+      }
+    }
+    .teaser-content {
+      em {
+        font-style: normal;
+      }
+    }
+  }
+
+}

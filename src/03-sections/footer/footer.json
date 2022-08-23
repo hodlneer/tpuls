@@ -1,0 +1,36 @@
+{
+  "menu1": [
+    {"label": "News", "url": "#"},
+    {"label": "Destinations", "url": "#"},
+    {"label": "How-To", "url": "#"},
+    {"label": "Incentives", "url": "#"},
+    {"label": "Planning Tools", "url": "#"}
+  ],
+  "menu2": [
+    {"label": "Events Calendar", "url": "#"},
+    {"label": "Career Development", "url": "#"},
+    {"label": "Best Of", "url": "#"},
+    {"label": "Find Event Venue", "url": "#"}
+  ],
+  "menu3": [
+    {"label": "About Us", "url": "#"},
+    {"label": "Our People", "url": "#"},
+    {"label": "Contact Us", "url": "#"},
+    {"label": "Advertise with Us", "url": "#"},
+    {"label": "Editorial Calendar", "url": "#"}
+  ],
+  "menu4": [
+    {"label": "FAQ", "url": "#"},
+    {"label": "Help", "url": "#"},
+    {"label": "Terms", "url": "#"},
+    {"label": "Privacy", "url": "#"}
+  ],
+  "menu5": [
+    {"label": "Twitter", "url": "#", "liclass": "social-link", "class": "icn-twitter"},
+    {"label": "Facebook", "url": "#", "liclass": "social-link", "class": "icn-facebook"},
+    {"label": "Pinterest", "url": "#", "liclass": "social-link", "class": "icn-pinterest"},
+    {"label": "Instagram", "url": "#", "liclass": "social-link", "class": "icn-instagram"},
+    {"label": "Newsletter Signup", "url": "#"},
+    {"label": "Magazine Subscriptions", "url": "#"}
+  ]
+}

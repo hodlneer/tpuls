@@ -1,0 +1,20 @@
+figure {
+  margin-bottom: 2rem;
+
+  figcaption {
+    @include figcaption;
+  }
+
+  p + & {
+    margin-top: 2rem;
+  }
+}
+
+
+img.float-left {
+  margin: ($spacer * .5) ($spacer * 1.375) $spacer 0;
+}
+
+img.float-right {
+  margin: ($spacer * .5) 0 $spacer ($spacer * 1.375);
+}

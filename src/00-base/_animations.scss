@@ -1,0 +1,8 @@
+// disable transitions for nav for now
+.navbar {
+  .collapse,
+  .collapsing {
+    height: auto !important;
+  }
+}
+

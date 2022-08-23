@@ -1,0 +1,34 @@
+// Changing boostrap's grid widths for our two column layouts
+$col2-sidebar-width: 330px;
+$col2-sidebar-width-lg: 380px;
+
+.col-left,
+.col-right {
+  @include make-col-ready();
+  min-width: 0;
+}
+
+.col-left {
+  @include media-breakpoint-up(md) {
+    flex: 1;
+  }
+}
+
+.col-right {
+  @include media-breakpoint-down(sm) {
+    margin-top: $grid-gutter-width;
+  }
+
+  // Default goes to width at medium breakpoint
+  @include media-breakpoint-up(md) {
+    width: $col2-sidebar-width;
+  }
+
+  &--lg {
+    @include media-breakpoint-up(md) {
+      width: $col2-sidebar-width-lg;
+    }
+  }
+}
+
+

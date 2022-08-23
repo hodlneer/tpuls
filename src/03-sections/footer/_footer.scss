@@ -1,0 +1,116 @@
+.footer {
+  border-top: 34px $primary solid;
+  padding-top: 2.5rem;
+  padding-bottom: 3.75rem;
+  margin-top: 3.75rem;
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 1.25rem;
+    padding-bottom: 1.625rem;
+  }
+
+}
+
+.footer-brand {
+  background-image: url(../../src/images/northstar-logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: $footer-brand-logo-width;
+  height: $footer-brand-logo-height;
+  display: inline-block;
+  text-indent: -99999px;
+  overflow: hidden;
+
+  @include media-breakpoint-down(sm) {
+    width: 203px;
+    height: 35px;
+  }
+}
+
+.footer-menu {
+
+  @include clearfix;
+
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px $gray-300 solid;
+  margin-bottom: 1rem;
+  margin-top: .25rem;
+  padding-bottom: .75rem;
+
+  @include media-breakpoint-down(sm) {
+    flex-wrap: wrap;
+    border-color: #d6d6d6;
+    margin-bottom: 1.25rem;
+    margin-top: 0px;
+    padding-bottom: 1rem;
+
+    a {
+      font-size: 12px;
+    }
+  }
+  
+  .menu-col {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: row;
+  
+    @include media-breakpoint-down(sm) {
+      flex-basis: 50%;
+      flex-direction: column;  
+      border-bottom: 1px #d6d6d6 solid;
+      margin-bottom: 1.25rem;
+      padding-bottom: 1rem;
+    }
+  }
+
+  ul {
+    flex: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: .875rem;
+
+    @include media-breakpoint-down(sm) {
+      flex-basis: 100%;
+    }
+
+    li {
+      margin-bottom: 4px;
+    }
+  }
+
+  a {
+    color: $body-color;
+
+    &:hover,
+    &:focus {
+      color: $link-color;
+    }
+  }
+
+  .social-link {
+    display: inline-block;
+
+    + .social-link {
+      margin-left: 7px;
+    }
+  }
+
+}
+
+.footer-copyright {
+  font-size: 12px;
+
+  br {
+    display: none;
+  }
+
+  @include media-breakpoint-down(sm) {
+    font-size: 11px;
+
+    br {
+      display: initial;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.ad {
+  text-align: center;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.grid-ad-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  @include media-breakpoint-up(lg) {
+    background-color: $gray-300;
+  }
+
+  .ad {
+    flex: 1;
+    margin: 0;
+  }
+}
+
+// Sticky behavior for 2 column .sidebar-ads
+.sidebar-ads.sticky {
+  .ad {
+    margin-top: 0;
+  }
+}

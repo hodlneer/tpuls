@@ -1,0 +1,31 @@
+.breadcrumbs {
+
+  ul {
+    list-style-type: none;
+    font-weight: 300;
+    font-size: .875rem;
+    margin-bottom: 7px;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+
+    + li {
+      &::before {
+        content: '/';
+        padding-right: 3px;
+      }
+    }
+  }
+
+  a {
+    color: $gray-800;
+
+    &:hover,
+    &:focus {
+      color: $link-color;
+    }
+  }
+
+}

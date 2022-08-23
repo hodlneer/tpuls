@@ -1,0 +1,23 @@
+.placeholder {
+  background: $gray-100;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px $hr-border-color dotted;
+  height: 400px;
+
+  span {
+    display: block;
+    flex-grow: 1;
+  }
+
+}
+
+.style-guide {
+  border-top: 1px $hr-border-color solid;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-left: .75rem;
+  margin-top: 2rem;
+  background-color: lighten($hr-border-color, 50%);
+}

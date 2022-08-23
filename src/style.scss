@@ -1,0 +1,17 @@
+// Variables
+@import "variables";
+
+// // Bootstrap scss
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap/scss/mixins/gradients";
+
+// // Plugin scss
+// @import "node_modules/jquery-slinky/src/slinky.scss";
+
+// Customizations
+@import "00-base/*.scss";
+@import "01-elements/**/*.scss";
+@import "02-components/**/*.scss";
+@import "03-regions/**/*.scss";
+@import "04-content/**/*.scss";
+@import "05-pages/**/*.scss";

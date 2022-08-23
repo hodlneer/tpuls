@@ -1,0 +1,141 @@
+/// Mixin Custom Breakpoint (within large)
+@mixin media-breakpoint-up-narrow {
+  @media (min-width: $narrow-breakpoint-width) {
+    @content;
+  }
+}
+
+/// Mixin Body Text
+@mixin body-text($font-size: 1.125rem) {
+  font-weight: 300;
+  font-size: #{$font-size};
+  line-height: 1.778;
+}
+
+/// Mixin SVG Icon
+@mixin svg-icon($position: relative) {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  text-indent: 99999px;
+  overflow: hidden;
+  position: #{$position};
+}
+
+/// Mixin Nav Link
+@mixin nav-link($weight: 700, $text-transform: uppercase) {
+  font-family: $font-family-sans-serif2;
+  font-weight: #{$weight};
+  font-size: .875rem;
+  text-transform: #{$text-transform};
+  position: relative;
+}
+
+/// Mixin box label
+@mixin box-label {
+  background-color: $blue;
+  padding: 0 .5rem;
+  height: 27px;
+  min-width: 27px;
+  color: white;
+  font-weight: 800;
+  line-height: 27px;
+  text-align: center;
+}
+
+/// Mixin image caption
+@mixin figcaption {
+  font-size: $figure-caption-font-size;
+  font-weight: 300;
+  color: $figure-caption-color;
+  margin-top: 1.125rem;
+}
+
+/// Video play play-button
+@mixin video-play-button {
+  background-image: url(../../src/images/icons/video/play-button.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  &:hover {
+    background-image: url(../../src/images/icons/video/play-button-hover.svg);
+  }
+}
+
+/// Mixin Checkbox box
+@mixin checkbox-box {
+  border: $input-border-width solid #ccc;
+  content: '';
+  display: block;
+  height: $input-checkbox-width;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  vertical-align: baseline;
+  width: $input-checkbox-width;
+  background-color: $white;
+}
+
+/// Mixin Checkbox check
+@mixin checkbox-check {
+  border-bottom: 3px solid $blue-light;
+  border-left: 3px solid $blue-light;
+  content: '';
+  height: 7px;
+  left: 4px;
+  position: absolute;
+  top: 6px;
+  transform: rotate(-45deg);
+  width: 13px;
+}
+
+/// Mixin Slider Arrows
+@mixin slider-arrows($dir: left, $size: large, $margin: 0) {
+  @if $size == large {
+    width: 47px;
+    height: 94px;
+    margin: #{$margin};
+    #{$dir}: 22px;
+    background-image: url(../../src/images/icons/arrow-thin-#{$dir}.svg);
+  }
+  @else {
+    width: 26px;
+    height: 50px;
+    margin: #{$margin};
+    #{$dir}: 12px;
+    background-image: url(../../src/images/icons/arrow-medium-#{$dir}.svg);
+  }
+}
+
+/// Mixin Slider base
+@mixin slider-base($class: '.slide', $skip-abs: false) {
+  position: relative;
+
+  // Hide all but first image until the slider is initialized
+  &:not(.slick-initialized) #{$class}:not(:first-of-type) {
+    display: none;
+  }
+
+  @if $skip-abs != true {
+    .slick-track {
+      height: 100%;
+    }
+    .slick-list {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    #{$class} > .bgloaded {
+      height: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+// Featured Venues
+.featured-venues {
+
+  .featured-venues-header {
+    position: relative;
+    margin-top: 3.5rem;
+    border-bottom: 1px solid #b7b7b7;
+
+    .poweredby {
+      position: absolute;
+      top: 0; right: 0;
+      font-size: 13px;
+      line-height: 26px;
+
+      img {
+        height: 26px;
+        width: auto;
+        margin-top: -8px;
+        margin-left: 3px;
+      }
+    }
+  }
+
+  .featured-venues-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    span {
+      margin-right: auto;
+    }
+  }
+}

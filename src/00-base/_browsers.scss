@@ -1,0 +1,14 @@
+/* Fix for iOS not bubbling click events, used in conjunction with js
+   http://gravitydept.com/blog/js-click-event-bubbling-on-ios
+*/
+.is-ios {
+  cursor: pointer; // Fixes body on clicks
+
+  .form-dropdown {
+    cursor: pointer; // Fixes dropdown filters on clicks
+  }
+
+  .venue-card.preview {
+    cursor: pointer; // Fixes Venue previews
+  }
+}

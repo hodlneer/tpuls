@@ -1,0 +1,84 @@
+// Background colors
+.bg-gray {
+  background-color: green;
+}
+
+.container-narrow {
+  @extend .container;
+  max-width: $container-narrow-width;
+}
+
+.stacked + .stacked {
+  margin-top: 30px;
+}
+
+.container-section {
+  padding-top: 2.875rem;
+  padding-bottom: 3rem;
+
+  @include media-breakpoint-up(sm) {
+    padding-top: 4.375rem;
+    padding-bottom: 4.5rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-top: 6.125rem;
+    padding-bottom: 6.25rem;
+  }
+}
+
+// Row classes
+.row-center {
+  justify-content: center;
+}
+
+
+
+
+
+// Adjust padding and alignment for Landing News pages
+.featured-region {
+  margin-bottom: 1.875rem;
+}
+
+
+// Negative margin to make content flush with bottom of navbar
+.pull-up {
+  @include media-breakpoint-up(lg) {
+    margin-top: -2.5rem;
+  }
+}
+
+// Layout for Standard Article Takeover Ad
+.takeover-ad {
+  padding-top: 208px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 0;
+    background-image: none;
+    background-color: #fff;
+  }
+
+  a.takeover-link {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+  }
+
+  .content-wrapper {
+    background-color: #fff;
+    max-width: 1170px;
+    margin: auto;
+  }
+}
+
+// Sticky
+.sticky {
+  position: fixed;
+}

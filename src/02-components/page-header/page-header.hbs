@@ -1,0 +1,25 @@
+<div class="page-header{{#if page-header.class}} {{page-header.class}}{{/if}}">
+
+  {{#if page-header.breadcrumbs }}
+  {{>breadcrumbs breadcrumbs=page-header.breadcrumbs}}
+  {{/if}}
+  
+  {{#if page-header.sponsor }}
+  <div class="sponsor">
+    {{page-header.sponsor.label}}<img src="{{page-header.sponsor.image}}" alt=""/>
+  </div>
+  {{/if}}
+
+  {{#if page-header.title }}
+  <h1 class="heading-1" data-page-title{{#if page-header.title-header}}="{{page-header.title-header}}"{{/if}}>{{page-header.title}}</h1>
+  {{/if}}
+
+  {{#if page-header.map-image }}
+  <div class="map-image"><img src="{{page-header.map-image}}" alt=""/></div>
+  {{/if}}
+
+  {{#if page-header.subtitle }}
+  <p class="lead">{{page-header.subtitle}}</p>
+  {{/if}}
+
+</div>

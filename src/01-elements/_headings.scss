@@ -1,0 +1,185 @@
+//
+// Generic header styles:
+// All arguments are optional. If not defined, the defaults below will be used
+//
+// use:
+// @include headings;
+//
+// or, to define new values:
+// @include headings($font-size: 1.4em, $color: $accent, $line-height: 2);
+//
+@mixin headings ($color: $headings-color, $font-family: $font-family-serif, $font-weight: 700, $font-size: 1rem, $line-height: $headings-line-height, $margin: 0 0 0.5rem, $width: 100%) {
+  color: #{$color};
+  font-family: #{$font-family};
+  font-weight: #{$font-weight};
+  font-size: #{$font-size};
+  line-height: #{$line-height};
+  margin: #{$margin};
+  width: #{$width}; // For non header (inline) elements with these styles, e.g. legend
+}
+
+// Create a mixin for heading-1 styles that can be implemented
+// in components with other classnames.
+@mixin heading-1 {
+  @include headings(
+    $font-size: 5.625rem, // 90px
+    $margin: 0 0 .5rem,
+    $line-height: 1
+  );
+}
+
+.heading-1 {
+  @include heading-1;
+}
+
+h1 {
+  @extend .heading-1;
+}
+
+
+// Create a mixin for heading-2 styles that can be implemented
+// in components with other classnames.
+@mixin heading-2 {
+  @include headings(
+    $font-size: 3.75rem, // 60px
+    $margin: 0 0 .5rem,
+    $line-height: 1
+  );
+}
+
+.heading-2 {
+  @include heading-2;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 3rem;
+  }
+}
+
+.heading-2-lg {
+  @include heading-2;
+  font-size: 5.625rem;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 3rem;
+  }
+}
+
+.heading-2-sm {
+  @include heading-2;
+  font-size: 3rem;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 2.25rem;
+  }
+}
+
+h2 {
+  @extend .heading-2;
+}
+
+
+// Create a mixin for heading-3 styles that can be implemented
+// in components with other classnames.
+@mixin heading-3 {
+  @include headings(
+    $font-size: 2.25rem // 36px
+  );
+}
+
+.heading-3 {
+  @include heading-3;
+}
+
+h3 {
+  @extend .heading-3;
+}
+
+
+// Create a mixin for heading-4 styles that can be implemented
+// in components with other classnames.
+@mixin heading-4 {
+  @include headings(
+    $font-size: 1.875rem // 30 px
+  );
+}
+
+.heading-4 {
+  @include heading-4;
+}
+
+h4 {
+  @extend .heading-4;
+}
+
+
+// Create a mixin for heading-5 styles that can be implemented
+// in components with other classnames.
+@mixin heading-5 {
+  @include headings(
+    $font-size: 1.5rem, // 24px
+    $margin: 0 0 1rem,
+    $line-height: 1
+  );
+
+  @include media-breakpoint-down(xs) {
+    font-size: 1.5rem; // 24px
+  }
+}
+
+.heading-5 {
+  @include heading-5;
+
+  &.arrow {
+
+    a {
+      color: #333;
+      &::after {
+        @include svg-icon;
+        background-image: url(../../src/images/icons/arrow-thick-right-graydk.svg);
+        margin-left: 6px;
+        height: 17px;
+        width: 10px;
+
+        @include media-breakpoint-down(xs) {
+          width: 8.5px;
+          margin-left: 5px;
+          top: 3px;
+        }
+      }
+
+      &:hover {
+        color: $link-color;
+        text-decoration: none;
+        &::after {
+          background-image: url(../../src/images/icons/arrow-thick-right-blue.svg);
+        }
+      }
+    }
+  }
+}
+
+h5 {
+  @extend .heading-5;
+}
+
+.heading-5-sans {
+  @extend .heading-5;
+  font-family: $font-family-sans-serif;
+}
+
+
+// Create a mixin for heading-6 styles that can be implemented
+// in components with other classnames.
+@mixin heading-6 {
+  @include headings(
+    $font-size: 1.25rem // 20px
+  );
+}
+
+.heading-6 {
+  @include heading-6;
+}
+
+h6 {
+  @extend .heading-6;
+}
