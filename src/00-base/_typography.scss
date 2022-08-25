@@ -1,0 +1,137 @@
+
+
+.font-family-roboto-slap {
+    font-family: $font-family-serif;
+  }
+  
+  
+  // ---------------------------------------------
+  // TYPOGRAPHY: FONTS: SIZES
+  // Generates classes for font sizes
+  // E.g., font-size, font-size-sm, font-size-lg
+  
+  // Sass Map to store font sizes
+  $font-sizes-map: (
+    "font-size": $font-size-base,
+    "font-size-2xl": $display-font-size-2xl,
+    "font-size-xl": $display-font-size-xl,
+    "font-size-lg": $display-font-size-lg,
+    "font-size-md": $display-font-size-md,
+    "font-size-sm": $display-font-size-sm,
+    "font-size-xs": $display-font-size-xs,
+    "text-font-size-xl": $text-font-size-xl,
+    "text-font-size-lg": $text-font-size-lg,
+    "text-font-size-md": $text-font-size-md,
+    "text-font-size-sm": $text-font-size-sm,
+    "text-font-size-xs": $text-font-size-xs,
+  );
+  
+  // @each Sass loop to generate classes
+  @each $name, $value in $font-sizes-map {
+    .#{$name} {
+      font-size: $value;
+    }
+  }
+  
+  // Sass Map to store font weights
+$font-weight-map: (
+    "font-regular": $font-weight-Regular,
+    "font-Medium": $font-weight-Medium, 
+    "font-semi-bold": $font-weight-semi-bold,
+    "font-bold": $font-weight-bold
+  );
+  
+  // @each Sass loop to generate classes
+  @each $name, $value in $font-weight-map {
+    .#{$name} {
+      font-weight: $value;
+    }
+  }
+   
+
+  $line-height-map: (
+    "line-height" :$line-height-base, 
+    "line-height-2xl": $display-line-height-2xl, 
+    "line-height-xl": $display-line-height-xl, 
+    "line-height-lg": $display-line-height-lg, 
+    "line-height-md": $display-line-height-md,
+    "line-height-sm": $display-line-height-sm, 
+    "line-height-xs": $display-line-height-xs, 
+
+    "line-height-text-xl": $text-line-height-xl,
+    "line-height-text-lg": $text-line-height-lg,  
+    "line-height-text-md": $text-line-height-md,  
+    "line-height-text-sm": $text-line-height-sm,  
+    "line-height-text-xs": $text-line-height-xs  
+  );
+  
+  // @each Sass loop to generate classes
+  @each $name, $value in $line-height-map {
+    .#{$name} {
+        line-height: $value;
+    }
+  }
+   
+  // HTML Elements: Headings
+// Generates styles for elements and classes for headings h1 through h6
+
+// Sass Map to store heading sizes
+// $heading-sizes-map: (
+//     // "h1": $h1,
+//     // "h2": $h2,
+//     "h3": $h3,
+//     "h4": $h4,
+//     "h5": $h5,
+//     "h6": $h6
+//   );
+  
+//   // @each Sass loop to generate styles for HTML headings h1 - h6
+//   @each $name, $value in $heading-sizes-map {
+//     #{$name}  {
+//         font-size: $display-font-size-2xl ;
+//       font-weight: $font-weight-bold;
+//       line-height: $display-line-height-2xl;
+//     }
+//   }
+// @mixin display ($color: $headings-color, $font-family: $font-family-serif, $font-weight: $font-weight-bold, $font-size: $display-font-size-2xl, $line-height: $display-line-height-2xl, $margin: 0 0 0.5rem, $width: 100%) {
+//     color: #{$color};
+//     font-family: #{$font-family};
+//     font-weight: #{$font-weight};
+//     font-size: #{$font-size};
+//     line-height: #{$line-height};
+//     margin: #{$margin};
+//     width: #{$width}; // For non header (inline) elements with these styles, e.g. legend
+//   }
+//   @mixin display-1 {
+//     @include display(
+//       $font-size: $display-font-size-2xl, // 90px
+//       $margin: 0 0 .5rem,
+//       $line-height: $display-line-height-2xl
+//     );
+//   }
+  
+//   .display-1 {
+//     @include display-1;
+//   }
+  
+//   h1 {
+//     @extend .display-1;
+//   }
+//   @for $index from 1 through 6 {
+//     h#{$index} {
+//         font-family: $font-family-serif;
+//         color: inherit;
+//         margin:0 0 .5rem ;
+//         font-weight: $font-weight-bold;
+//         line-height:$line-height-base ;
+//     }
+// }
+
+
+// @each $name, $value in $font-sizes-map {
+//     @for $index from 1 through 6 {
+//     h#{$index} {
+//         font-size: $value;
+//     }
+//   }
+// }

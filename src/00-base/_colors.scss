@@ -1,0 +1,40 @@
+
+
+
+$colors-map: (
+  "primary-white": $white,
+  "primary-black": $black,
+  "primary-blue": $Primary-Blue,
+  "primary-blue-1": $Primary-Blue-1,
+  "Secondary-gery": $Secondary,
+  "News-Primary": $News-Primary,
+  "News-Gradient": $News-Gradient,
+  "Offers-Primary": $Offers-Primary,
+  "Offers-Gradient": $Offers-Gradient,
+  "Destinations-Primary": $Destinations-Primary,
+  "Destinations-Gradient": $Destinations-Gradient,
+  "Industry-Voices-Primary": $Industry-Voices-Primary,
+  "Industry-Voices-Gradient": $Industry-Voices-Gradient,
+  "Resources-Tools-Primary": $Resources-Tools-Primary,
+  "Resources-Tools-Gradient": $Resources-Tools-Gradient,
+  "Grey-Gradient": $Grey-Gradient,
+  "Destinations-Gradient-1": $Destinations-Gradient-1,
+  "Destinations-Secondary": $Destinations-Secondary,
+  "Podcast-Gradient": $Podcast-Gradient,
+  "Webinar-Gradient": $Webinar-Gradient,
+  "TAA-Gradient": $TAA-Gradient,
+  "Newsletter-Gradient": $Newsletter-Gradient,
+  "Agent-At-Home-Gradient": $Agent-At-Home-Gradient,
+  "Advertise-With-Us": $Advertise-With-Us
+  
+);
+
+@each $name, $hex-value in $colors-map {
+    .#{$name} {
+      color: $hex-value;
+    }
+  
+    .#{$name}-bg {
+      background-color: $hex-value;
+    }
+  }
