@@ -211,3 +211,10 @@ h5,.h5{
 h6,.h6{
   font-size:$display-font-size-xs ;
 }
+p{
+  font-family: $font-family-serif;
+  color: inherit;
+  font-size: $text-font-size-xl;
+  line-height: $text-line-height-xl;
+  font-weight: $font-weight-bold;
+}

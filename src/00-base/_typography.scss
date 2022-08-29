@@ -71,7 +71,163 @@ $font-weight-map: (
         line-height: $value;
     }
   }
-   
+//   @each $display, $font-size in $display-font-sizes {
+//     .display-#{$display} {
+//       @include font-size($font-size);
+//       font-weight: $display-font-weight;
+//       line-height: $display-line-height;
+//     }
+//   }
+
+//   @each $display, $font-size in $display-font-sizes {
+//     .display-#{$display} {
+//       @include font-size($font-size);
+//       line-height: $display-line-height;
+//     }
+//   }
+
+
+  @mixin display-2xl($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $display-font-size-2xl;
+    color:inherit;
+    line-height:$display-line-height-2xl;
+  }
+  
+  .bold-2xl {
+    @include display-2xl;
+  }
+  .semi-bold-2xl {
+    @include display-2xl($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-2xl {
+    @include display-2xl($font-wieght:$font-weight-Medium);
+  }
+  .regular-2xl {
+    @include display-2xl($font-wieght:$font-weight-Regular);
+  }
+  @mixin display-xl($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $display-font-size-xl;
+    color:inherit;
+    line-height:$display-line-height-xl;
+  }
+
+  .bold-xl{
+    @include display-xl;
+  }
+  .semi-bold-xl {
+    @include display-xl($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-xl {
+    @include display-xl($font-wieght:$font-weight-Medium);
+  }
+  .regular-xl {
+    @include display-xl($font-wieght:$font-weight-Regular);
+  }
+
+  @mixin display-lg($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $display-font-size-lg;
+    color:inherit;
+    line-height:$display-line-height-lg;
+  }
+
+  .bold-lg{
+    @include display-lg;
+  }
+  .semi-bold-lg {
+    @include display-lg($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-lg {
+    @include display-lg($font-wieght:$font-weight-Medium);
+  }
+  .regular-lg {
+    @include display-lg($font-wieght:$font-weight-Regular);
+  }
+
+  @mixin display-md($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $display-font-size-md;
+    color:inherit;
+    line-height:$display-line-height-md;
+  }
+
+  .bold-md{
+    @include display-md;
+  }
+  .semi-bold-md {
+    @include display-md($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-md {
+    @include display-md($font-wieght:$font-weight-Medium);
+  }
+  .regular-md {
+    @include display-md($font-wieght:$font-weight-Regular);
+  }
+
+  @mixin display-sm($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $display-font-size-sm;
+    color:inherit;
+    line-height:$display-line-height-sm;
+  }
+
+  .bold-sm{
+    @include display-sm;
+  }
+  .semi-bold-sm {
+    @include display-sm($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-sm {
+    @include display-sm($font-wieght:$font-weight-Medium);
+  }
+  .regular-sm {
+    @include display-sm($font-wieght:$font-weight-Regular);
+  }
+
+  @mixin display-xs($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $display-font-size-xs;
+    color:inherit;
+    line-height:$display-line-height-xs;
+  }
+
+  .bold-xs{
+    @include display-xs;
+  }
+  .semi-bold-xs {
+    @include display-xs($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-xs {
+    @include display-xs($font-wieght:$font-weight-Medium);
+  }
+  .regular-xs {
+    @include display-xs($font-wieght:$font-weight-Regular);
+  }
+//   @mixin bold-2xl ($color: $headings-color, $font-family: $font-family-serif, $font-family-serif, $font-weight: $font-weight-bold, $font-size: $display-font-size-2xl, $line-height: $display-line-height-2xl, $margin: 0 0 0.5rem, $width: 100%){
+//     color: #{$color};
+//     font-family: #{$font-family};
+//     font-weight: #{$font-weight};
+//     font-size: #{$font-size};
+//     line-height: #{$line-height};
+//     margin: #{$margin};
+//     width: #{$width};
+//   }
+//   @mixin bolds-2xl() {
+//     @include bold-2xl(
+//       $font-weight: $font-weight-bold,
+//     );
+//   }
+//   .bolds-2xl {
+//     @include bolds-2xl;
+//   }
+//   h1 {
+//     @extend .bolds-2xl;
+//   }
+
+
+
   // HTML Elements: Headings
 // Generates styles for elements and classes for headings h1 through h6
 
