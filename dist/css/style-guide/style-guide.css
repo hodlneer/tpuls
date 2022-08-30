@@ -1,5 +1,4 @@
 .btn-styleguide-menu {
-  .
   border-radius: 0;
   height: 30px;
   position: fixed;
@@ -58,6 +57,10 @@
   }
 }
 
+.shadow {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 .styleguide-link-label {
   color: #313C5A;
   background: #F1F1F1;
@@ -77,7 +80,7 @@
 .styleguide-heading {
   text-align: center;
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 64px;
 }
 
 .styleguide-content {
@@ -95,7 +98,7 @@
 }
 
 .styleguide-section {
-  padding: 60px 0 0 0;
+  padding: 60px 0 10px 0;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .styleguide-section > .styleguide-section-docs {
@@ -137,8 +140,7 @@
 }
 
 .styleguide-code-block {
-  background-color: #C7E9DD;
-  border: 1px solid #3ABB8D;
+  background: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
   font-family: "Inconsolata", monospace;
   font-size: 14px;
   padding: 10px;
@@ -173,7 +175,7 @@
 }
 
 .styleguide-box-demo {
-  width: 100px;
+  width: 150px;
   height: 60px;
   display: inline-block;
   vertical-align: top;
@@ -188,6 +190,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 .styleguide-demo-each--colors > div {
   padding: 0 7.5px;

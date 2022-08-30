@@ -15,6 +15,8 @@ $gray-600: #666666 !default;
 $gray-700: #4c4c4c !default;
 $gray-800: #333333 !default;
 $black: #000 !default;
+$primary-white: $white;
+$primary-black: $black;
 $Primary-Blue: #0B5188 !default;
 $Primary-Blue-1: #3D99EE !default;
 $Secondary: #B2BBC4 !default;
@@ -34,7 +36,7 @@ $Destinations-Secondary: #C93CA2 !default;
 $Podcast-Gradient: linear-gradient(180deg, #D3F1FE 0%, #BDEBFF 100%) !default;
 $Webinar-Gradient: linear-gradient(180deg, #FFEBEC 0%, #FFDBDC 100%)h1 !default;
 $TAA-Gradient: linear-gradient(180deg, #D6FFFE 0%, #B0F5F4 100%) !default;
-$Newsletter-Gradient: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%) !default;
+$newsletter-gradient: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%) !default;
 $Agent-At-Home-Gradient: linear-gradient(180deg, #FFEDD1 0%, #FADFB6 100%) !default;
 $Advertise-With-Us: linear-gradient(180deg, #F4EDFC 0%, #ECE6FF 100%) !default;
 

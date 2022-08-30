@@ -12318,7 +12318,7 @@ textarea.form-control-lg {
 }
 
 .primary-white-bg {
-  background-color: #fff;
+  background: #fff;
 }
 
 .primary-black {
@@ -12326,7 +12326,7 @@ textarea.form-control-lg {
 }
 
 .primary-black-bg {
-  background-color: #000;
+  background: #000;
 }
 
 .primary-blue {
@@ -12334,7 +12334,7 @@ textarea.form-control-lg {
 }
 
 .primary-blue-bg {
-  background-color: #0B5188;
+  background: #0B5188;
 }
 
 .primary-blue-1 {
@@ -12342,167 +12342,167 @@ textarea.form-control-lg {
 }
 
 .primary-blue-1-bg {
-  background-color: #3D99EE;
+  background: #3D99EE;
 }
 
-.Secondary-gery {
+.secondary-gery {
   color: #B2BBC4;
 }
 
-.Secondary-gery-bg {
-  background-color: #B2BBC4;
+.secondary-gery-bg {
+  background: #B2BBC4;
 }
 
-.News-Primary {
+.news-primary {
   color: #217BC0;
 }
 
-.News-Primary-bg {
-  background-color: #217BC0;
+.news-primary-bg {
+  background: #217BC0;
 }
 
-.News-Gradient {
+.news-gradient {
   color: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
 }
 
-.News-Gradient-bg {
-  background-color: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
+.news-gradient-bg {
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
 }
 
-.Offers-Primary {
+.offers-primary {
   color: #38621B;
 }
 
-.Offers-Primary-bg {
-  background-color: #38621B;
+.offers-primary-bg {
+  background: #38621B;
 }
 
-.Offers-Gradient {
+.offers-gradient {
   color: radial-gradient(84% 84% at 24.71% 8.4%, #213A10 0%, #37611A 100%);
 }
 
-.Offers-Gradient-bg {
-  background-color: radial-gradient(84% 84% at 24.71% 8.4%, #213A10 0%, #37611A 100%);
+.offers-gradient-bg {
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #213A10 0%, #37611A 100%);
 }
 
-.Destinations-Primary {
+.destinations-primary {
   color: #82045F;
 }
 
-.Destinations-Primary-bg {
-  background-color: #82045F;
+.destinations-primary-bg {
+  background: #82045F;
 }
 
-.Destinations-Gradient {
+.destinations-gradient {
   color: radial-gradient(84% 84% at 24.71% 8.4%, #561D46 0%, #82045F 100%);
 }
 
-.Destinations-Gradient-bg {
-  background-color: radial-gradient(84% 84% at 24.71% 8.4%, #561D46 0%, #82045F 100%);
+.destinations-gradient-bg {
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #561D46 0%, #82045F 100%);
 }
 
-.Industry-Voices-Primary {
+.industry-voices-primary {
   color: #643F88;
 }
 
-.Industry-Voices-Primary-bg {
-  background-color: #643F88;
+.industry-voices-primary-bg {
+  background: #643F88;
 }
 
-.Industry-Voices-Gradient {
+.industry-voices-gradient {
   color: radial-gradient(84% 84% at 24.71% 8.4%, #412959 0%, #7B579F 100%);
 }
 
-.Industry-Voices-Gradient-bg {
-  background-color: radial-gradient(84% 84% at 24.71% 8.4%, #412959 0%, #7B579F 100%);
+.industry-voices-gradient-bg {
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #412959 0%, #7B579F 100%);
 }
 
-.Resources-Tools-Primary {
+.resources-tools-primary {
   color: #D83B5A;
 }
 
-.Resources-Tools-Primary-bg {
-  background-color: #D83B5A;
+.resources-tools-primary-bg {
+  background: #D83B5A;
 }
 
-.Resources-Tools-Gradient {
+.resources-tools-gradient {
   color: radial-gradient(84% 84% at 24.71% 8.4%, #831A2F 0%, #D73A59 100%);
 }
 
-.Resources-Tools-Gradient-bg {
-  background-color: radial-gradient(84% 84% at 24.71% 8.4%, #831A2F 0%, #D73A59 100%);
+.resources-tools-gradient-bg {
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #831A2F 0%, #D73A59 100%);
 }
 
-.Grey-Gradient {
+.grey-Gradient {
   color: radial-gradient(75.22% 175.99% at 17.59% 19.34%, #596168 0%, #798794 100%);
 }
 
-.Grey-Gradient-bg {
-  background-color: radial-gradient(75.22% 175.99% at 17.59% 19.34%, #596168 0%, #798794 100%);
+.grey-Gradient-bg {
+  background: radial-gradient(75.22% 175.99% at 17.59% 19.34%, #596168 0%, #798794 100%);
 }
 
-.Destinations-Gradient-1 {
+.destinations-gradient-1 {
   color: radial-gradient(84% 84% at 24.71% 8.4%, #355052 0%, #629397 100%);
 }
 
-.Destinations-Gradient-1-bg {
-  background-color: radial-gradient(84% 84% at 24.71% 8.4%, #355052 0%, #629397 100%);
+.destinations-gradient-1-bg {
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #355052 0%, #629397 100%);
 }
 
-.Destinations-Secondary {
+.destinations-secondary {
   color: #C93CA2;
 }
 
-.Destinations-Secondary-bg {
-  background-color: #C93CA2;
+.destinations-secondary-bg {
+  background: #C93CA2;
 }
 
-.Podcast-Gradient {
+.podcast-gradient {
   color: linear-gradient(180deg, #D3F1FE 0%, #BDEBFF 100%);
 }
 
-.Podcast-Gradient-bg {
-  background-color: linear-gradient(180deg, #D3F1FE 0%, #BDEBFF 100%);
+.podcast-gradient-bg {
+  background: linear-gradient(180deg, #D3F1FE 0%, #BDEBFF 100%);
 }
 
-.Webinar-Gradient {
+.webinar-gradient {
   color: linear-gradient(180deg, #FFEBEC 0%, #FFDBDC 100%) h1;
 }
 
-.Webinar-Gradient-bg {
-  background-color: linear-gradient(180deg, #FFEBEC 0%, #FFDBDC 100%) h1;
+.webinar-gradient-bg {
+  background: linear-gradient(180deg, #FFEBEC 0%, #FFDBDC 100%) h1;
 }
 
-.TAA-Gradient {
+.taa-gradient {
   color: linear-gradient(180deg, #D6FFFE 0%, #B0F5F4 100%);
 }
 
-.TAA-Gradient-bg {
-  background-color: linear-gradient(180deg, #D6FFFE 0%, #B0F5F4 100%);
+.taa-gradient-bg {
+  background: linear-gradient(180deg, #D6FFFE 0%, #B0F5F4 100%);
 }
 
-.Newsletter-Gradient {
+.newsletter-gradient {
   color: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
 }
 
-.Newsletter-Gradient-bg {
-  background-color: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
+.newsletter-gradient-bg {
+  background: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
 }
 
-.Agent-At-Home-Gradient {
+.agent-at-home-gradient {
   color: linear-gradient(180deg, #FFEDD1 0%, #FADFB6 100%);
 }
 
-.Agent-At-Home-Gradient-bg {
-  background-color: linear-gradient(180deg, #FFEDD1 0%, #FADFB6 100%);
+.agent-at-home-gradient-bg {
+  background: linear-gradient(180deg, #FFEDD1 0%, #FADFB6 100%);
 }
 
-.Advertise-With-Us {
+.advertise-with-us {
   color: linear-gradient(180deg, #F4EDFC 0%, #ECE6FF 100%);
 }
 
-.Advertise-With-Us-bg {
-  background-color: linear-gradient(180deg, #F4EDFC 0%, #ECE6FF 100%);
+.advertise-with-us-bg {
+  background: linear-gradient(180deg, #F4EDFC 0%, #ECE6FF 100%);
 }
 
 .col-left,

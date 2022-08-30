@@ -164,7 +164,7 @@ $transition-ease-in: all 0.2s ease-in;
 // ---------------------------------------------
 // STYLE GUIDE: BUTTON TO TOGGLE SIDEBAR ON MOBILE
 
-.btn-styleguide-menu {.
+.btn-styleguide-menu {
   border-radius: 0;
   height: $spacing-3;
   position: fixed;
@@ -225,6 +225,10 @@ $transition-ease-in: all 0.2s ease-in;
   }
 }
 
+.shadow {
+  box-shadow: $box-shadow;
+}
+
 // Style Guide: Labels for Sidebar
 .styleguide-link-label {
   color: $brand-2;
@@ -249,7 +253,7 @@ $transition-ease-in: all 0.2s ease-in;
 .styleguide-heading {
   text-align: center;
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 64px;
 }
 
 .styleguide-content {
@@ -268,7 +272,7 @@ $transition-ease-in: all 0.2s ease-in;
 }
 
 .styleguide-section {
-  padding: ($spacing * 6) 0 0 0;
+  padding: ($spacing * 6) 0 10px 0;
 
   box-shadow: $box-shadow;
   
@@ -315,8 +319,7 @@ $transition-ease-in: all 0.2s ease-in;
 }
 
 .styleguide-code-block {
-  background-color: $brand-1-x-light;
-  border: 1px solid $brand-1;
+  background: $newsletter-gradient;
   font-family: "Inconsolata", monospace;
   font-size: $font-size;
   padding: $spacing;
@@ -358,7 +361,7 @@ $transition-ease-in: all 0.2s ease-in;
 
 // Style Guide: Demo Block: Colors for background color boxes
 .styleguide-box-demo {
-  width: 100px;
+  width: 150px;
   height: 60px;
   display: inline-block;
   vertical-align: top;
@@ -375,7 +378,7 @@ $transition-ease-in: all 0.2s ease-in;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  text-align: center;
   > div {
     padding: 0 $grid-gutter;
   }  
@@ -414,4 +417,8 @@ $transition-ease-in: all 0.2s ease-in;
   .btn {
     margin: 0 0 $spacing 0;
   }
+}
+
+.styleguide-demo-each--typography {
+  
 }
