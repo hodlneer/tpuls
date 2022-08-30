@@ -1,0 +1,417 @@
+// ---------------------------------------------
+// STYLE GUIDE
+
+
+@import "../00-base/functions";
+@import "../variables";
+
+// Variables: Style Guide
+$styleguide-sidebar-width: 200px;
+$zindex-styleguide-menu: 1000;
+
+$brand-1: #3ABB8D; // Green
+$brand-1-light: #75C8AA;
+$brand-1-x-light: #C7E9DD;
+$brand-2: #313C5A; // Blue: Dark
+$brand-2-light: #41568C;
+
+// Colors: Warm
+$red-crimson: #D05858;
+
+// Colors: Cool
+$blue-aqua: #3E9CD0;
+
+// Colors: Black, White, Gray Spectrum
+$black: #000;
+$gray-coal: #222;
+$gray-lead: #666;
+$gray-cement: #999;
+$gray-titanium: #AAA;
+$gray-cloud: #DADEE8;
+$gray-mist: #F1F1F1;
+$white: #FFF;
+
+// Colors: Typography
+$color-font: $gray-lead;
+$color-link: $brand-1;
+$color-link-hover: $brand-2-light;
+
+// Colors: States
+$color-focus: $brand-1-light;
+$color-error: $red-crimson;
+$color-success: $brand-1;
+$color-info: $brand-2-light;
+$color-disabled: $gray-mist;
+
+
+// ---------------------------------------------
+// VARIABLES: FONTS
+
+// Fonts: Families
+$font-family-1: "Nunito Sans", sans-serif;
+
+// Fonts: Weights
+$font-regular: 400;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+// Fonts: Line Height
+$line-height: 1.5;
+
+// Fonts: Sizes
+$font-size: 14px;
+$font-size-sm: px-to-percent(12);
+$font-size-xs: px-to-percent(10);
+$font-size-lg: px-to-percent(16);
+
+// Fonts: Headings: Sizes
+$h1: px-to-percent(24);
+$h2: px-to-percent(22);
+$h3: px-to-percent(20);
+$h4: px-to-percent(18);
+$h5: px-to-percent(16);
+$h6: px-to-percent(14);
+
+
+// ---------------------------------------------
+// VARIABLES: FONT ICONS
+
+// Font Icons: Families
+$font-family-icon: "icomoon";
+
+// Font Icons: Spacing: Left and Right
+$icon-spacing: 5px;
+$icon-spacing-lg: ($icon-spacing * 2);
+
+// Font Icons: Sizes
+$icon-size-lg: px-to-percent(16);
+$icon-size-xl: px-to-percent(18);
+$icon-size-xxl: px-to-percent(24);
+
+
+// ---------------------------------------------
+// VARIABLES: MEDIA QUERIES
+
+// Media Queries: Min-width
+$media-lg: 1200px;
+$media-mid: 900px;
+$media-sm: 600px;
+
+// Media Queries: Max-width
+$media-lg-max: (($media-lg) - 1);
+$media-mid-max: (($media-mid) - 1);
+$media-sm-max: (($media-sm) - 1);
+
+
+// ---------------------------------------------
+// VARIABLES: GRID
+
+// Grid: Column Count
+$grid-column-count: 12;
+
+// Grid: Gutters
+$grid-gutter: 7.5px;
+$grid-gutter-sm: calc($grid-gutter / 2);
+$grid-gutter-lg: ($grid-gutter * 2);
+
+
+// ---------------------------------------------
+// VARIABLES: SPACING
+// Use for padding, margins, etc.
+
+$spacing: 10px;
+$spacing-2: ($spacing * 2);
+$spacing-3: ($spacing * 3);
+$spacing-half: calc($spacing / 2);
+
+
+// ---------------------------------------------
+// VARIABLES: BUTTONS
+// Vertical padding for buttons
+// Reuse these values for inputs
+
+$btn-padding-v: $spacing;
+$btn-padding-v-sm: $spacing-half;
+$btn-padding-v-xs: $spacing-half;
+
+
+// ---------------------------------------------
+// VARIABLES: INPUTS
+
+$color-input-placeholder: $gray-titanium;
+$color-input-border: $gray-cloud;
+
+
+// ---------------------------------------------
+// VARIABLES: BORDER RADIUS
+
+$border-radius: 10px;
+$border-radius-lg: ($border-radius * 2);
+$border-radius-xl: ($border-radius * 3);
+
+
+// ---------------------------------------------
+// VARIABLES: BOX SHADOW
+
+$box-shadow: 0px 4px 10px rgba($black, 0.1);
+
+// ---------------------------------------------
+// VARIABLES: TRANSITIONS
+
+$transition-linear: all 0.2s linear;
+$transition-ease-in: all 0.2s ease-in;
+
+// ---------------------------------------------
+// STYLE GUIDE: BUTTON TO TOGGLE SIDEBAR ON MOBILE
+
+.btn-styleguide-menu {.
+  border-radius: 0;
+  height: $spacing-3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: $zindex-styleguide-menu;
+
+  @media(min-width: $media-sm) {
+    display: none;
+  }
+}
+ 
+
+// ---------------------------------------------
+// STYLE GUIDE: SIDEBAR
+
+.styleguide-sidebar {
+  background-color: $white;
+  font-weight: $font-semi-bold;  
+  padding-bottom: 150px; // Prevents cutting off menu from the bottom on browsers like Firefox
+  width: $styleguide-sidebar-width;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  overflow: auto;
+  z-index: $zindex-styleguide-menu;
+  transition: all 0.2s linear;
+
+  @media(max-width: $media-sm-max) {
+    left: -($styleguide-sidebar-width);
+    top: $spacing-3;
+  }
+
+  @media(min-width: $media-sm) {
+    left: 0;
+    top: 0;
+  }
+
+  a {
+    padding: $spacing-half $spacing;
+    display: block;
+
+    &.active {
+      color: $white;
+      background-color: $brand-2;
+    }
+  }
+}
+
+.styleguide-sidebar--show {
+  left: 0;
+  transition: all 0.2s linear;
+
+  @media(max-width: $media-sm-max) {
+    box-shadow: 0px 4px 10px rgba($black, 0.1);
+  }
+}
+
+// Style Guide: Labels for Sidebar
+.styleguide-link-label {
+  color: $brand-2;
+  background: $gray-mist;
+  border-radius: 50%;
+  font-size: $font-size-xs;
+  font-weight: $font-bold;
+  padding: 2px $spacing-half;
+  margin-left: $spacing-half;
+  display: inline-block;
+}
+
+
+// ---------------------------------------------
+// STYLE GUIDE: CONTENT
+
+.styleguide-logo {
+  display: block;
+  margin: 0 auto $spacing-3;
+}
+
+.styleguide-heading {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.styleguide-content {
+  padding: ($spacing * 5) 0 $spacing-3 0;
+  max-width: $media-lg;
+
+
+  @media(min-width: $media-sm) {
+    padding: $spacing-3 $spacing-2 0 ($styleguide-sidebar-width + $spacing-2);
+    margin: 0 auto;
+  }
+
+  pre {
+    white-space: pre-wrap;
+  }
+}
+
+.styleguide-section {
+  padding: ($spacing * 6) 0 0 0;
+
+  box-shadow: $box-shadow;
+  
+  > .styleguide-section-docs {
+    padding: 0 $spacing-2;
+  }
+
+  > h2 {
+    text-align: center;
+  }
+}
+
+.styleguide-section-docs {
+  max-width: 650px;
+  margin: 0 auto $spacing-2 auto;
+}
+
+.styleguide-section-block {
+  background-color: $white;
+  padding: $spacing-2;
+
+  > h3 {
+    color: $gray-cement;
+    text-align: center;
+    padding: 0 0 $spacing 0;
+  }
+  
+  > h4 {
+    text-align: center;
+    margin-bottom: $spacing;
+  }
+}
+
+.styleguide-section-files {
+  font-style: italic;
+  text-align: center;  
+  margin: 0 0 $spacing-2 0;
+}
+
+.styleguide-code-inline {
+  font-family: "Inconsolata", monospace;
+  background-color: $white;
+  padding: 0 calc($spacing-half/2);
+}
+
+.styleguide-code-block {
+  background-color: $brand-1-x-light;
+  border: 1px solid $brand-1;
+  font-family: "Inconsolata", monospace;
+  font-size: $font-size;
+  padding: $spacing;
+  margin: $spacing 0 $spacing-2 0;
+  display: block;
+
+  // Only hide the selectors with a parent with class "styleguide-demo-block"
+  .styleguide-demo-block & {
+    display: none;
+  }
+}
+
+.styleguide-code-block--show {
+  // Only show the selectors with a parent with class "styleguide-demo-block"
+  .styleguide-demo-block & {
+    display: block;
+  }
+}
+
+// Style Guide Content: Dos and Don'ts
+.styleguide-dont, .styleguide-do {
+  font-weight: $font-bold;
+  text-transform: uppercase;
+} 
+
+.styleguide-do {
+  color: $brand-1; 
+}
+
+.styleguide-dont {
+  color: $red-crimson;
+}
+
+.btn-styleguide-code {
+  margin: $spacing-2 auto $spacing-3;
+  display: block;
+  width: 100px;
+}
+
+// Style Guide: Demo Block: Colors for background color boxes
+.styleguide-box-demo {
+  width: 100px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: top;
+  margin: $spacing 0 $spacing-2;
+
+  &.white-bg, &.gray-mist-bg {
+    border: 1px solid $gray-cloud;
+  }
+}
+
+// Style Guide: Demo Block: Colors: Modifier
+.styleguide-demo-each--colors {
+  font-size: $font-size-sm;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  > div {
+    padding: 0 $grid-gutter;
+  }  
+
+  .white, .gray-mist, .color-disabled {
+    background-color: $gray-lead;
+  }
+}
+
+// Style Guide: Demo Block: Spacing: Modifier
+.styleguide-demo-each--spacing {
+  > div {
+    background-color: $gray-mist;
+    margin: 0 0 $spacing 0;
+  }
+}
+
+// Style Guide: Demo Block: Containers: Modifier
+.styleguide-demo-each--containers {
+  > div {
+    margin-bottom: $spacing;
+    background-color: $brand-1-x-light;
+  }
+}
+
+// Style Guide: Demo Block: Auto Margins: Modifier
+.styleguide-demo-each--margin-auto {
+  > div {
+    background-color: $brand-1-x-light;
+    padding: $spacing;
+  }
+}
+
+// Style Guide: Demo Block: Buttons: Modifier
+.styleguide-demo-each--buttons {
+  .btn {
+    margin: 0 0 $spacing 0;
+  }
+}

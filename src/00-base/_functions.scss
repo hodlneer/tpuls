@@ -1,0 +1,14 @@
+// ---------------------------------------------
+// FUNCTIONS
+
+
+// ---------------------------------------------
+// FUNCTIONS: PIXELS TO PERCENTAGES
+// Convert Pixels to Percentages: Used for Font Sizes
+// - Parameters:
+//   - $target-font-size {number} : The desired font size for the target
+//   - $base-font-size	{number} : Base font size for the body's text
+
+@function px-to-percent($target-font-size, $base-font-size	: 14) {
+  @return percentage(calc($target-font-size / $base-font-size));
+}
