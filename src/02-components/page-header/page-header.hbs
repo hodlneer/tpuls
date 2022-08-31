@@ -1,25 +1,39 @@
-<div class="page-header{{#if page-header.class}} {{page-header.class}}{{/if}}">
-
-  {{#if page-header.breadcrumbs }}
-  {{>breadcrumbs breadcrumbs=page-header.breadcrumbs}}
-  {{/if}}
-  
-  {{#if page-header.sponsor }}
-  <div class="sponsor">
-    {{page-header.sponsor.label}}<img src="{{page-header.sponsor.image}}" alt=""/>
+<nav class="navbar navbar-expand-lg primary-blue-bg">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="images/png/header/Logo.png" alt=""  class="pe-14"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item ps-9">
+          <a class="nav-link active semi-bold-text-sm text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"  href="#">Home</a>
+           <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+        </li>
+        <li class="nav-item ps-9">
+          <a class="nav-link semi-bold-text-sm text-white" href="#">Features</a>
+        </li>
+        <li class="nav-item ps-9">
+          <a class="nav-link semi-bold-text-sm text-white" href="#">Pricing</a>
+        </li>
+        <li class="nav-item ps-9">
+          <a class="nav-link dropdown-toggle semi-bold-text-sm text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <img src="images/png/header/search-lg.png" alt="">
+    </div>
   </div>
-  {{/if}}
-
-  {{#if page-header.title }}
-  <h1 class="heading-1" data-page-title{{#if page-header.title-header}}="{{page-header.title-header}}"{{/if}}>{{page-header.title}}</h1>
-  {{/if}}
-
-  {{#if page-header.map-image }}
-  <div class="map-image"><img src="{{page-header.map-image}}" alt=""/></div>
-  {{/if}}
-
-  {{#if page-header.subtitle }}
-  <p class="lead">{{page-header.subtitle}}</p>
-  {{/if}}
-
-</div>
+</nav>

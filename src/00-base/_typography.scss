@@ -35,8 +35,8 @@
   
   // Sass Map to store font weights
 $font-weight-map: (
-    "font-regular": $font-weight-Regular,
-    "font-Medium": $font-weight-Medium, 
+    "font-regular": $font-weight-regular,
+    "font-medium": $font-weight-medium, 
     "font-semi-bold": $font-weight-semi-bold,
     "font-bold": $font-weight-bold
   );
@@ -101,10 +101,10 @@ $font-weight-map: (
     @include display-2xl($font-wieght:$font-weight-semi-bold);
   }
   .medium-2xl {
-    @include display-2xl($font-wieght:$font-weight-Medium);
+    @include display-2xl($font-wieght:$font-weight-medium);
   }
   .regular-2xl {
-    @include display-2xl($font-wieght:$font-weight-Regular);
+    @include display-2xl($font-wieght:$font-weight-regular);
   }
   @mixin display-xl($font-wieght:$font-weight-bold) {
     font-weight: $font-wieght;
@@ -120,10 +120,10 @@ $font-weight-map: (
     @include display-xl($font-wieght:$font-weight-semi-bold);
   }
   .medium-xl {
-    @include display-xl($font-wieght:$font-weight-Medium);
+    @include display-xl($font-wieght:$font-weight-medium);
   }
   .regular-xl {
-    @include display-xl($font-wieght:$font-weight-Regular);
+    @include display-xl($font-wieght:$font-weight-regular);
   }
 
   @mixin display-lg($font-wieght:$font-weight-bold) {
@@ -140,10 +140,10 @@ $font-weight-map: (
     @include display-lg($font-wieght:$font-weight-semi-bold);
   }
   .medium-lg {
-    @include display-lg($font-wieght:$font-weight-Medium);
+    @include display-lg($font-wieght:$font-weight-medium);
   }
   .regular-lg {
-    @include display-lg($font-wieght:$font-weight-Regular);
+    @include display-lg($font-wieght:$font-weight-regular);
   }
 
   @mixin display-md($font-wieght:$font-weight-bold) {
@@ -160,10 +160,10 @@ $font-weight-map: (
     @include display-md($font-wieght:$font-weight-semi-bold);
   }
   .medium-md {
-    @include display-md($font-wieght:$font-weight-Medium);
+    @include display-md($font-wieght:$font-weight-medium);
   }
   .regular-md {
-    @include display-md($font-wieght:$font-weight-Regular);
+    @include display-md($font-wieght:$font-weight-regular);
   }
 
   @mixin display-sm($font-wieght:$font-weight-bold) {
@@ -180,10 +180,10 @@ $font-weight-map: (
     @include display-sm($font-wieght:$font-weight-semi-bold);
   }
   .medium-sm {
-    @include display-sm($font-wieght:$font-weight-Medium);
+    @include display-sm($font-wieght:$font-weight-medium);
   }
   .regular-sm {
-    @include display-sm($font-wieght:$font-weight-Regular);
+    @include display-sm($font-wieght:$font-weight-regular);
   }
 
   @mixin display-xs($font-wieght:$font-weight-bold) {
@@ -200,94 +200,109 @@ $font-weight-map: (
     @include display-xs($font-wieght:$font-weight-semi-bold);
   }
   .medium-xs {
-    @include display-xs($font-wieght:$font-weight-Medium);
+    @include display-xs($font-wieght:$font-weight-medium);
   }
   .regular-xs {
-    @include display-xs($font-wieght:$font-weight-Regular);
+    @include display-xs($font-wieght:$font-weight-regular);
   }
-//   @mixin bold-2xl ($color: $headings-color, $font-family: $font-family-serif, $font-family-serif, $font-weight: $font-weight-bold, $font-size: $display-font-size-2xl, $line-height: $display-line-height-2xl, $margin: 0 0 0.5rem, $width: 100%){
-//     color: #{$color};
-//     font-family: #{$font-family};
-//     font-weight: #{$font-weight};
-//     font-size: #{$font-size};
-//     line-height: #{$line-height};
-//     margin: #{$margin};
-//     width: #{$width};
-//   }
-//   @mixin bolds-2xl() {
-//     @include bold-2xl(
-//       $font-weight: $font-weight-bold,
-//     );
-//   }
-//   .bolds-2xl {
-//     @include bolds-2xl;
-//   }
-//   h1 {
-//     @extend .bolds-2xl;
-//   }
 
+  @mixin text-xl($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $text-font-size-xl,;
+    color:inherit;
+    line-height:$text-line-height-xl;
+  }
 
+  .text-xl{
+    @include text-xl;
+  }
+  .semi-bold-text-xl {
+    @include text-xl($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-text-xl {
+    @include text-xl($font-wieght:$font-weight-medium);
+  }
+  .regular-text-xl {
+    @include text-xl($font-wieght:$font-weight-regular);
+  }
 
-  // HTML Elements: Headings
-// Generates styles for elements and classes for headings h1 through h6
+  @mixin text-lg($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $text-font-size-lg,;
+    color:inherit;
+    line-height:$text-line-height-lg;
+  }
 
-// Sass Map to store heading sizes
-// $heading-sizes-map: (
-//     // "h1": $h1,
-//     // "h2": $h2,
-//     "h3": $h3,
-//     "h4": $h4,
-//     "h5": $h5,
-//     "h6": $h6
-//   );
+  .text-lg{
+    @include text-lg;
+  }
+  .semi-bold-text-lg {
+    @include text-lg($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-text-lg {
+    @include text-lg($font-wieght:$font-weight-medium);
+  }
+  .regular-text-lg {
+    @include text-lg($font-wieght:$font-weight-regular);
+  }
+
+  @mixin text-md($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $text-font-size-md,;
+    color:inherit;
+    line-height:$text-line-height-md;
+  }
+
+  .text-md{
+    @include text-md;
+  }
+  .semi-bold-text-md {
+    @include text-md($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-text-md {
+    @include text-md($font-wieght:$font-weight-medium);
+  }
+  .regular-text-md {
+    @include text-md($font-wieght:$font-weight-regular);
+  }
+
   
-//   // @each Sass loop to generate styles for HTML headings h1 - h6
-//   @each $name, $value in $heading-sizes-map {
-//     #{$name}  {
-//         font-size: $display-font-size-2xl ;
-//       font-weight: $font-weight-bold;
-//       line-height: $display-line-height-2xl;
-//     }
-//   }
-// @mixin display ($color: $headings-color, $font-family: $font-family-serif, $font-weight: $font-weight-bold, $font-size: $display-font-size-2xl, $line-height: $display-line-height-2xl, $margin: 0 0 0.5rem, $width: 100%) {
-//     color: #{$color};
-//     font-family: #{$font-family};
-//     font-weight: #{$font-weight};
-//     font-size: #{$font-size};
-//     line-height: #{$line-height};
-//     margin: #{$margin};
-//     width: #{$width}; // For non header (inline) elements with these styles, e.g. legend
-//   }
-//   @mixin display-1 {
-//     @include display(
-//       $font-size: $display-font-size-2xl, // 90px
-//       $margin: 0 0 .5rem,
-//       $line-height: $display-line-height-2xl
-//     );
-//   }
-  
-//   .display-1 {
-//     @include display-1;
-//   }
-  
-//   h1 {
-//     @extend .display-1;
-//   }
-//   @for $index from 1 through 6 {
-//     h#{$index} {
-//         font-family: $font-family-serif;
-//         color: inherit;
-//         margin:0 0 .5rem ;
-//         font-weight: $font-weight-bold;
-//         line-height:$line-height-base ;
-//     }
-// }
+  @mixin text-sm($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $text-font-size-sm,;
+    color:inherit;
+    line-height:$text-line-height-sm;
+  }
 
+  .text-sm{
+    @include text-sm;
+  }
+  .semi-bold-text-sm {
+    @include text-sm($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-text-sm {
+    @include text-sm($font-wieght:$font-weight-medium);
+  }
+  .regular-text-sm {
+    @include text-sm($font-wieght:$font-weight-regular);
+  }
 
-// @each $name, $value in $font-sizes-map {
-//     @for $index from 1 through 6 {
-//     h#{$index} {
-//         font-size: $value;
-//     }
-//   }
-// }
+  @mixin text-xs($font-wieght:$font-weight-bold) {
+    font-weight: $font-wieght;
+    font-size: $text-font-size-xs,;
+    color:inherit;
+    line-height:$text-line-height-xs;
+  }
+
+  .text-xs{
+    @include text-xs;
+  }
+  .semi-bold-text-xs {
+    @include text-xs($font-wieght:$font-weight-semi-bold);
+  }
+  .medium-text-xs {
+    @include text-xs($font-wieght:$font-weight-medium);
+  }
+  .regular-text-xs {
+    @include text-xs($font-wieght:$font-weight-regular);
+  }

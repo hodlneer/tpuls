@@ -35,6 +35,6 @@ $colors-map: (
     }
   
     .#{$name}-bg {
-      background-color: $hex-value;
+      background: $hex-value;
     }
   }
