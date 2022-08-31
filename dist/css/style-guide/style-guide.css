@@ -117,8 +117,14 @@
   background-color: #FFF;
   padding: 20px;
 }
-.styleguide-section-block > h3 {
+.styleguide-section-block h6 {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.styleguide-section-block h3, .styleguide-section-block h6 {
   color: #999;
+}
+.styleguide-section-block > h3 {
   text-align: center;
   padding: 0 0 10px 0;
 }

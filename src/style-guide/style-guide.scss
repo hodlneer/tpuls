@@ -294,8 +294,16 @@ $transition-ease-in: all 0.2s ease-in;
   background-color: $white;
   padding: $spacing-2;
 
-  > h3 {
+  h6 {
+    margin: 0;
+    font-size: .8rem;
+  }
+
+  h3, h6 {
     color: $gray-cement;
+  }
+
+  > h3 {
     text-align: center;
     padding: 0 0 $spacing 0;
   }
@@ -418,6 +426,7 @@ $transition-ease-in: all 0.2s ease-in;
     margin: 0 0 $spacing 0;
   }
 }
+
 
 .styleguide-demo-each--typography {
   
