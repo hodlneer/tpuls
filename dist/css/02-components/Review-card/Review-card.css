@@ -1,0 +1,84 @@
+.review-card {
+  padding-top: 69px;
+  padding-bottom: 64px;
+}
+.review-card .border-bottom-1 {
+  border-bottom: 3px solid #FFFFFF;
+  margin-left: 16px;
+}
+.review-card h1 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 63px;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+}
+.review-card h1 span {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 63px;
+  color: #FFFFFF;
+}
+.review-card p {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.review-card .card-review {
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  margin-right: 24px;
+  width: 259.5px;
+}
+.review-card .card-review p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  padding-bottom: 16px;
+  margin: 0;
+}
+.review-card .card-review .border-bottom-2 {
+  border-bottom: 3px solid #000000;
+}
+.review-card .card-review h3 {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.review-card .card-review .btn-share {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #434F5A;
+  padding: 8px 14px;
+  background: #FFFFFF;
+  border: 1px solid #F2F4F7;
+  box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+  border-radius: 8px;
+}
+.review-card .see-more {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding-top: 40px;
+  text-align: center;
+}
