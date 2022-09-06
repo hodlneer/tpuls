@@ -2,7 +2,7 @@
   padding-top: 69px;
   padding-bottom: 64px;
 }
-.review-card .border-bottom-1 {
+.review-card .border-bottom-t {
   border-bottom: 3px solid #FFFFFF;
   margin-left: 16px;
 }
@@ -81,4 +81,66 @@
   color: #FFFFFF;
   padding-top: 40px;
   text-align: center;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .review-card h1 {
+    font-size: 46px;
+  }
+  .review-card p {
+    font-size: 14px;
+  }
+  .review-card .card-review {
+    margin-right: 14px;
+    width: 231px;
+  }
+}
+@media (max-width: 929px) {
+  .review-card {
+    padding: 32px 24px;
+  }
+  .review-card h1 {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+  }
+  .review-card h1 span {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .review-card h1 .border-bottom-t {
+    margin-left: 0;
+  }
+  .review-card p {
+    font-family: "Roboto Serif";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  .review-card .card-review {
+    position: relative;
+    width: 330px;
+    height: 289px;
+  }
+  .review-card .carousel-indicators {
+    bottom: -30px !important;
+    margin-bottom: 0 !important;
+  }
+  .review-card .share-bottom {
+    position: absolute;
+    bottom: 26px;
+    left: 28%;
+  }
 }
