@@ -13658,8 +13658,11 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   margin-top: 0;
 }
 
-.banner .carousel-item {
-  background-image: url(../images/png/card/Rectangle.png);
+.banner .carousel-indicators {
+  right: auto !important;
+  bottom: auto !important;
+  top: 37% !important;
+  left: -3.2% !important;
 }
 .banner .item-slider {
   padding: 24px;
