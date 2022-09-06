@@ -1,7 +1,10 @@
 .banner{
-    .carousel-item{
-    background-image: url(../images/png/card/Rectangle.png);
-}
+    .carousel-indicators{
+    right: auto!important;
+    bottom: auto!important;
+    top: 37%!important;
+    left: -3.2%!important;
+    }
 .item-slider{
     padding: 24px;
 gap: 16px;
