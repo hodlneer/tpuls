@@ -14066,6 +14066,144 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     padding-bottom: 72px;
   }
 }
+.card-feature-video {
+  position: relative;
+  top: -190px;
+}
+.card-feature-video .subscribe-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0px;
+  gap: 16px;
+  background: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
+  border-radius: 8px;
+}
+.card-feature-video .subscribe-1 h2, .card-feature-video .subscribe-1 .h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  padding: 0px 68.5px;
+  margin: 0;
+}
+.card-feature-video .subscribe-1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #434F5A;
+  margin: 0;
+}
+.card-feature-video .subscribe-1 .btn-sub {
+  background: #217BC0;
+  border: 1px solid #217BC0;
+  color: #FFFFFF;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.card-feature-video .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/png/card/card-Image-9.png);
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-feature-video .about h2, .card-feature-video .about .h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding-bottom: 6px;
+  margin: 0;
+}
+.card-feature-video .about h3, .card-feature-video .about .h3 {
+  margin: 0;
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 0px 8px;
+}
+.card-feature-video .about p {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding-bottom: 16px;
+}
+.card-feature-video .about .btn-about {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #82045F;
+  background: #FFFFFF;
+  border: 1px solid #82045F;
+}
+.card-feature-video .free-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 24px;
+  background: url(../images/png/card/card-Image-10.png);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  border: 1px solid #DCDCDC;
+  border-radius: 8px;
+}
+.card-feature-video .free-sub h2, .card-feature-video .free-sub .h2 {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0px 32px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+.card-feature-video .free-sub .btn-free {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #000000;
+  border: 1px solid #000000;
+}
+.card-feature-video .btn-card-video {
+  padding: 8px 14px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 18px;
+}
+
+.feature-video {
+  padding-bottom: 170px;
+}
 .feature-video .py-99 {
   padding-top: 92px;
   padding-bottom: 44px;
