@@ -14139,7 +14139,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-top: 70px;
   margin-bottom: 200px;
   height: 241px;
-  background: black;
+  background: #0f0e0e;
 }
 .card-feature-video .subscribe-1 {
   display: flex;
@@ -14270,6 +14270,35 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   border-radius: 18px;
 }
 
+@media (max-width: 930px) {
+  .card-feature-video {
+    position: relative;
+    top: 0px !important;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    height: 100% !important;
+    background: white !important;
+    padding: 32px !important;
+  }
+  .subscribe-1 {
+    margin-bottom: 12px;
+    gap: 0px;
+  }
+  .subscribe-1 h2, .subscribe-1 .h2 {
+    padding: 0px 45.5px;
+  }
+  .about {
+    gap: 0px;
+    margin-bottom: 12px;
+  }
+  .free-sub {
+    gap: 0px;
+    margin-bottom: 12px;
+  }
+  .free-sub h2, .free-sub .h2 {
+    padding: 2px 0px;
+  }
+}
 .feature-video {
   padding-bottom: 170px;
   background: linear-gradient(0deg, rgb(20, 19, 19) 0%, rgb(0, 0, 0) 35%, rgba(255, 255, 255, 0) 100%);
@@ -14321,6 +14350,16 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #FFFFFF;
 }
 
+@media (max-width: 929px) {
+  .feature-video {
+    padding: 32px;
+  }
+  .feature-video h1, .feature-video .h1 {
+    font-size: 36px;
+    line-height: 30px;
+    padding-top: 50px;
+  }
+}
 .feature-card {
   padding-top: 72px;
   padding-bottom: 82px;
@@ -14445,8 +14484,8 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     text-align: right;
     color: #0267B8;
   }
-  .feature-card .header-sm .border-bottom-sm {
-    border-bottom: 7px solid #DFE3E6;
+  .feature-card .border-bottom-sm {
+    border-bottom: 7px solid #DFE3E6 !important;
   }
   .feature-card .body-sm .body-head h6, .feature-card .body-sm .body-head .h6 {
     font-family: "Roboto";
@@ -14524,6 +14563,12 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-right: 24px;
 }
 
+@media (max-width: 767px) {
+  filter .padding-fliter {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
 .header-slider {
   padding: 12px 0px;
 }
@@ -15232,6 +15277,14 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #FFFFFF;
 }
 
+@media (max-width: 767px) {
+  .subscribe {
+    text-align: center !important;
+  }
+  .m-c-10 {
+    margin: 0px 12px;
+  }
+}
 .suppliers {
   padding-top: 48px;
 }
@@ -15284,6 +15337,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 
 @media (max-width: 929px) {
+  .suppliers {
+    padding: 0px 24px;
+  }
   .suppliers h1, .suppliers .h1 {
     font-family: "Roboto Slab";
     font-style: normal;
@@ -15293,6 +15349,8 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     color: #000000;
     padding: 0;
     margin: 0;
+    text-align: center;
+    padding-bottom: 12px;
   }
   .suppliers h1 span, .suppliers .h1 span {
     font-family: "Roboto Slab";
@@ -15307,7 +15365,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   }
   .w-img-100 {
     width: 100%;
-    padding-left: 10px;
+    padding-bottom: 10px;
   }
 }
 .text-card {

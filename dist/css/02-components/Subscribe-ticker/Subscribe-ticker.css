@@ -32,3 +32,12 @@
   line-height: 20px;
   color: #FFFFFF;
 }
+
+@media (max-width: 767px) {
+  .subscribe {
+    text-align: center !important;
+  }
+  .m-c-10 {
+    margin: 0px 12px;
+  }
+}

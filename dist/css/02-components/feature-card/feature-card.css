@@ -122,8 +122,8 @@
     text-align: right;
     color: #0267B8;
   }
-  .feature-card .header-sm .border-bottom-sm {
-    border-bottom: 7px solid #DFE3E6;
+  .feature-card .border-bottom-sm {
+    border-bottom: 7px solid #DFE3E6 !important;
   }
   .feature-card .body-sm .body-head h6 {
     font-family: "Roboto";
