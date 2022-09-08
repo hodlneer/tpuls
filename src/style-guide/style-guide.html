@@ -16,33 +16,9 @@
 <body>
     <main class="main">
         <div class="styleguide">
-          <nav class="styleguide-nav">
-            <button class="btn-styleguide-menu btn btn--brand-1 btn--xs" id="js-btn-styleguide-menu">MENU</button>
-            <ul class="styleguide-sidebar link-list" id="js-styleguide-sidebar">
-              <li><a href="#styleguide-section-guidelines">Guidelines</a></li>
-              <li><a href="#styleguide-section-colors">Colors</a></li>
-              <li><a href="#styleguide-section-typography">Typography</a></li>
-              <li><a href="#styleguide-section-buttons">Buttons</a></li>
-              <li><a href="#styleguide-section-spacing">Spacing</a></li>
-              <li><a href="#styleguide-section-alignment">Alignment</a></li>
-              <li><a href="#styleguide-section-media">Media Queries</a></li>
-              <li><a href="#styleguide-section-grid">Grid</a></li>
-              <li><a href="#styleguide-section-accessibility">Accessibility</a></li>
-              <li><a href="#styleguide-section-images">Images</a></li>
-              <li><a href="#styleguide-section-logo">Logo</a></li>
-              <li><a href="#styleguide-section-icons">Icons</a></li>
-              <li><a href="#styleguide-section-forms">Forms</a></li>
-              <li><a href="#styleguide-section-content-blocks">Content Blocks</a></li>
-              <li><a href="#styleguide-section-progress-bars">Progress Bars</a></li>
-              <li><a href="#styleguide-section-avatars">Avatars</a></li>
-              <li><a href="#styleguide-section-banners">Banners</a></li>
-              <li><a href="#styleguide-section-lists">Lists: Styled</a></li>
-              <li><a href="#styleguide-section-cards">Cards</a></li>
-              <li><a href="#styleguide-section-loading">Loading</a></li>
-              <li><a href="#styleguide-section-tabs">Tabs <span class="styleguide-link-label">JS</span></a></li>
-              <li><a href="#styleguide-section-sliders">Sliders &amp; Carousels <span class="styleguide-link-label">JS</span></a></li>
-            </ul>
-          </nav> <!-- /.styleguide-nav -->
+
+          {{>sg-nav}}
+          
           <section class="styleguide-content">
             <img src="/images/png/logo/logo.png" width="540" height="140" alt="Logo: Adopt-a-Tree" class="styleguide-logo" role="img">
             <h1 class="styleguide-heading">Style Guide</h1>
@@ -365,18 +341,6 @@
                   <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
                 </div> <!-- /.styleguide-demo-block -->
   
-                <h3>Typography: Text Styles</h3>
-                <div class="styleguide-demo-block">
-                  <div class="styleguide-demo-each styleguide-demo-each--typography">
-                    <div class="text-left">Text: Left Align</div>
-                    <div class="text-right">Text: Right Align</div>
-                    <div class="text-center">Text: Center Align</div>
-                    <div class="text-uppercase">Text: Uppercase</div>
-                    <div class="text-underline">Text: Underline</div>
-                  </div> <!-- /.styleguide-demo-each -->
-                  <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->
-  
                 <h3>Typography: Headings</h3>
                 <div class="styleguide-demo-block">
                   <div class="styleguide-demo-each">
@@ -399,57 +363,12 @@
                   <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
                 </div> <!-- /.styleguide-demo-block -->
   
-                <h3>Typography: Links</h3>
-                <div class="styleguide-demo-block">
-                  <div class="styleguide-demo-each">
-                    <a href="#">Link</a>
-                  </div> <!-- /.styleguide-demo-each -->
-                  <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->
-  
-                <div class="styleguide-demo-block">
-                  <div class="styleguide-demo-each">
-                    <span class="link">Class to make something resemble a link</span>
-                  </div> <!-- /.styleguide-demo-each -->
-                  <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->              
-  
-                <div class="styleguide-demo-block">
-                  <div class="styleguide-demo-each">
-                    <a href="#" class="link-action">
-                      <span class="at-icon-arrow-right link-action-icon"></span>
-                      <span class="link-action-text font-size-sm">Read More</span>
-                    </a>
-                  </div> <!-- /.styleguide-demo-each -->
-                  <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->              
-                
-                <h3>Typography: Lists</h3>
-                <div class="styleguide-demo-block">
-                  <div class="styleguide-demo-each">
-                    <ul>
-                      <li>Unordered List: Item 1</li>
-                      <li>Unordered List: Item 2</li>
-                      <li>Unordered List: Item 3</li>
-                    </ul>
-  
-                    <ol>
-                      <li>Ordered List: Item 1</li>
-                      <li>Ordered List: Item 2</li>
-                      <li>Ordered List: Item 3</li>
-                    </ol>
-  
-                    <ul class="list-reset">
-                      <li>List: Reset Styles: Item 1</li>
-                      <li>List: Reset Styles: Item 2</li>
-                      <li>List: Reset Styles: Item 3</li>
-                    </ul>
-                  </div> <!-- /.styleguide-demo-each -->
-                  <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
-                </div> <!-- /.styleguide-demo-block -->
-  
               </div> <!-- /.styleguide-section-block -->
             </section>
+
+            {{>sg-header}}
+
+            {{>sg-footer}}
 
            
   
@@ -457,6 +376,9 @@
         </div> <!-- /.styleguide  -->
       </main>  
 
+      <script src="/js/jquery-3.6.0.min.js"></script>
+      <script src="/js/bootstrap.bundle.min.js"></script>
+      <script src="/js/slinky.min.js"></script>
       <script src="/js/style-guide/style-guide.js"></script>
 </body>
 </html>

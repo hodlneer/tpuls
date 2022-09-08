@@ -190,6 +190,7 @@ p {
 .styleguide-sidebar {
   background-color: $white;
   font-weight: $font-semi-bold;  
+  padding-top: 16px;
   padding-bottom: 150px; // Prevents cutting off menu from the bottom on browsers like Firefox
   width: $styleguide-sidebar-width;
   height: 100vh;
