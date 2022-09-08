@@ -1,6 +1,10 @@
 .card-feature-video {
   position: relative;
-  top: -190px;
+  top: -50px;
+  padding-top: 70px;
+  margin-bottom: 200px;
+  height: 241px;
+  background: black;
 }
 .card-feature-video .subscribe-1 {
   display: flex;
@@ -47,8 +51,7 @@
   align-items: center;
   padding: 24px;
   gap: 16px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/png/card/card-Image-9.png);
-  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+  background-image: url(../images/png/card/bg-video-card.png);
   border-radius: 8px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,10 +103,9 @@
   align-items: center;
   padding: 32px;
   gap: 24px;
-  background: url(../images/png/card/card-Image-10.png);
+  background-image: url(../images/png/card/CardPromo.png);
   background-repeat: no-repeat;
   background-size: cover !important;
-  border: 1px solid #DCDCDC;
   border-radius: 8px;
 }
 .card-feature-video .free-sub h2 {

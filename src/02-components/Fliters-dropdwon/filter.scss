@@ -19,4 +19,31 @@ color: #0B5188!important;
         color: #000000;
         
     }
+    select{
+        display: flex!important;
+align-items: center!important;
+padding: 10px 16px!important;
+gap: 8px!important;
+border: 1px solid #DFE3E6!important;
+border-radius: 8px!important;
+background-image: url(../images/png/card/chevron-down.svg)!important;
+margin-right: 16px!important;
+font-family: 'Roboto'!important;
+font-style: normal!important;
+font-weight: 400!important;
+font-size: 14px!important;
+line-height: 20px!important;
+color: #607180!important;
+height: 44px;
+    }
+    .sort{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #0B5188;
+padding-right: 24px;
+    }
+
 }

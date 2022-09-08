@@ -11,7 +11,22 @@ height: 5px!important;
 margin-bottom: 12rem!important;
     margin-left: 0%!important;
     left: 97px!important;}
-
+    .carousel-control-prev-icon{
+        width: 44px!important;
+    height: 44px!important;
+    background-color: rgba(0, 0, 0, 0.2)!important;
+    border-radius: 27px!important;
+    padding: 12px 12px!important;
+    background-image:url(../images/png/card/chevron-left.svg)!important;
+    }
+    .carousel-control-next-icon{
+        width: 44px!important;
+    height: 44px!important;
+    background-color: rgba(0, 0, 0, 0.2)!important;
+    border-radius: 27px!important;
+    padding: 12px 12px!important;
+    background-image:url(../images/png/card/chevron-right.svg)!important;
+    }
     .bg{
         display: flex;
 flex-direction: column;

@@ -13697,6 +13697,22 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   margin-left: 0% !important;
   left: 97px !important;
 }
+.banner .carousel-control-prev-icon {
+  width: 44px !important;
+  height: 44px !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 27px !important;
+  padding: 12px 12px !important;
+  background-image: url(..images/png/card/chevron-left.svg) !important;
+}
+.banner .carousel-control-next-icon {
+  width: 44px !important;
+  height: 44px !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 27px !important;
+  padding: 12px 12px !important;
+  background-image: url(..images/png/card/chevron-right.svg) !important;
+}
 .banner .bg {
   display: flex;
   flex-direction: column;
@@ -14119,7 +14135,11 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 .card-feature-video {
   position: relative;
-  top: -190px;
+  top: -50px;
+  padding-top: 70px;
+  margin-bottom: 200px;
+  height: 241px;
+  background: black;
 }
 .card-feature-video .subscribe-1 {
   display: flex;
@@ -14166,8 +14186,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   align-items: center;
   padding: 24px;
   gap: 16px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/png/card/card-Image-9.png);
-  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+  background-image: url(../images/png/card/bg-video-card.png);
   border-radius: 8px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14219,10 +14238,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   align-items: center;
   padding: 32px;
   gap: 24px;
-  background: url(../images/png/card/card-Image-10.png);
+  background-image: url(../images/png/card/CardPromo.png);
   background-repeat: no-repeat;
   background-size: cover !important;
-  border: 1px solid #DCDCDC;
   border-radius: 8px;
 }
 .card-feature-video .free-sub h2, .card-feature-video .free-sub .h2 {
@@ -14254,6 +14272,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 
 .feature-video {
   padding-bottom: 170px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 .feature-video .py-99 {
   padding-top: 92px;
@@ -14477,6 +14496,32 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   font-size: 12px;
   line-height: 18px;
   color: #000000;
+}
+.filter select {
+  display: flex !important;
+  align-items: center !important;
+  padding: 10px 16px !important;
+  gap: 8px !important;
+  border: 1px solid #DFE3E6 !important;
+  border-radius: 8px !important;
+  background-image: url(../images/png/card/chevron-down.svg) !important;
+  margin-right: 16px !important;
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #607180 !important;
+  height: 44px;
+}
+.filter .sort {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0B5188;
+  padding-right: 24px;
 }
 
 .header-slider {
@@ -14927,7 +14972,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   font-size: 48px;
   line-height: 63px;
   color: black;
-  padding-bottom: 40px;
+  margin: 0;
 }
 .read-news h1 span, .read-news .h1 span {
   font-weight: 400;
@@ -14942,6 +14987,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   font-size: 16px;
   line-height: 32px;
   color: black;
+  margin: 0;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {

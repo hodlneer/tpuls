@@ -1,5 +1,6 @@
 .feature-video {
   padding-bottom: 170px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 .feature-video .py-99 {
   padding-top: 92px;
