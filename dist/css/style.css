@@ -14600,6 +14600,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 .horizontal-ad {
   background: #efefef;
   height: 301px;
+  padding: 6px 25px 25px;
 }
 .horizontal-ad .label {
   font-style: normal;
@@ -15361,6 +15362,25 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 .col-left .text-card p {
   font-size: 1rem;
+}
+
+.horizontal-top-ad {
+  background: #efefef;
+  height: 301px;
+  padding: 6px 25px 25px;
+}
+.horizontal-top-ad .label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #929292;
+}
+.horizontal-top-ad .ad-img img {
+  max-height: 250px;
 }
 
 .trending-card {
