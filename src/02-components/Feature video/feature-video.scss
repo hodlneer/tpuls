@@ -53,3 +53,14 @@ color: #FFFFFF;
     }
 }
 
+@media (max-width: 929px){
+    .feature-video{
+padding: 32px;
+        h1{
+            font-size: 36px;
+            line-height: 30px;
+            padding-top: 50px;
+        }
+    }
+
+}

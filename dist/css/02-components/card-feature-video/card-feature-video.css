@@ -4,7 +4,7 @@
   padding-top: 70px;
   margin-bottom: 200px;
   height: 241px;
-  background: black;
+  background: #0f0e0e;
 }
 .card-feature-video .subscribe-1 {
   display: flex;
@@ -133,4 +133,34 @@
   padding: 8px 14px;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 18px;
+}
+
+@media (max-width: 930px) {
+  .card-feature-video {
+    position: relative;
+    top: 0px !important;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    height: 100% !important;
+    background: white !important;
+    padding: 32px !important;
+  }
+  .subscribe-1 {
+    margin-bottom: 12px;
+    gap: 0px;
+  }
+  .subscribe-1 h2 {
+    padding: 0px 45.5px;
+  }
+  .about {
+    gap: 0px;
+    margin-bottom: 12px;
+  }
+  .free-sub {
+    gap: 0px;
+    margin-bottom: 12px;
+  }
+  .free-sub h2 {
+    padding: 2px 0px;
+  }
 }

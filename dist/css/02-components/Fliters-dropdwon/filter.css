@@ -44,3 +44,10 @@
   color: #0B5188;
   padding-right: 24px;
 }
+
+@media (max-width: 767px) {
+  filter .padding-fliter {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
