@@ -13658,13 +13658,64 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   margin-top: 0;
 }
 
+.banner-artical {
+  background-image: url(../images/png/card/banner-a.png);
+  padding-top: 113px;
+}
+.banner-artical h1, .banner-artical .h1 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  padding-bottom: 147px;
+  margin: 0;
+}
+.banner-artical p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FCFCFD;
+  margin: 0;
+  padding: 20px;
+}
+
 .banner .carousel-indicators {
-  right: auto !important;
-  bottom: auto !important;
-  top: 42% !important;
-  left: -3.2% !important;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px !important;
+  gap: 8px !important;
+  width: 303px !important;
+  height: 5px !important;
+  margin-bottom: 12rem !important;
+  margin-left: 0% !important;
+  left: 97px !important;
+}
+.banner .bg {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 229px 0px;
+  position: relative;
+  gap: 10px;
+  left: 0%;
+  right: 0%;
+  top: -0.71%;
+  bottom: 11.23%;
+  background-image: url(../images/jpg/banner/hero.jpg);
+  background-size: cover;
 }
 .banner .item-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
   padding: 24px;
   gap: 16px;
   position: absolute;
@@ -14859,6 +14910,81 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   }
   .container, .container-narrow {
     padding: 0% !important;
+  }
+}
+.read-news {
+  padding-top: 30px;
+  padding-bottom: 34px;
+}
+.read-news .border-bottom-b {
+  border-bottom: 3px solid #217BC0;
+  margin-left: 16px;
+}
+.read-news h1, .read-news .h1 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 63px;
+  color: black;
+  padding-bottom: 40px;
+}
+.read-news h1 span, .read-news .h1 span {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 63px;
+  color: black;
+}
+.read-news p {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: black;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .read-news h1, .read-news .h1 {
+    font-size: 46px;
+  }
+  .read-news p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 929px) {
+  .read-news {
+    padding: 32px 24px;
+  }
+  .read-news h1, .read-news .h1 {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 42px;
+    color: black;
+    padding: 0;
+    margin: 0;
+  }
+  .read-news h1 span, .read-news .h1 span {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .read-news h1 .border-bottom-b, .read-news .h1 .border-bottom-b {
+    margin-left: 0;
+  }
+  .read-news p {
+    font-family: "Roboto Serif";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    margin: 0;
   }
 }
 .review-card {

@@ -1,0 +1,26 @@
+.banner-artical {
+  background-image: url(../images/png/card/banner-a.png);
+  padding-top: 113px;
+}
+.banner-artical h1 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  padding-bottom: 147px;
+  margin: 0;
+}
+.banner-artical p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FCFCFD;
+  margin: 0;
+  padding: 20px;
+}
