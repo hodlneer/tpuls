@@ -13703,7 +13703,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-radius: 27px !important;
   padding: 12px 12px !important;
-  background-image: url(..images/png/card/chevron-left.svg) !important;
+  background-image: url(../images/png/card/chevron-left.svg) !important;
 }
 .banner .carousel-control-next-icon {
   width: 44px !important;
@@ -13711,7 +13711,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-radius: 27px !important;
   padding: 12px 12px !important;
-  background-image: url(..images/png/card/chevron-right.svg) !important;
+  background-image: url(../images/png/card/chevron-right.svg) !important;
 }
 .banner .bg {
   display: flex;
@@ -13724,7 +13724,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   right: 0%;
   top: -0.71%;
   bottom: 11.23%;
-  background-image: url(../images/jpg/banner/hero.jpg);
+  background-image: url(../images/jpg/banner/hero-2x.jpg);
   background-size: cover;
 }
 .banner .item-slider {
@@ -14272,7 +14272,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 
 .feature-video {
   padding-bottom: 170px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background: linear-gradient(0deg, rgb(20, 19, 19) 0%, rgb(0, 0, 0) 35%, rgba(255, 255, 255, 0) 100%);
 }
 .feature-video .py-99 {
   padding-top: 92px;
@@ -14597,6 +14597,24 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     padding-bottom: 15px;
   }
 }
+.horizontal-ad {
+  background: #efefef;
+  height: 301px;
+}
+.horizontal-ad .label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #929292;
+}
+.horizontal-ad .ad-img img {
+  max-height: 250px;
+}
+
 .navbar {
   font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   padding-top: 22px !important;
