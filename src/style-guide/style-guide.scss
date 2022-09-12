@@ -179,9 +179,7 @@ $transition-ease-in: all 0.2s ease-in;
   }
 }
 
-p {
-  color: #000;
-}
+
  
 
 // ---------------------------------------------
@@ -265,7 +263,6 @@ p {
   padding: ($spacing * 5) 0 $spacing-3 0;
   max-width: $media-lg;
 
-
   @media(min-width: $media-sm) {
     padding: $spacing-3 $spacing-2 0 ($styleguide-sidebar-width + $spacing-2);
     margin: 0 auto;
@@ -293,6 +290,10 @@ p {
 .styleguide-section-docs {
   max-width: 650px;
   margin: 0 auto $spacing-2 auto;
+
+  p {
+    color: #000;
+  }
 }
 
 .styleguide-section-block {

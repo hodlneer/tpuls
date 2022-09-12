@@ -14,10 +14,6 @@
   }
 }
 
-p {
-  color: #000;
-}
-
 .styleguide-sidebar {
   background-color: #FFF;
   font-weight: 600;
@@ -116,6 +112,9 @@ p {
 .styleguide-section-docs {
   max-width: 650px;
   margin: 0 auto 20px auto;
+}
+.styleguide-section-docs p {
+  color: #000;
 }
 
 .styleguide-section-block {

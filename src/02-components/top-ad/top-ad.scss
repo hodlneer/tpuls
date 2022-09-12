@@ -1,0 +1,24 @@
+.horizontal-top-ad {
+    background: #efefef;
+    height: 301px;
+    padding: 6px 25px 25px;
+  
+  
+    .label {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #929292;
+    }
+  
+    .ad-img {
+      img {
+        max-height: 250px;
+      }
+    }
+  }
+  
