@@ -18,6 +18,22 @@
     background-color: blue;
     background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
     color: #fff;
+    h3{
+      font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+    }
+    h2{
+      font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+    }
   }
 
   .bottom-content {
@@ -26,7 +42,16 @@
     left: 165px;
     width: 80%;
     p {
-      color: #000;
+      font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #000000;
+
     }
   }
 
@@ -66,3 +91,88 @@ img.not-active {
   height: 100%;
   cursor: pointer;
 }
+.read-news{
+
+  padding-top: 30px;
+  padding-bottom: 34px;
+  
+      .border-bottom-b{
+          border-bottom: 3px solid #217BC0;
+          margin-left: 16px;
+      }
+      h1{
+          font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 63px;
+  color: black;
+  margin: 0 ;
+  span{
+      font-weight: 400;
+  font-size: 48px;
+  line-height: 63px;
+  color: black;
+  }
+      }
+      p{
+          font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: black;
+  margin: 0 ;
+  
+      }
+  }
+  @media (max-width: 1199px) and (min-width: 992px) {
+      .read-news{
+          h1{
+              font-size: 46px;
+          }
+          p {
+          
+              font-size: 14px;
+           
+              
+          }
+      }
+  }
+  @media (max-width: 929px){
+  
+      .read-news{
+          padding: 32px 24px;
+          h1{
+              font-family: 'Roboto Slab';
+              font-style: normal;
+              font-weight: 200;
+              font-size: 32px;
+              line-height: 42px;
+              color: black;
+              padding: 0;
+              margin: 0;
+      span{
+          font-family: 'Roboto Slab';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 42px;
+      }
+      .border-bottom-b{
+          margin-left:0;
+      }
+          }
+          p{
+              font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  padding-top: 24px;
+  padding-bottom: 20px;
+  margin: 0;
+      
+          }
+      }
+  }
