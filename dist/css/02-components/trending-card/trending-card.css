@@ -1,6 +1,22 @@
 .trending-card {
   padding-top: 72px;
-  padding-bottom: 82px;
+  padding-bottom: 0px;
+}
+.trending-card .ab-card {
+  padding: 6px 25px 25px;
+  background: #EFEFEF;
+}
+.trending-card .ab-card p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #929292;
 }
 .trending-card .header-card {
   width: 369px;
@@ -94,12 +110,15 @@
 @media (max-width: 930px) {
   .trending-card {
     padding-top: 0 !important;
-    padding-left: 15.5px;
-    padding-right: 15.5px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .trending-card .paddding-h4 {
     padding-left: 31.5px;
     padding-right: 31.5px;
+  }
+  .trending-card .body-card {
+    padding: 0px;
   }
   .trending-card .header-sm {
     padding-top: 0px;
@@ -123,7 +142,7 @@
     color: #0267B8;
   }
   .trending-card .header-sm .border-bottom-sm {
-    border-bottom: 7px solid #DFE3E6;
+    border-bottom: 7px solid #DFE3E6 !important;
   }
   .trending-card .body-sm .body-head h6 {
     font-family: "Roboto";
@@ -151,6 +170,6 @@
     color: #607180;
   }
   .pb-72 {
-    padding-bottom: 72px;
+    padding-bottom: 56px;
   }
 }

@@ -1,0 +1,168 @@
+.artical-feture-card .subscribe-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0px;
+  gap: 16px;
+  background: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
+  border-radius: 8px;
+}
+.artical-feture-card .subscribe-1 h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  padding: 0px 68.5px;
+  margin: 0;
+}
+.artical-feture-card .subscribe-1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #434F5A;
+  margin: 0;
+}
+.artical-feture-card .subscribe-1 .btn-sub {
+  background: #217BC0;
+  border: 1px solid #217BC0;
+  color: #FFFFFF;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.artical-feture-card .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+  background-image: url(../images/png/card/bg-video-card.png);
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.artical-feture-card .about h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding-bottom: 6px;
+  margin: 0;
+}
+.artical-feture-card .about h3 {
+  margin: 0;
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 0px 8px;
+}
+.artical-feture-card .about p {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding-bottom: 16px;
+}
+.artical-feture-card .about .btn-about {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #82045F;
+  background: #FFFFFF;
+  border: 1px solid #82045F;
+}
+.artical-feture-card .free-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 24px;
+  background-image: url(../images/png/card/CardPromo.png);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  border-radius: 8px;
+}
+.artical-feture-card .free-sub h2 {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0px 32px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+.artical-feture-card .free-sub .btn-free {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #000000;
+  border: 1px solid #000000;
+}
+.artical-feture-card .btn-card-video {
+  padding: 8px 14px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 18px;
+}
+
+@media (max-width: 930px) {
+  .card-feature-video {
+    position: relative;
+    top: 0px !important;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    height: 100% !important;
+    background: white !important;
+    padding: 32px !important;
+  }
+  .subscribe-1 {
+    margin-bottom: 12px;
+    gap: 0px;
+  }
+  .subscribe-1 h2 {
+    padding: 0px 45.5px;
+  }
+  .about {
+    gap: 0px;
+    margin-bottom: 12px;
+  }
+  .free-sub {
+    gap: 0px;
+    margin-bottom: 12px;
+  }
+  .free-sub h2 {
+    padding: 2px 0px;
+  }
+}
+@media (max-width: 929px) {
+  .artical-feture-card {
+    padding: 24px 24px 48px;
+    gap: 48px;
+    background: #0B5188;
+  }
+  .artical-feture-card .carousel-indicators {
+    margin-bottom: -2rem !important;
+  }
+}

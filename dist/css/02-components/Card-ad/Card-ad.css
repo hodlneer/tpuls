@@ -110,12 +110,16 @@
 @media (max-width: 930px) {
   .card-ad {
     padding-top: 0 !important;
-    padding-left: 15.5px;
-    padding-right: 15.5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 0;
   }
   .card-ad .paddding-h4 {
     padding-left: 31.5px !important;
     padding-right: 31.5px !important;
+  }
+  .card-ad .body-card {
+    padding: 0px;
   }
   .card-ad .header-sm {
     padding-top: 0px;
@@ -137,9 +141,6 @@
     line-height: 18px;
     text-align: right;
     color: #0267B8;
-  }
-  .card-ad .header-sm .border-bottom-sm {
-    border-bottom: 7px solid #DFE3E6;
   }
   .card-ad .body-sm .body-head h6 {
     font-family: "Roboto";
@@ -167,6 +168,9 @@
     color: #607180;
   }
   .pb-72 {
-    padding-bottom: 72px;
+    padding-bottom: 56px;
+  }
+  .border-bottom-sm {
+    border-bottom: 7px solid #DFE3E6 !important;
   }
 }
