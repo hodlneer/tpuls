@@ -57,12 +57,12 @@ background-color: #0B3D64;
           left: 50%;
           top: 100%;
           transform: translateX(-50%);
-          min-width: 100%;
-          max-width: 100%;    
+          min-width: 1440px;
+          max-width: 1440px;    
           margin-top: 0;
           border: none;
           border-radius: 0; 
-          padding: 32px 206px 48px;
+          padding: 32px 166px 48px;
           gap: 32px;  
               .main-gridbox-li {
                   &:not(:last-child) {
@@ -151,7 +151,22 @@ background-color: #0B3D64;
       position: relative;
   }
 }
-
+@media (max-width: 1430px) and (min-width: 991px){
+    .grid-nav-li {
+    .main-gridbox-ul {
+        left: 50%;
+        top: 100%;
+        transform: translateX(-50%);
+        min-width: 100%;
+        max-width: 100%;    
+        margin-top: 0;
+        border: none;
+        border-radius: 0; 
+        padding: 32px 166px 48px;
+        gap: 32px; 
+}
+}
+}
 @media (max-width: 930px) {
  
   .navbar-collapse{
