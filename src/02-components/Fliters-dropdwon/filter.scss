@@ -1,6 +1,6 @@
 .filter
 {
-  .padding-fliter {padding-top: 38.5px;
+  .padding-fliter {padding-top:0px;
     padding-bottom: 27.5px;} 
     a{
         font-family: 'Roboto';
@@ -49,9 +49,12 @@ padding-right: 24px;
 }
 @media (max-width: 767px){
 
-    filter
-{
+    .filter{
+      padding: 0px 16px;
+
   .padding-fliter {padding-top: 0;
     padding-bottom: 0;} 
+  
+
+    }
   }
-}

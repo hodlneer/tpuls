@@ -1,28 +1,25 @@
 .ad {
-  text-align: center;
-  margin-top: 1.875rem;
-  margin-bottom: 1.875rem;
-}
-
-.grid-ad-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-
-  @include media-breakpoint-up(lg) {
-    background-color: $gray-300;
+  position: relative;
+    top: 150px;
+  .ad-2{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 6px 25px 25px;
+gap: 6px;
+background: #EFEFEF;
   }
-
-  .ad {
-    flex: 1;
+  P
+  {
     margin: 0;
-  }
-}
-
-// Sticky behavior for 2 column .sidebar-ads
-.sidebar-ads.sticky {
-  .ad {
-    margin-top: 0;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #929292;
   }
 }

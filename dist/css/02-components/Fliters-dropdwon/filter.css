@@ -1,5 +1,5 @@
 .filter .padding-fliter {
-  padding-top: 38.5px;
+  padding-top: 0px;
   padding-bottom: 27.5px;
 }
 .filter a {
@@ -46,7 +46,10 @@
 }
 
 @media (max-width: 767px) {
-  filter .padding-fliter {
+  .filter {
+    padding: 0px 16px;
+  }
+  .filter .padding-fliter {
     padding-top: 0;
     padding-bottom: 0;
   }

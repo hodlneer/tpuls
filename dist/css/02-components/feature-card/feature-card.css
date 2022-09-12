@@ -21,14 +21,67 @@
   text-align: center;
   margin: 0;
 }
-.feature-card .body-card {
-  padding: 0px 16px;
+.feature-card .header-card-1:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.feature-card .body-card .p-news {
+.feature-card .header-card-1 .img-top {
+  overflow: hidden;
+  position: relative;
+}
+.feature-card .header-card-1 .img-top:hover {
+  transform: scale(1.05);
+}
+.feature-card .header-card-1 .img-top .img-bar {
+  position: absolute;
+  bottom: 11px;
+  width: 343px;
+  height: 7px;
+  background-color: #217BC0;
+  transition: transform 0.6s;
+  left: 7px;
+}
+.feature-card .header-card-1 .img-top .img-bar:hover {
+  transform: translateX(-102%);
+}
+.feature-card .header-card-1 .p-news {
   padding-top: 16px;
   padding-bottom: 10px;
 }
-.feature-card .body-card .card-news {
+.feature-card .header-card-1 .card-news {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #217BC0;
+}
+.feature-card .header-card-1 h2 {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  padding-top: 14px;
+  padding-bottom: 24px;
+}
+.feature-card .header-card-1 h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #607180;
+  padding-bottom: 24px;
+}
+.feature-card .body-card {
+  padding: 0px 16px;
+}
+.feature-card .body-card .p-news-1 {
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+.feature-card .body-card .card-news-1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -94,12 +147,16 @@
 @media (max-width: 930px) {
   .feature-card {
     padding-top: 0 !important;
-    padding-left: 15.5px;
-    padding-right: 15.5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 0;
   }
   .feature-card .paddding-h4 {
     padding-left: 31.5px;
     padding-right: 31.5px;
+  }
+  .feature-card .body-card {
+    padding: 0px;
   }
   .feature-card .header-sm {
     padding-top: 0px;
@@ -151,6 +208,6 @@
     color: #607180;
   }
   .pb-72 {
-    padding-bottom: 72px;
+    padding-bottom: 56px;
   }
 }

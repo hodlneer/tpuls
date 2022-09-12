@@ -2,6 +2,7 @@
     padding: 16px 32px;
 background: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
 border-radius: 8px;
+
 h1{
     font-family: 'Roboto';
 font-style: normal;
@@ -36,8 +37,23 @@ color: #FFFFFF;
 
     .subscribe{
 text-align: center!important;
+margin: 0px 16px;
     }
-    .m-c-10{
-        margin: 0px 12px;
-    }
+}
+.ab-card{
+    padding: 6px 25px 25px;
+background: #EFEFEF;
+p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin: 0;
+color: #929292;
+}
+
 }

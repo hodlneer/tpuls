@@ -1,0 +1,131 @@
+.artical {
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+.artical p {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1D2226;
+  mix-blend-mode: normal;
+  padding-bottom: 16px;
+  margin: 0;
+}
+.artical h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0B5188;
+  padding-top: 32px;
+  margin: 0;
+}
+.artical .border-h {
+  border-bottom: 7px solid #DFE3E6;
+}
+.artical .btn-artical {
+  padding: 8px 20px;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 1.5px solid #BFC6CC;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #0B5188;
+}
+.artical .ab-card {
+  padding: 6px 25px 25px;
+  background: #EFEFEF;
+  margin-bottom: 32px;
+}
+.artical .ab-card p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #929292;
+}
+.artical .pe-64 {
+  padding-right: 64px;
+}
+
+@media (max-width: 929px) {
+  .artical {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .artical .body-card {
+    padding: 0px;
+  }
+  .artical .header-sm {
+    padding-top: 0px;
+    padding-bottom: 8px;
+  }
+  .artical .header-sm h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0B5188;
+    padding-bottom: 8px;
+  }
+  .artical .header-sm p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #0267B8;
+  }
+  .artical .header-sm .border-bottom-sm {
+    border-bottom: 7px solid #DFE3E6 !important;
+  }
+  .artical .body-sm .body-head h6 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #217BC0;
+  }
+  .artical .body-sm .body-head h3 {
+    font-family: "Roboto Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .artical .body-sm .body-head h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #607180;
+  }
+  .pe-64 {
+    padding-right: 0px !important;
+  }
+  .btn-artical {
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+  .pb-72 {
+    padding-bottom: 56px;
+  }
+}

@@ -1,0 +1,75 @@
+.artical-card {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.artical-card h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0B5188;
+  margin: 0;
+  padding-bottom: 8px;
+}
+.artical-card .border-b-c-a {
+  border-bottom: 7px solid #DFE3E6;
+  margin-bottom: 24px;
+}
+.artical-card .aritcal-card-header .box-air {
+  height: 160px;
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
+  opacity: 0.95;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+}
+.artical-card .aritcal-card-header .box-air h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding-bottom: 8px;
+  margin: 0;
+}
+.artical-card .aritcal-card-header .box-air h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 0;
+  padding-bottom: 4px;
+}
+.artical-card .aritcal-card-header .box-air .bg-card-1 {
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #412959 0%, #7B579F 100%) !important;
+}
+.artical-card .artical-card-body .border-top-g {
+  border-top: 2px solid #BFC6CC;
+}
+.artical-card .artical-card-body h4 {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111824;
+  padding: 16px;
+  margin: 0;
+}
+.artical-card .artical-card-body .w-h-img {
+  width: 22px;
+  height: 22px;
+}
+
+@media (max-width: 929px) {
+  .artical-card {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 0;
+  }
+}

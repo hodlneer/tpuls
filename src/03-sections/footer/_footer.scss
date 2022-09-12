@@ -1,5 +1,5 @@
 .footer{
- padding-top: 64px;
+ padding-top:212px;
  padding-bottom: 107px;
 }
  a{
@@ -81,6 +81,12 @@ font-size: 14px;
 line-height: 20px;
 color: #FFFFFF;
 
+ }
+ @media (max-width: 930px){
+  .footer{
+    padding-top: 64px;
+    padding-bottom: 107px;
+   }
  }
  @media (max-width: 575px){
   .footer{

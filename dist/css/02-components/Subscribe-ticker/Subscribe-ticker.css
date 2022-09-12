@@ -36,8 +36,22 @@
 @media (max-width: 767px) {
   .subscribe {
     text-align: center !important;
+    margin: 0px 16px;
   }
-  .m-c-10 {
-    margin: 0px 12px;
-  }
+}
+.ab-card {
+  padding: 6px 25px 25px;
+  background: #EFEFEF;
+}
+.ab-card p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #929292;
 }
