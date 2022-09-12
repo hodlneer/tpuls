@@ -371,7 +371,9 @@ color: #FFFFFF;
 ul{
   padding-left: 0%!important;
 }
-
+.navbar-toggler:focus{
+    box-shadow: none!important;
+}
 }
 @media (max-width: 575px){
   .navbar {

@@ -15387,13 +15387,21 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   }
 }
 @media (max-width: 767px) {
-  .carousel-control-prev, .carousel-control-next {
+  .header-slider .carousel-control-prev-icon {
+    width: 12px !important;
+    height: 16px !important;
+  }
+  .header-slider .carousel-control-next-icon {
+    width: 12px !important;
+    height: 16px !important;
+  }
+  .header-slider .carousel-control-prev, .header-slider .carousel-control-next {
     bottom: 12px !important;
     top: auto !important;
     opacity: 1 !important;
     width: 2% !important;
   }
-  p {
+  .header-slider p {
     padding-top: 0px;
     padding-bottom: 15px;
   }
@@ -15788,6 +15796,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   }
   ul {
     padding-left: 0% !important;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none !important;
   }
 }
 @media (max-width: 575px) {

@@ -61,6 +61,19 @@ line-height: 18px;
     }
   }
   @media (max-width: 767px){
+    .header-slider{
+  
+  
+  .carousel-control-prev-icon{
+  
+      width: 12px!important;
+      height: 16px!important;
+  }
+  .carousel-control-next-icon {
+
+      width: 12px!important;
+      height: 16px!important;
+  }
    
   .carousel-control-prev, .carousel-control-next{
     bottom: 12px!important;
@@ -73,3 +86,4 @@ line-height: 18px;
     padding-bottom: 15px;
 }
 }
+  }
