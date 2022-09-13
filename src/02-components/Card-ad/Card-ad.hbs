@@ -7,16 +7,11 @@
                 <img src="images/png/card/card-ad.png" alt="" class="img-fluid">
                 </div>
             </div>
-              <div class="col-md-4 ">
-                
-               {{>base-card}}
-
+            {{#each cards}}
+            <div class="col-md-4">
+                {{>base-card card=this}}
             </div>
-            <div class="col-md-4 ">
-                
-               {{>base-card}}
-
-            </div>
+            {{/each}}
         </div>
         <div class="row d-lg-none d-block">
             <div class="col-12 pb-72">

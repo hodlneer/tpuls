@@ -7,16 +7,11 @@
                 <img src="images/png/card/card-ad-1.png" alt="">
                 </div>
             </div>
-              <div class="col-md-4 ">
-                
-               {{>base-card}}
-
+            {{#each cards}}
+            <div class="col-md-4">
+                {{>base-card card=this}}
             </div>
-            <div class="col-md-4 ">
-               
-                 {{>base-card}}
-
-            </div>
+            {{/each}}
         </div>
        <div class="ab-card d-block d-lg-none m-0 my-12 col-md-6">
                     <p class="p-0">advertisement</p>
