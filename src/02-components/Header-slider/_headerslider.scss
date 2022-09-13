@@ -33,14 +33,25 @@ line-height: 18px;
 .border-new{
     border: 1px solid #0B5188!important;
     color: #0B5188;
+    &:hover{
+      background-color:#0B5188 ;
+      color: white;
+    }
 }
 .border-explore{
     border: 1px solid #82045F!important;
     color: #82045F;
+    &:hover{
+      background-color:#82045F ;
+      color: white;
+    }
 }
 .border-book{
     border: 1px solid #38621B!important;
-    color: #38621B;
+    color: #38621B;&:hover{
+      background-color:#38621B;
+      color: white;
+    }
 }
 .news-primary {
     color: #217BC0!important;
