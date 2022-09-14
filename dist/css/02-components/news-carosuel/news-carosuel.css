@@ -1,7 +1,9 @@
 #expanded-carousel {
-  width: 100%;
+  width: 1440px;
   height: 495px;
   margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
 }
 #expanded-carousel .carousel-content {
