@@ -10,6 +10,9 @@
   line-height: 24px;
   color: #0B5188 !important;
 }
+.filter a:hover {
+  color: var(--bs-link-hover-color) !important;
+}
 .filter h6 {
   font-family: "Roboto";
   font-style: normal;
