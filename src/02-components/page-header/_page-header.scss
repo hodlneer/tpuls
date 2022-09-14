@@ -167,7 +167,7 @@ background-color: #0B3D64;
 .modal-backdrop{
         
     --bs-backdrop-bg: transparent!important;
-    // background-color: transparent!important;
+    background-color: transparent!important;
 
 }
 }
@@ -270,7 +270,7 @@ background-color: #0B3D64;
         max-width: 100% !important;
         max-height: 0;
         visibility: hidden;
-        transition: all 0.3s linear 0s;
+        transition: 0s;
         overflow: hidden;
         display: block;
         position: relative;
