@@ -3,7 +3,7 @@
   height: 495px;
   // min-width: 1440px;
 
-  margin-bottom: 64px;
+  margin-bottom: 100px;
 
   position: relative;
 
@@ -15,7 +15,6 @@
     padding: 16px;
     left: 165px;
     bottom: -40px;
-    background-color: blue;
     background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
     color: #fff;
 
@@ -60,6 +59,7 @@
 
   img {
     height: 495px;
+    transition: width 0.9s ease-in-out, height 0.9s ease-in-out; 
     cursor: pointer;
   }
 
@@ -77,10 +77,11 @@
 
 img.active {
   object-fit: cover;
+  width: 800px;
 }
 
 img.not-active {
-  width: 100%;
+  width: 213px;
   object-fit: cover;
 }
 
@@ -191,10 +192,10 @@ img.not-active {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 929px) {
   #expanded-carousel {
     width: 375px;
-
+   
     position: relative;
 
     img {
@@ -206,7 +207,7 @@ img.not-active {
     .carousel-body {
       display: flex;
       flex-direction: column;
-
+  
       .carousel-img {
         position: relative;
       }
@@ -227,14 +228,14 @@ img.not-active {
     .bottom-content {
       display: none;
     }
-
+    
   }
 
   img.active {
     object-fit: cover;
     height: 350px !important;
   }
-
+  
   img.not-active {
     height: 116px;
     // object-fit: cover;

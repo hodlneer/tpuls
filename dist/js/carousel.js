@@ -25,10 +25,10 @@ cLayers.forEach(function(layer) {
             img.classList.remove('not-active');
             img.classList.add('active');
 
-            $(this).hide()
+            $(this).fadeOut('slow')
 
-            $('#' + $(this).data('id')).show()
-            $('#' + $(this).data('content')).show()
+            $('#' + $(this).data('id')).fadeIn('slow')
+            $('#' + $(this).data('content')).fadeIn('slow')
         }
     });
 

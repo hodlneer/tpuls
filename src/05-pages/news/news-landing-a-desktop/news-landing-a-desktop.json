@@ -3,7 +3,7 @@
     "featureCards":[
         {
             "isFeatured": true,
-            "cardImageUrl": "/images/png/card/card-img-2x.png",
+            "cardImageUrl": "/images/png/card/card-image-1-2x.png",
             "title": "Cruise",
             "titleIcon": "card icon",
             "bodyText": "Disney Cruises Launches New Ship “Disney Wish”",
@@ -11,7 +11,7 @@
         },
         {
             "isFeatured": false,
-            "cardImageUrl": "/images/png/card/card-img-2x.png",
+            "cardImageUrl": "/images/png/card/card-image-2-2x.png",
             "title": "AIRLINES & AIRPORTS",
             "titleIcon": "card icon",
             "bodyText": "Weekend Brings Highest Passenger Numbers Since Before COVID-19",
@@ -19,7 +19,7 @@
         },
         {
             "isFeatured": false,
-            "cardImageUrl": "/images/png/card/card-img-2x.png",
+            "cardImageUrl": "/images/png/card/card-image-3-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
             "bodyText": "Is Business Travel Finally Coming Back?",
@@ -29,7 +29,7 @@
     "cardAds": [
         {
             "isFeatured": false,
-            "cardImageUrl": "/images/png/card/card-img-2x.png",
+            "cardImageUrl": "/images/png/card/card-image-4-2x.png",
             "title": "AIRLINES & AIRPORTS",
             "titleIcon": "card icon",
             "bodyText": "Weekend Brings Highest Passenger Numbers Since Before COVID-19",
@@ -37,7 +37,7 @@
         },
         {
             "isFeatured": true,
-            "cardImageUrl": "/images/png/card/card-img-2x.png",
+            "cardImageUrl": "/images/png/card/card-image-5-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
             "bodyText": "Is Business Travel Finally Coming Back?",
@@ -47,7 +47,7 @@
     "cardAdsOne": [
         {
             "isFeatured": false,
-            "cardImageUrl": "/images/png/card/card-img-2x.png",
+            "cardImageUrl": "/images/png/card/card-image-6-2x.png",
             "title": "AIRLINES & AIRPORTS",
             "titleIcon": "card icon",
             "bodyText": "Weekend Brings Highest Passenger Numbers Since Before COVID-19",
@@ -55,7 +55,7 @@
         },
         {
             "isFeatured": false,
-            "cardImageUrl": "/images/png/card/card-img-2x.png",
+            "cardImageUrl": "/images/png/card/card-image-7-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
             "bodyText": "Is Business Travel Finally Coming Back?",
@@ -65,7 +65,7 @@
     "trendingCards": [
         {
             "isFeatured": false,
-            "cardImageUrl": "/images/png/card/card-img-2x.png",
+            "cardImageUrl": "/images/png/card/card-image-8-2x.png",
             "title": "AIRLINES & AIRPORTS",
             "titleIcon": "card icon",
             "bodyText": "Weekend Brings Highest Passenger Numbers Since Before COVID-19",
@@ -73,7 +73,7 @@
         },
         {
             "isFeatured": true,
-            "cardImageUrl": "/images/png/card/card-img-2x.png",
+            "cardImageUrl": "/images/png/card/card-image-9-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
             "bodyText": "Is Business Travel Finally Coming Back?",
@@ -81,7 +81,7 @@
         },
         {
             "isFeatured": false,
-            "cardImageUrl": "/images/png/card/card-img-2x.png",
+            "cardImageUrl": "/images/png/card/card-image-10-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
             "bodyText": "Is Business Travel Finally Coming Back?",
