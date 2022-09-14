@@ -1,22 +1,8 @@
+$('.header').on('click', '.search-toggle', function(e) {
+  var selector = $(this).data('selector');
 
-// var coll = document.getElementsByClassName("collapsible");
-// var i;
+  $(selector).toggleClass('show').find('.search-input').focus();
+  $(this).toggleClass('active');
 
-// for (i = 0; i < coll.length; i++) {
-//   coll[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var content = this.nextElementSibling;
-//     if (content.style.display === "block") {
-//       content.style.display = "none";
-//     } else {
-//       content.style.display = "block";
-//     }
-//   });
-// }
-function openSearch() {
-  document.getElementById("myOverlay").style.display = "block";
-}
-
-function closeSearch() {
-  document.getElementById("myOverlay").style.display = "none";
-}
+  e.preventDefault();
+});
