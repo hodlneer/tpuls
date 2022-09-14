@@ -13745,6 +13745,18 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding: 16px;
   margin: 0;
 }
+.artical-card .artical-card-body h4:hover, .artical-card .artical-card-body .h4:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 8px;
+  z-index: 1000;
+}
+.artical-card .artical-card-body .hov:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 8px;
+  z-index: 1000;
+}
 .artical-card .artical-card-body .w-h-img {
   width: 22px;
   height: 22px;
@@ -13968,6 +13980,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-top: 24px;
   padding-bottom: 80px;
 }
+.artical a:hover {
+  color: var(--bs-link-hover-color) !important;
+}
 .artical p {
   font-family: "Roboto Serif";
   font-style: normal;
@@ -14005,6 +14020,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   line-height: 20px;
   text-align: center;
   color: #0B5188;
+  margin-right: 12px;
 }
 .artical .ab-card {
   padding: 6px 25px 25px;
@@ -14098,7 +14114,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 .avtar {
   position: relative;
   background-color: #F2F4F7;
-  padding-bottom: 91px;
+  padding-bottom: 120px;
 }
 .avtar .profile {
   position: relative;
@@ -14148,6 +14164,18 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #111824;
   padding: 16px;
   margin: 0;
+}
+.avtar h4:hover, .avtar .h4:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 8px;
+  z-index: 1000;
+}
+.avtar .hov:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 8px;
+  z-index: 1000;
 }
 .avtar .gap-24 {
   gap: 24px;
@@ -16010,41 +16038,118 @@ img.not-active {
   position: relative;
 }
 
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+.header {
+  max-width: 720px;
+  margin: 2em auto 10em;
 }
 
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+.header-nav {
+  position: relative;
+  padding-right: 3em;
 }
 
-/* The Close Button */
-.close {
-  color: #aaa;
+.menu {
+  display: inline-block;
   float: right;
-  font-size: 28px;
-  font-weight: bold;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: inline-block;
+}
+.menu li a {
+  color: #054d80;
+  display: block;
+  padding: 10px;
+  position: relative;
+  transition: color 0.3s;
+  text-decoration: none;
 }
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+.search-button {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.search-toggle {
+  position: relative;
+  display: block;
+  height: 10px;
+  width: 10px;
+}
+.search-toggle::before, .search-toggle::after {
+  content: "";
+  position: absolute;
+  display: block;
+  transition: all 0.1s;
+}
+.search-toggle::before {
+  border: 2px solid #054d80;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  left: -2px;
+  top: -2px;
+}
+.search-toggle::after {
+  height: 2px;
+  width: 7px;
+  background: #054d80;
+  top: 10px;
+  left: 8px;
+  transform: rotate(45deg);
+}
+.search-toggle.active::before {
+  width: 0;
+  border-width: 1px;
+  border-radius: 0;
+  transform: rotate(45deg);
+  top: -1px;
+  left: 4px;
+}
+.search-toggle.active::after {
+  width: 12px;
+  left: -1px;
+  top: 4px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+#header-1 {
+  border-bottom: 2px solid #054d80;
+}
+#header-1 .search-box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 0;
+  transform: translateY(100%);
+  background-color: #054d80;
+  transition: all 0.3s;
+}
+#header-1 .search-box .search-input {
+  width: 100%;
+  height: 100%;
+  padding: 0 1em;
+  border: 0;
+  background-color: transparent;
+  opacity: 0;
+  color: #fff;
+}
+#header-1 .search-box .search-input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+#header-1.show .search-box {
+  max-height: 40px;
+}
+#header-1.show .search-box .search-input {
+  opacity: 1;
 }
 
 @media (max-width: 1430px) and (min-width: 991px) {
@@ -16979,6 +17084,9 @@ input[type=radio]:checked {
 a {
   text-decoration: none;
   color: white;
+}
+a:hover {
+  color: #FFFFFF !important;
 }
 
 .accordion {
