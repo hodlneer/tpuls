@@ -1,0 +1,21 @@
+.featuer-card-tag {
+    position: absolute;
+    width: 369px;
+    height: 220px;
+    background: #217BC0;
+    top: -41px;
+    left: -13px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    .label {
+      color: #fff;
+      text-align: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      padding-top: 12px;
+    }
+  }

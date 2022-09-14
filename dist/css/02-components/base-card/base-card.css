@@ -1,5 +1,6 @@
 .group-card {
   width: 343px;
+  position: relative;
 }
 .group-card .main-news-card {
   cursor: pointer;

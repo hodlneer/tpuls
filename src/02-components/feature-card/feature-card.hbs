@@ -1,43 +1,13 @@
 <section class="feature-card">
     <div class="container">
         <div class="row d-lg-flex d-none">
+
+            {{#each cards}}
             <div class="col-md-4 ">
-                <div class="header-card position-relative">
-                    <p>
-                        <img src="images/png/card/Icon-header.png" alt="">
-                         Featured</p>
-                    <img src="images/png/card/card-image.png" alt="" class="img-fluid">
-                    <div class="divder"></div>
-                   
-
-                </div>
-                <div class="body-card">
-                     <div class="d-flex p-news-1 justify-content-between mt-2">
-                    <p class="card-news-1 m-0">Cruise</p>
-                    <img src="images/png/card/Article.png" alt="" class="w-h-img">
-                    </div>
-                    <h2 class="m-0">Disney Cruises Launches New Ship “Disney Wish”</h2>
-                     <h6 class="border-card m-0">Livia Geidt</h6>
-                    <h4 class="border-card m-0">Everything I like to do on Disney Cruises + What Not To Do</h4>
-                     <div class="border-card d-flex"><h4 class="m-0">I Was On The First Sailing Of The Disney Wish, Here Are My 10 Favorite Experiences Onboard</h4>
-                     <img src="images/png/card/card-image-1.png" alt="" class="w-h-img">
-                       </div>
-                        <h4 class="m-0 py-3" >Disney, Royal Caribbean's Celebrity Cruise Lines Claim a Big Win</h4>
-                        
-                </div>
-
+                {{>base-card card=this}}
             </div>
-              <div class="col-md-4 ">
-               
-                   {{>base-card}}
-             
+            {{/each}}
 
-            </div>
-            <div class="col-md-4 ">
-               
-               {{>base-card}}
-
-            </div>
         </div>
         <div class="row d-lg-none d-block">
             <div class="col-12 pb-72">
