@@ -1,6 +1,9 @@
 .artical{
 padding-top: 24px;
 padding-bottom: 80px;
+a:hover {
+    color: var(--bs-link-hover-color)!important;
+}
 p{
     font-family: 'Roboto Serif';
 font-style: normal;
@@ -40,6 +43,7 @@ font-size: 14px;
 line-height: 20px;
 text-align: center;
 color: #0B5188;
+margin-right: 12px;
 }
 .ab-card {
     padding: 6px 25px 25px;
