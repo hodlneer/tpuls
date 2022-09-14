@@ -1,3 +1,10 @@
+.modal-backdrop{
+        
+    --bs-backdrop-bg: transparent!important;
+    background-color: transparent!important;
+    opacity: 0!important;
+
+}
 .navbar {
   font-family: $font-family-sans-serif;
   padding-top: 22px!important;
@@ -151,26 +158,57 @@ background-color: #0B3D64;
       position: relative;
   }
 }
-.nav-search{
+// .nav-search{
 
-    .modal{
-        --bs-modal-bg:#EAEFF4!important;
-        --bs-modal-border-color: transparent!important;
-        --bs-modal-border-width: 0!important;
-        --bs-modal-border-radius: 0!important;
-        --bs-modal-box-shadow: none!important;
-        top: 134px!important;
-    bottom: auto!important;
-    }
+//     .modal{
+//         --bs-modal-bg:#EAEFF4!important;
+//         --bs-modal-border-color: transparent!important;
+//         --bs-modal-border-width: 0!important;
+//         --bs-modal-border-radius: 0!important;
+//         --bs-modal-box-shadow: none!important;
+//         top: 172px!important;
+//     bottom: auto!important;
+//     }
     
 
-.modal-backdrop{
-        
-    --bs-backdrop-bg: transparent!important;
-    // background-color: transparent!important;
 
-}
-}
+// }
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 @media (max-width: 1430px) and (min-width: 991px){
     .grid-nav-li {
     .main-gridbox-ul {
@@ -270,7 +308,7 @@ background-color: #0B3D64;
         max-width: 100% !important;
         max-height: 0;
         visibility: hidden;
-        transition: all 0.3s linear 0s;
+        transition: 0s;
         overflow: hidden;
         display: block;
         position: relative;
