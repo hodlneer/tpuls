@@ -54,10 +54,7 @@ color: #111824;
 padding: 16px;
 margin: 0;
 &:hover{
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-border: none;
-border-radius: 8px;
-z-index: 1000;
+  color: #0B5188;
 }
     }
     .hov{
@@ -66,6 +63,7 @@ z-index: 1000;
         border: none;
         border-radius: 8px;
         z-index: 1000;
+        padding-right: 12px;
         }
     }
     .gap-24{

@@ -53,16 +53,14 @@
   margin: 0;
 }
 .avtar h4:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border: none;
-  border-radius: 8px;
-  z-index: 1000;
+  color: #0B5188;
 }
 .avtar .hov:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 8px;
   z-index: 1000;
+  padding-right: 12px;
 }
 .avtar .gap-24 {
   gap: 24px;

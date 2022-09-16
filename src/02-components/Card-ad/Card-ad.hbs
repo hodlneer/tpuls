@@ -1,19 +1,19 @@
 <section class="card-ad">
     <div class="container">
-         <div class="row d-lg-flex d-none">
-            <div class="align-items-baseline col-md-4 d-flex p-0">
+         <div class="row">
+            <div class="align-items-baseline col-md-4 d-lg-flex d-none p-0">
                 <div class="ab-card">
                 <p>advertisement</p>
                 <img src="images/png/card/card-ad.png" alt="" class="img-fluid">
                 </div>
             </div>
             {{#each cards}}
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 {{>base-card card=this}}
             </div>
             {{/each}}
         </div>
-        <div class="row d-lg-none d-block">
+        {{!-- <div class="row d-lg-none d-block">
             <div class="col-12 pb-72">
                 <div class="align-items-baseline border-bottom-sm d-flex header-sm justify-content-between ">
                     <h3>Cruise</h3>
@@ -58,6 +58,6 @@
                          </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>

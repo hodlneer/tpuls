@@ -18,3 +18,10 @@
   line-height: 18px;
   padding-top: 12px;
 }
+
+@media (max-width: 929px) {
+  .featuer-card-tag {
+    width: 0 !important;
+    height: 0 !important;
+  }
+}
