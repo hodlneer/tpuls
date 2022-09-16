@@ -16691,6 +16691,83 @@ img.not-active {
     left: 28%;
   }
 }
+.stickeyFixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.stickey {
+  display: flex;
+  flex-direction: column;
+}
+.stickey .close button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-right: 100px;
+  background: #0B5188;
+  font-size: 15px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  float: right;
+}
+.stickey .stickey-news-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #D3ECFF;
+  margin: 0px;
+  border-top: 2px solid #0B5188;
+}
+.stickey .stickey-news-letter .svg {
+  padding: 8px 16.07px 13.49px 17px;
+  background: #CBE4FB;
+  border-radius: 100px;
+}
+.stickey .stickey-news-letter .text {
+  padding: 0px 72px;
+}
+.stickey .stickey-news-letter .text p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 13px;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+}
+.stickey .stickey-news-letter .btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 8px 14px;
+  background: #217BC0;
+  border-radius: 18px;
+  margin-top: 10px;
+}
+
+@media (min-width: 375px) {
+  .stickey .close button {
+    margin-right: 15px;
+  }
+  .stickey .stickey-news-letter {
+    padding: 0px 15px;
+  }
+  .stickey .stickey-news-letter .text {
+    padding: 0px 15px;
+  }
+  .stickey .stickey-news-letter .text p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 .subscribe {
   padding: 16px 32px;
   background: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
