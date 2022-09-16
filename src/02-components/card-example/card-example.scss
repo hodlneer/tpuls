@@ -1,7 +1,33 @@
 
     .group-card {
         width: 343px;
-        
+        .card-border{
+          .header-sm {
+              padding-top: 0px;
+              padding-bottom: 8px;
+         
+          h3{
+              font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          color: #0B5188;
+          padding-bottom: 8px
+          }
+          p {
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #0267B8;
+          }
+          .border-bottom-sm{
+              border-bottom: 7px solid #DFE3E6!important;
+          }
+      }
+      }
         .main-news-card {
           border-radius: 8px;
           cursor: pointer;
@@ -141,13 +167,14 @@
          .card-title {
           font-size: 12px!important;
           line-height: 18px!important;
+          font-weight: 500;
         }
         .title-icon{
           display:none!important;
         }
       }
       .card-text {
-        font-size: 18px!important;
+        font-size: 14px!important;
         line-height: 20px!important;
         padding-right: 0px!important;
       }

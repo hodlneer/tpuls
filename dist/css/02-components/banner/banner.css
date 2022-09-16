@@ -72,3 +72,46 @@
   margin: 0;
   color: #FFFFFF;
 }
+
+@media (max-width: 930px) {
+  .banner .bg {
+    background-image: url(../images/png/card/hero.png);
+    background-size: cover;
+    padding: 201px 0px;
+  }
+  .banner .item-slider {
+    width: 375px;
+    height: 201px;
+    left: 0;
+  }
+  .banner .carousel-control-prev-icon {
+    opacity: 0 !important;
+  }
+  .banner .carousel-control-next-icon {
+    opacity: 0 !important;
+  }
+  .banner .carousel-indicators {
+    left: -66px !important;
+  }
+}
+@media (max-width: 410px) {
+  .banner .bg {
+    background-image: url(../images/png/card/hero.png);
+    background-size: contain;
+    padding: 201px 0px;
+  }
+  .banner .carousel-indicators {
+    left: -66px !important;
+  }
+  .banner .item-slider {
+    width: 100%;
+    height: auto !important;
+    left: 0;
+  }
+  .banner .carousel-control-prev-icon {
+    opacity: 0 !important;
+  }
+  .banner .carousel-control-next-icon {
+    opacity: 0 !important;
+  }
+}

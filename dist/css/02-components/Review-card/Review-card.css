@@ -2,6 +2,9 @@
   padding-top: 69px;
   padding-bottom: 64px;
 }
+.review-card a:hover {
+  color: #434F5A;
+}
 .review-card .border-bottom-t {
   border-bottom: 3px solid #FFFFFF;
   margin-left: 16px;
