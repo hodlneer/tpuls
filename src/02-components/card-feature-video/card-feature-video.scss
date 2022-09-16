@@ -46,6 +46,10 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 20px;
+&:hover{
+    background: #124b76;
+
+}
 }
     }
     .about{
@@ -98,6 +102,10 @@ line-height: 24px;
 color: #82045F;
 background: #FFFFFF;
 border: 1px solid #82045F;
+&:hover{
+    color: #4f474d;
+    
+}
 }
     }
     .free-sub{
@@ -131,6 +139,11 @@ line-height: 20px;
 color: #FFFFFF;
 background: #000000;
 border: 1px solid #000000;
+&:hover{
+    color: #464242;
+    background: #f9f8f9;
+    
+}
 }
 
     }

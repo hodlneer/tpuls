@@ -45,6 +45,9 @@
   font-size: 14px;
   line-height: 20px;
 }
+.card-feature-video .subscribe-1 .btn-sub:hover {
+  background: #124b76;
+}
 .card-feature-video .about {
   display: flex;
   flex-direction: column;
@@ -96,6 +99,9 @@
   background: #FFFFFF;
   border: 1px solid #82045F;
 }
+.card-feature-video .about .btn-about:hover {
+  color: #4f474d;
+}
 .card-feature-video .free-sub {
   display: flex;
   flex-direction: column;
@@ -128,6 +134,10 @@
   color: #FFFFFF;
   background: #000000;
   border: 1px solid #000000;
+}
+.card-feature-video .free-sub .btn-free:hover {
+  color: #464242;
+  background: #f9f8f9;
 }
 .card-feature-video .btn-card-video {
   padding: 8px 14px;
