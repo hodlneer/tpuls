@@ -28,7 +28,7 @@ button:focus:not(:focus-visible) {
 
   
 .accordion-button:not(.collapsed)::after {
-  background-image:url(../images/png/header/icon-up.png)!important;
+  background-image:url(../images/svg/icons/chevron-down.svg)!important;
 }
 
  .accordion-button{
@@ -38,7 +38,7 @@ button:focus:not(:focus-visible) {
   
  }
  .accordion-button:after{
-  background-image:url(../images/png/header/icon-down.png)!important;
+  background-image:url(../images/svg/icons/chevron-down.svg)!important;
 }
 
 

@@ -3,13 +3,15 @@
 
 .carousel-control-prev-icon{
     background-image: url(../images/svg/icons/chevron-left-1.svg)!important;
-    width: 6px!important;
-    height: 12px!important;
+    width: 24px!important;
+    height: 32px!important;
+    background-size: 200% 64%!important;
 }
 .carousel-control-next-icon {
     background-image: url(../images/svg/icons/chevron-right.svg)!important;
-    width: 6px!important;
-    height: 12px!important;
+    width: 24px!important;
+    height: 32px!important;
+    background-size: 200% 64%!important;
 }
 .carousel-control-prev {
     right: 18px!important;

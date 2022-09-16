@@ -1,4 +1,14 @@
 .breadcums{
+  background: #0B5188;
+a{
+  text-decoration: none;
+}
+  .breadcrumb-item{
+    cursor: pointer;
+    &:hover{
+      opacity: 0.9;
+    }
+  }
 .primary-blue {
   color: #0B5188!important;
 }
@@ -22,6 +32,9 @@
 }
 .dropdown-item a{color: #434F5A;}
 } 
+.breadcrumb-item + .breadcrumb-item::before{
+  color: $white!important;
+}
 @media (max-width: 767px){
 .breadcums{
   padding: 11px 32px 11px 32px!important;
