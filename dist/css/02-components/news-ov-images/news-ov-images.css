@@ -1,0 +1,60 @@
+.news-ov-images {
+  margin-bottom: 64px;
+}
+.news-ov-images .image-col-v {
+  height: 372px;
+}
+.news-ov-images .col-image-h {
+  height: 178px;
+}
+.news-ov-images .images-h {
+  margin-bottom: 16px;
+}
+
+.small-screen-ov {
+  margin-top: 16px;
+}
+.small-screen-ov .news {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.small-screen-ov .news .image {
+  width: 128px;
+  height: 128px;
+  margin-right: 16px;
+}
+.small-screen-ov .news .image img {
+  width: 128px;
+  height: 128px;
+  border-radius: 8px;
+}
+.small-screen-ov .news .news-body p {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  margin-bottom: 4px;
+}
+.small-screen-ov .news .news-body .label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #217BC0;
+}
+.small-screen-ov .news .news-body .text {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.small-screen-ov .news .news-body .author {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #607180;
+}
