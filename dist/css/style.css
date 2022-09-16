@@ -16895,6 +16895,15 @@ img.not-active {
   padding-top: 24px;
   padding-bottom: 14px;
 }
+.suppliers .logo-ad:hover .ad-img {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.suppliers .logo-ad:hover h6, .suppliers .logo-ad:hover .h6 {
+  color: #217BC0;
+}
+.suppliers .ad-img:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 @media (max-width: 929px) {
   .suppliers {
