@@ -16,7 +16,9 @@ padding: 32px 0px;
 gap: 16px;
 background: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
 border-radius: 8px;
-
+img{
+    padding-top: 32px;
+}
 h2{
     font-family: 'Roboto';
 font-style: normal;
@@ -46,6 +48,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 20px;
+margin-bottom: 42px;
 &:hover{
     background: #124b76;
 
@@ -102,6 +105,9 @@ line-height: 24px;
 color: #82045F;
 background: #FFFFFF;
 border: 1px solid #82045F;
+margin-bottom: 18px;
+padding: 8px 33px;
+border-radius: 22px;
 &:hover{
     color: #4f474d;
     
@@ -139,6 +145,7 @@ line-height: 20px;
 color: #FFFFFF;
 background: #000000;
 border: 1px solid #000000;
+margin-bottom: 20px;
 &:hover{
     color: #464242;
     background: #f9f8f9;

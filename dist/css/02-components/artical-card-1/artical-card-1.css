@@ -1,0 +1,77 @@
+.artical-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 0px;
+  gap: 32px;
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
+}
+.artical-card-1 h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 32px;
+  margin: 0;
+  color: #FFFFFF;
+}
+.artical-card-1 .card-ar .card-image {
+  overflow: hidden;
+  position: relative;
+}
+.artical-card-1 .card-ar img {
+  transition: transform 0.6s;
+}
+.artical-card-1 .card-ar .card-bar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 7px;
+  background-color: #658F85;
+  transition: transform 0.6s;
+}
+.artical-card-1 .card-ar h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 16px 16px 8px 16px;
+  color: #658F85;
+  margin: 0;
+}
+.artical-card-1 .card-ar p {
+  margin: 0;
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 0px 16px 24px 16px;
+}
+
+.card-ar:hover .card-img-top-1 {
+  transform: scale(1.05);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card-ar:hover .card-image .card-bar {
+  transform: translateX(-100%);
+}
+
+.card-ar:hover .card-image {
+  border-radius: 12px;
+}
+
+.card-ar:hover p {
+  color: black;
+}
+
+.card-ar:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  border-radius: 12px;
+}

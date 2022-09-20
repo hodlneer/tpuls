@@ -10,6 +10,14 @@
   line-height: 20px;
   color: #000000;
 }
+.top-artical span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0B5188;
+}
 .top-artical .btn-top {
   padding: 8px 14px;
   gap: 8px;

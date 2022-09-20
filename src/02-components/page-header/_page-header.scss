@@ -42,7 +42,7 @@ background-color: #0B3D64;
               &::after {
                   content: "";
                   position: absolute;
-                  bottom: -22px;
+                  bottom: -21px;
                   left: 0;
                   right: 0;
                   width: 100%;
@@ -52,7 +52,8 @@ background-color: #0B3D64;
                   margin: 0;                                
               }
               &:hover::after {
-                  background: $Secondary;
+                background: #ffffff73;
+                transform: matrix(1, 0, 0, -1, 0, 0);
               }
       }   
       .grid-nav-link.show {

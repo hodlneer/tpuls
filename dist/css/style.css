@@ -5,7 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&family=Roboto+Slab:wght@200;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&family=Roboto+Slab:wght@200;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
 :root {
   --bs-blue: #054d80;
   --bs-indigo: #6610f2;
@@ -13682,6 +13682,84 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #929292;
 }
 
+.artical-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 0px;
+  gap: 32px;
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
+}
+.artical-card-1 h2, .artical-card-1 .h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 32px;
+  margin: 0;
+  color: #FFFFFF;
+}
+.artical-card-1 .card-ar .card-image {
+  overflow: hidden;
+  position: relative;
+}
+.artical-card-1 .card-ar img {
+  transition: transform 0.6s;
+}
+.artical-card-1 .card-ar .card-bar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 7px;
+  background-color: #658F85;
+  transition: transform 0.6s;
+}
+.artical-card-1 .card-ar h3, .artical-card-1 .card-ar .h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 16px 16px 8px 16px;
+  color: #658F85;
+  margin: 0;
+}
+.artical-card-1 .card-ar p {
+  margin: 0;
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 0px 16px 24px 16px;
+}
+
+.card-ar:hover .card-img-top-1 {
+  transform: scale(1.05);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card-ar:hover .card-image .card-bar {
+  transform: translateX(-100%);
+}
+
+.card-ar:hover .card-image {
+  border-radius: 12px;
+}
+
+.card-ar:hover p {
+  color: black;
+}
+
+.card-ar:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+
 .artical-card {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -13787,6 +13865,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding: 0px 68.5px;
   margin: 0;
 }
+.artical-feture-card .subscribe-1 img {
+  padding-top: 32px;
+}
 .artical-feture-card .subscribe-1 p {
   font-family: "Roboto";
   font-style: normal;
@@ -13805,6 +13886,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: 42px;
 }
 .artical-feture-card .about {
   display: flex;
@@ -13856,6 +13938,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #82045F;
   background: #FFFFFF;
   border: 1px solid #82045F;
+  margin-bottom: 18px;
+  padding: 8px 33px;
+  border-radius: 22px;
 }
 .artical-feture-card .free-sub {
   display: flex;
@@ -13889,6 +13974,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #FFFFFF;
   background: #000000;
   border: 1px solid #000000;
+  margin-bottom: 20px;
 }
 .artical-feture-card .btn-card-video {
   padding: 8px 14px;
@@ -13946,6 +14032,14 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   font-size: 14px;
   line-height: 20px;
   color: #000000;
+}
+.top-artical span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0B5188;
 }
 .top-artical .btn-top {
   padding: 8px 14px;
@@ -14128,6 +14222,15 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-top: 16px;
   margin: 0;
 }
+.avtar .profile h5, .avtar .profile .h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #0B5188;
+}
 .avtar .profile p {
   font-family: "Roboto";
   font-style: normal;
@@ -14138,7 +14241,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   margin: 0;
 }
 .avtar .profile .btn-avtar {
-  padding: 8px 14px;
+  padding: 8px 10px;
   border: 1px solid #BFC6CC;
   border-radius: 100px;
   font-family: "Roboto";
@@ -15041,6 +15144,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   background: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
   border-radius: 8px;
 }
+.card-feature-video .subscribe-1 img {
+  padding-top: 32px;
+}
 .card-feature-video .subscribe-1 h2, .card-feature-video .subscribe-1 .h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -15069,6 +15175,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: 42px;
 }
 .card-feature-video .subscribe-1 .btn-sub:hover {
   background: #124b76;
@@ -15123,6 +15230,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #82045F;
   background: #FFFFFF;
   border: 1px solid #82045F;
+  margin-bottom: 18px;
+  padding: 8px 33px;
+  border-radius: 22px;
 }
 .card-feature-video .about .btn-about:hover {
   color: #4f474d;
@@ -15159,6 +15269,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #FFFFFF;
   background: #000000;
   border: 1px solid #000000;
+  margin-bottom: 20px;
 }
 .card-feature-video .free-sub .btn-free:hover {
   color: #464242;
@@ -15709,6 +15820,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding: 6px 25px 25px;
 }
 .horizontal-ad .label {
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -16057,7 +16169,7 @@ img.not-active {
 .grid-nav-li .grid-nav-link::after {
   content: "";
   position: absolute;
-  bottom: -22px;
+  bottom: -21px;
   left: 0;
   right: 0;
   width: 100%;
@@ -16067,7 +16179,8 @@ img.not-active {
   margin: 0;
 }
 .grid-nav-li .grid-nav-link:hover::after {
-  background: #B2BBC4;
+  background: rgba(255, 255, 255, 0.4509803922);
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .grid-nav-li .grid-nav-link.show::after {
   background: #fff;
@@ -16813,7 +16926,7 @@ img.not-active {
   }
 }
 .subscribe {
-  padding: 16px 32px;
+  padding: 36px 32px;
   background: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
   border-radius: 8px;
 }
@@ -16925,6 +17038,7 @@ img.not-active {
 }
 .suppliers .logo-ad:hover .ad-img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
 }
 .suppliers .logo-ad:hover h6, .suppliers .logo-ad:hover .h6 {
   color: #217BC0;

@@ -16,6 +16,9 @@
   background: linear-gradient(180deg, #D3ECFF 0%, #B9E0FF 96.88%);
   border-radius: 8px;
 }
+.card-feature-video .subscribe-1 img {
+  padding-top: 32px;
+}
 .card-feature-video .subscribe-1 h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -44,6 +47,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: 42px;
 }
 .card-feature-video .subscribe-1 .btn-sub:hover {
   background: #124b76;
@@ -98,6 +102,9 @@
   color: #82045F;
   background: #FFFFFF;
   border: 1px solid #82045F;
+  margin-bottom: 18px;
+  padding: 8px 33px;
+  border-radius: 22px;
 }
 .card-feature-video .about .btn-about:hover {
   color: #4f474d;
@@ -134,6 +141,7 @@
   color: #FFFFFF;
   background: #000000;
   border: 1px solid #000000;
+  margin-bottom: 20px;
 }
 .card-feature-video .free-sub .btn-free:hover {
   color: #464242;
