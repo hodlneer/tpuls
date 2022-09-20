@@ -1,9 +1,13 @@
 
 <div class="group-card">
-  {{#if card.isFeatured }}
+  {{>card-border}}
+
+  {{#if card.isLightFeatured}}
+       {{>light-feature-card-tag}}
+  {{else}}
     {{>feature-card-tag}}
   {{/if}}
-  {{>card-border}}
+
   <div class="card main-news-card">
     <div class="img-top">
       <img class="card-img-top img-fluid" src="{{card.cardImageUrl}}" alt="Card image cap" />
@@ -35,14 +39,17 @@
   </div>
   <div class="card group-list-card">
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">American Airlines Regional Carrier Offering Pilots Triple Pay</li>
-      <li class="list-group-item d-flex d-row justify-content-between align-items-center">
+      <div class="top-border"></div>
+      <li class="list-group-item nlist-item">American Airlines Regional Carrier Offering Pilots Triple Pay</li>
+      <div class="top-border"></div>
+      <li class="list-group-item nlist-item d-flex d-row justify-content-between align-items-center">
         <div>JetBlue Announces New Spirit Offer After Advisory Firm Sides With Frontier</div>
         <div class="list-icon ps-4">
          <img src="images/svg/icons/Button.svg" alt="">
         </div>
       </li>
-      <li class="list-group-item">LATAM Airlines to Eliminate Single-Use Plastics by 2023</li>
+       <div class="top-border"></div>
+      <li class="list-group-item nlist-item">LATAM Airlines to Eliminate Single-Use Plastics by 2023</li>
     </ul>
   </div>
 </div>

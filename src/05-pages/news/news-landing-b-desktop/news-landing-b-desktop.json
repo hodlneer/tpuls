@@ -3,6 +3,7 @@
     "featureCards":[
         {
             "isFeatured": true,
+            "isLightFeatured": false,
             "cardImageUrl": "/images/png/card/card-image-1-2x.png",
             "title": "Cruise",
             "titleIcon": "card icon",
@@ -11,6 +12,7 @@
         },
         {
             "isFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-2-2x.png",
             "title": "AIRLINES & AIRPORTS",
             "titleIcon": "card icon",
@@ -19,6 +21,7 @@
         },
         {
             "isFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-3-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
@@ -29,6 +32,7 @@
     "cardAds": [
         {
             "isFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-4-2x.png",
             "title": "AIRLINES & AIRPORTS",
             "titleIcon": "card icon",
@@ -37,6 +41,7 @@
         },
         {
             "isFeatured": true,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-5-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
@@ -47,6 +52,7 @@
     "cardAdsOne": [
         {
             "isFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-6-2x.png",
             "title": "AIRLINES & AIRPORTS",
             "titleIcon": "card icon",
@@ -55,6 +61,7 @@
         },
         {
             "isFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-7-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
@@ -65,6 +72,7 @@
     "trendingCards": [
         {
             "isFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-8-2x.png",
             "title": "AIRLINES & AIRPORTS",
             "titleIcon": "card icon",
@@ -73,6 +81,7 @@
         },
         {
             "isFeatured": true,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-9-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
@@ -81,6 +90,7 @@
         },
         {
             "isFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-10-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
