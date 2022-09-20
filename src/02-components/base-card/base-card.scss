@@ -38,6 +38,7 @@
     overflow: hidden;
     border: none;
     margin-bottom: 8px;
+    transition: box-shadow .2s linear;
 
     .img-top {
         overflow: hidden;
@@ -48,12 +49,12 @@
             width: 100%;
             height: 7px;
             background-color: #217BC0;
-            transition: transform 0.6s;
+            transition: transform 0.5s;
         }
       }
 
     .card-img-top {
-      transition: transform 0.6s;
+      transition: transform 0.5s;
     }
 
     .card-body {
@@ -79,6 +80,7 @@
         padding-right: 44px;
         margin-bottom: 0;
         font-family: 'Roboto Serif';
+        transition: color 0.2s;
       }
 
       .author {
@@ -116,15 +118,8 @@
         font-family: 'Roboto Serif';
         font-size: 16px;
         color: #111824;
-      }
-
-      .list-group-item:first-child {
-        border-top: 1px solid #bfc6cc;
-      }
-
-      .list-group-item:nth-child(2) {
-        border-top: 1px solid #bfc6cc;
-        border-bottom: 1px solid #bfc6cc;
+        transition: box-shadow 0.2s;
+        cursor: pointer;
       }
 
       .list-group-item:hover {
@@ -132,10 +127,12 @@
         border: none;
         border-radius: 8px;
         z-index: 1000;
+        color: #0B5188;
       }
 
-      .list-group-item:last-child {
-        border-bottom: 1px solid #bfc6cc;
+      .top-border {
+        border-top: 2px solid #BFC6CC;
+        transition: all 0.1s;
       }
     }
   }
@@ -158,6 +155,10 @@
 
 .main-news-card:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-news-card:hover .card-text{
+  color: #0B5188 !important;
 }
 
 @media (max-width: 929px){
