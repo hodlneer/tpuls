@@ -120,6 +120,19 @@
         color: #111824;
         transition: box-shadow 0.2s;
         cursor: pointer;
+
+        .list-icon {
+          
+          .blue-icon {
+            transition: display .2s;
+            display: none;
+          }
+
+          .black-icon {
+            transition: display .2s;
+          }
+        }
+        
       }
 
       .list-group-item:hover {
@@ -128,6 +141,15 @@
         border-radius: 8px;
         z-index: 1000;
         color: #0B5188;
+
+        .list-icon {
+          .black-icon {
+            display: none;
+          }
+          .blue-icon {
+            display: inline;
+          }
+        }
       }
 
       .top-border {

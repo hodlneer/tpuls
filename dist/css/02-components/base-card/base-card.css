@@ -109,12 +109,25 @@
   transition: box-shadow 0.2s;
   cursor: pointer;
 }
+.group-card .group-list-card .list-group .list-group-item .list-icon .blue-icon {
+  transition: display 0.2s;
+  display: none;
+}
+.group-card .group-list-card .list-group .list-group-item .list-icon .black-icon {
+  transition: display 0.2s;
+}
 .group-card .group-list-card .list-group .list-group-item:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 8px;
   z-index: 1000;
   color: #0B5188;
+}
+.group-card .group-list-card .list-group .list-group-item:hover .list-icon .black-icon {
+  display: none;
+}
+.group-card .group-list-card .list-group .list-group-item:hover .list-icon .blue-icon {
+  display: inline;
 }
 .group-card .group-list-card .list-group .top-border {
   border-top: 2px solid #BFC6CC;
