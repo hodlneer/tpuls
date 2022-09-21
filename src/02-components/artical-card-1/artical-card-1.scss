@@ -77,3 +77,9 @@ img{
     background: #FFFFFF;
     border-radius: 12px;
   }
+  @media (max-width: 929px){
+    .artical-card-1{
+        display: none;
+    }
+
+  }

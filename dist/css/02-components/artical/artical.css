@@ -16,6 +16,21 @@
   padding-bottom: 16px;
   margin: 0;
 }
+.artical h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-top: 36px !important;
+  margin-bottom: 36px !important;
+  padding: 0px 32px;
+}
+.artical .border-left-1 {
+  border-left: 7px solid #217BC0;
+}
 .artical h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -62,13 +77,16 @@
   color: #929292;
 }
 .artical .pe-64 {
-  padding-right: 64px;
+  padding-right: 22px;
 }
 
 @media (max-width: 929px) {
   .artical {
     padding-left: 24px;
     padding-right: 24px;
+  }
+  .artical p {
+    padding-top: 0px !important;
   }
   .artical .body-card {
     padding: 0px;

@@ -20,8 +20,11 @@
 }
 
 @media (max-width: 929px) {
-  .featuer-card-tag {
+  .light-featuer-card-tag {
     width: 0 !important;
     height: 0 !important;
+  }
+  .label {
+    display: none;
   }
 }

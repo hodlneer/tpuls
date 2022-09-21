@@ -13,13 +13,11 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 15px;
-        margin-right: 100px;
+        padding: 8px;
+        margin-right: 166px;
         background: #0B5188;
         font-size: 15px;
         font-weight: bold;
-        width: 20px;
-        height: 20px;
         color: #ffffff;
         float: right;
       }
@@ -31,13 +29,15 @@
       background: #D3ECFF;
       margin: 0px;
       border-top: 2px solid #0B5188;
+      gap: 72px;
+      padding: 7px 15px;
       .svg {
         padding: 8px 16.07px 13.49px 17px;
         background:#CBE4FB;
         border-radius:100px;
       }
       .text {
-        padding: 0px 72px;
+        padding: 0px 0px;
         p {
           font-family: "Helvetica Neue";
           font-style: normal;
@@ -63,7 +63,7 @@
       }
     }
   }
-  @media (min-width: 375px) {
+  @media (max-width: 767px) {
     .stickey {
     
       .close {
@@ -72,12 +72,15 @@
         }
       }
       .stickey-news-letter {
-        padding: 0px 15px;
+        padding: 7px 15px;
+        gap: 16px;
         .text {
           padding: 0px 15px;
           p {
             font-size: 14px;
             line-height: 20px;
+            padding: 0!important;
+            margin: 0!important;
           }
         }
     

@@ -1,7 +1,7 @@
 .avtar {
   position: relative;
   background-color: #F2F4F7;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 .avtar .profile {
   position: relative;
@@ -69,7 +69,6 @@
   border: none;
   border-radius: 8px;
   z-index: 1000;
-  padding-right: 12px;
 }
 .avtar .gap-24 {
   gap: 24px;

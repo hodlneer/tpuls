@@ -13634,7 +13634,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 
 .ad-1 {
   position: relative;
-  top: -75px;
+  padding: 64px 0px;
 }
 .ad-1 .ad-2 {
   display: flex;
@@ -13760,6 +13760,11 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   border-radius: 12px;
 }
 
+@media (max-width: 929px) {
+  .artical-card-1 {
+    display: none;
+  }
+}
 .artical-card {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -13844,6 +13849,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     padding-right: 24px;
     padding-bottom: 0;
   }
+}
+.artical-feture-card {
+  padding-top: 32px;
 }
 .artical-feture-card .subscribe-1 {
   display: flex;
@@ -14086,6 +14094,21 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-bottom: 16px;
   margin: 0;
 }
+.artical h2, .artical .h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-top: 36px !important;
+  margin-bottom: 36px !important;
+  padding: 0px 32px;
+}
+.artical .border-left-1 {
+  border-left: 7px solid #217BC0;
+}
 .artical h3, .artical .h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -14132,13 +14155,16 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #929292;
 }
 .artical .pe-64 {
-  padding-right: 64px;
+  padding-right: 22px;
 }
 
 @media (max-width: 929px) {
   .artical {
     padding-left: 24px;
     padding-right: 24px;
+  }
+  .artical p {
+    padding-top: 0px !important;
   }
   .artical .body-card {
     padding: 0px;
@@ -14206,7 +14232,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 .avtar {
   position: relative;
   background-color: #F2F4F7;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 .avtar .profile {
   position: relative;
@@ -14274,7 +14300,6 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   border: none;
   border-radius: 8px;
   z-index: 1000;
-  padding-right: 12px;
 }
 .avtar .gap-24 {
   gap: 24px;
@@ -15133,7 +15158,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   position: relative;
   top: -50px;
   padding-top: 70px;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
   height: 241px;
   background: #0f0e0e;
 }
@@ -15859,14 +15884,17 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 
 @media (max-width: 929px) {
-  .featuer-card-tag {
+  .light-featuer-card-tag {
     width: 0 !important;
     height: 0 !important;
+  }
+  .label {
+    display: none;
   }
 }
 .line {
   display: block;
-  margin: 0px 0px 64px 0px;
+  margin: 64px 0px 64px 0px;
 }
 .line h2, .line .h2 {
   font-family: "Roboto";
@@ -15890,6 +15918,10 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 .line #article-spinner {
   display: none;
+  background-color: white;
+  position: relative;
+  top: 18px;
+  padding: 0px 24px;
 }
 .line .text-span {
   font-family: "Roboto";
@@ -16735,6 +16767,149 @@ img.not-active {
     margin: 0;
   }
 }
+.related-card-articale-1 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  cursor: pointer;
+}
+.related-card-articale-1 h2, .related-card-articale-1 .h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0B5188;
+  margin: 0 !important;
+}
+.related-card-articale-1 .border-top-r {
+  border-top: 7px solid #DFE3E6;
+}
+.related-card-articale-1 h3, .related-card-articale-1 .h3 {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #111824;
+  cursor: pointer;
+}
+.related-card-articale-1 h3:hover, .related-card-articale-1 .h3:hover {
+  color: #0B5188;
+}
+.related-card-articale-1 p {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #111824;
+  padding: 16PX 10PX;
+}
+.related-card-articale-1 .h-w {
+  height: 128px;
+  width: 128px;
+}
+
+.related-card-articale {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.related-card-articale h2, .related-card-articale .h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0B5188;
+  margin: 0 !important;
+}
+.related-card-articale .border-top-r {
+  border-top: 7px solid #DFE3E6;
+}
+.related-card-articale h3, .related-card-articale .h3 {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #111824;
+}
+.related-card-articale h3:hover, .related-card-articale .h3:hover {
+  color: #0B5188;
+}
+.related-card-articale p {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #111824;
+  padding: 16PX 10PX;
+}
+.related-card-articale p:hover {
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 8px;
+  z-index: 1000;
+  margin-bottom: 12px;
+  color: #0B5188;
+}
+.related-card-articale .h-w {
+  height: 128px;
+  width: 128px;
+}
+
+.related-card h2, .related-card .h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0B5188;
+  margin: 0 !important;
+}
+.related-card .border-top-r {
+  border-top: 7px solid #DFE3E6;
+}
+.related-card h3, .related-card .h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #027FA5;
+  margin: 0;
+}
+.related-card h4, .related-card .h4 {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin: 0;
+  color: #000000;
+}
+.related-card h5, .related-card .h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #B54708;
+  margin: 0;
+}
+.related-card .h-w {
+  height: 128px;
+  width: 128px;
+}
+
 .review-card {
   padding-top: 69px;
   padding-bottom: 64px;
@@ -16899,13 +17074,11 @@ img.not-active {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  margin-right: 100px;
+  padding: 8px;
+  margin-right: 166px;
   background: #0B5188;
   font-size: 15px;
   font-weight: bold;
-  width: 20px;
-  height: 20px;
   color: #ffffff;
   float: right;
 }
@@ -16916,6 +17089,8 @@ img.not-active {
   background: #D3ECFF;
   margin: 0px;
   border-top: 2px solid #0B5188;
+  gap: 72px;
+  padding: 7px 15px;
 }
 .stickey .stickey-news-letter .svg {
   padding: 8px 16.07px 13.49px 17px;
@@ -16923,7 +17098,7 @@ img.not-active {
   border-radius: 100px;
 }
 .stickey .stickey-news-letter .text {
-  padding: 0px 72px;
+  padding: 0px 0px;
 }
 .stickey .stickey-news-letter .text p {
   font-family: "Helvetica Neue";
@@ -16946,12 +17121,13 @@ img.not-active {
   margin-top: 10px;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 767px) {
   .stickey .close button {
     margin-right: 15px;
   }
   .stickey .stickey-news-letter {
-    padding: 0px 15px;
+    padding: 7px 15px;
+    gap: 16px;
   }
   .stickey .stickey-news-letter .text {
     padding: 0px 15px;
@@ -16959,6 +17135,8 @@ img.not-active {
   .stickey .stickey-news-letter .text p {
     font-size: 14px;
     line-height: 20px;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 }
 .subscribe {
@@ -17073,19 +17251,19 @@ img.not-active {
   padding-bottom: 14px;
 }
 .suppliers .logo-ad:hover .ad-img {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px #f2f4f7;
   border-radius: 9px;
 }
 .suppliers .logo-ad:hover h6, .suppliers .logo-ad:hover .h6 {
   color: #217BC0;
 }
 .suppliers .ad-img:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px #f2f4f7;
 }
 
 @media (max-width: 929px) {
   .suppliers {
-    padding: 0px 24px;
+    padding: 0px 0px;
   }
   .suppliers h1, .suppliers .h1 {
     font-family: "Roboto Slab";
@@ -17096,7 +17274,8 @@ img.not-active {
     color: #000000;
     padding: 0;
     margin: 0;
-    padding-bottom: 16px;
+    padding-bottom: 24px;
+    padding-left: 24px;
   }
   .suppliers h1 span, .suppliers .h1 span {
     font-family: "Roboto Slab";
@@ -17108,6 +17287,16 @@ img.not-active {
   }
   .suppliers h1 .border-bottom-b, .suppliers .h1 .border-bottom-b {
     margin-left: 0;
+  }
+  .suppliers p {
+    font-family: "Roboto Serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    color: #000000;
   }
   .w-img-100 {
     width: 100%;
@@ -17236,7 +17425,7 @@ img.not-active {
 }
 
 .trending-card {
-  padding-top: 72px;
+  padding-top: 140px;
   padding-bottom: 0px;
 }
 .trending-card .ab-card {
@@ -17439,6 +17628,22 @@ input[type=radio]:checked {
 }
 .footer a:hover {
   color: #FFFFFF !important;
+}
+
+li {
+  cursor: pointer !important;
+}
+
+a {
+  cursor: pointer !important;
+}
+
+img {
+  cursor: pointer !important;
+}
+
+p {
+  cursor: pointer !important;
 }
 
 .accordion {

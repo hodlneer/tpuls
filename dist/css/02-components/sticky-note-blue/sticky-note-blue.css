@@ -13,13 +13,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  margin-right: 100px;
+  padding: 8px;
+  margin-right: 166px;
   background: #0B5188;
   font-size: 15px;
   font-weight: bold;
-  width: 20px;
-  height: 20px;
   color: #ffffff;
   float: right;
 }
@@ -30,6 +28,8 @@
   background: #D3ECFF;
   margin: 0px;
   border-top: 2px solid #0B5188;
+  gap: 72px;
+  padding: 7px 15px;
 }
 .stickey .stickey-news-letter .svg {
   padding: 8px 16.07px 13.49px 17px;
@@ -37,7 +37,7 @@
   border-radius: 100px;
 }
 .stickey .stickey-news-letter .text {
-  padding: 0px 72px;
+  padding: 0px 0px;
 }
 .stickey .stickey-news-letter .text p {
   font-family: "Helvetica Neue";
@@ -60,12 +60,13 @@
   margin-top: 10px;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 767px) {
   .stickey .close button {
     margin-right: 15px;
   }
   .stickey .stickey-news-letter {
-    padding: 0px 15px;
+    padding: 7px 15px;
+    gap: 16px;
   }
   .stickey .stickey-news-letter .text {
     padding: 0px 15px;
@@ -73,5 +74,7 @@
   .stickey .stickey-news-letter .text p {
     font-size: 14px;
     line-height: 20px;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 }

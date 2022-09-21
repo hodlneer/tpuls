@@ -1,6 +1,6 @@
 .line {
     display: block;
-    margin: 0px 0px 64px 0px;
+    margin: 64px 0px 64px 0px;
     
  
 
@@ -33,6 +33,10 @@
 
     #article-spinner {
         display: none;
+    background-color: white;
+    position: relative;
+    top: 18px;
+    padding: 0px 24px;
     }
 
     .text-span {
