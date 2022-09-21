@@ -1,5 +1,5 @@
 #expanded-carousel {
-  width: 1440px;
+  width: 100%;
   height: 495px;
   margin-bottom: 100px;
   margin-left: auto;
@@ -62,11 +62,10 @@
 
 img.active {
   object-fit: cover;
-  width: 800px;
 }
 
 img.not-active {
-  width: 213px;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -158,7 +157,7 @@ img.not-active {
 }
 @media only screen and (max-width: 929px) {
   #expanded-carousel {
-    width: 375px;
+    width: 100%;
     position: relative;
   }
   #expanded-carousel img {
