@@ -16,6 +16,9 @@
   padding-bottom: 16px;
   margin: 0;
 }
+.artical .text-blue-1 {
+  color: #0B5188 !important;
+}
 .artical h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -78,6 +81,13 @@
 }
 .artical .pe-64 {
   padding-right: 22px;
+}
+.artical .btn-bg {
+  background: #D83B5A !important;
+  border-color: #D83B5A !important;
+}
+.artical .bg-section {
+  background: linear-gradient(180deg, #FFEBEC 0%, #FFDBDC 100%) !important;
 }
 
 @media (max-width: 929px) {

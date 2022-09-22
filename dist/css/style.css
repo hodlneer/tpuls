@@ -5,7 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&family=Roboto+Slab:wght@200;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@400;700;800&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&family=Roboto+Slab:wght@200;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
 :root {
   --bs-blue: #054d80;
   --bs-indigo: #6610f2;
@@ -13657,6 +13657,31 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #929292;
 }
 
+.ad-2 {
+  position: relative;
+  padding: 64px 0px;
+}
+.ad-2 .ad-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 25px 25px;
+  gap: 6px;
+  background: #EFEFEF;
+}
+.ad-2 P {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #929292;
+}
+
 .ad {
   position: relative;
   top: 150px;
@@ -14094,6 +14119,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-bottom: 16px;
   margin: 0;
 }
+.artical .text-blue-1 {
+  color: #0B5188 !important;
+}
 .artical h2, .artical .h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -14156,6 +14184,13 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 .artical .pe-64 {
   padding-right: 22px;
+}
+.artical .btn-bg {
+  background: #D83B5A !important;
+  border-color: #D83B5A !important;
+}
+.artical .bg-section {
+  background: linear-gradient(180deg, #FFEBEC 0%, #FFDBDC 100%) !important;
 }
 
 @media (max-width: 929px) {
@@ -17251,14 +17286,14 @@ img.not-active {
   padding-bottom: 14px;
 }
 .suppliers .logo-ad:hover .ad-img {
-  box-shadow: 0px 4px 4px #f2f4f7;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
 }
 .suppliers .logo-ad:hover h6, .suppliers .logo-ad:hover .h6 {
   color: #217BC0;
 }
 .suppliers .ad-img:hover {
-  box-shadow: 0px 4px 4px #f2f4f7;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 929px) {
@@ -17639,10 +17674,6 @@ a {
 }
 
 img {
-  cursor: pointer !important;
-}
-
-p {
   cursor: pointer !important;
 }
 
