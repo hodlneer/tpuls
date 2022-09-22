@@ -1,0 +1,28 @@
+<section class="news-filter-cards">
+    <div class="container">
+        <div class="row">
+            {{#each cards}}
+            <div class="col-lg-4 ">
+                {{>filter-news-card card=this}}
+            </div>
+            {{/each}}
+        </div>
+        <div class="row mt-13">
+            <div class="col-lg-4 ">
+                Ad here
+            </div>
+            {{#each adCards}}
+            <div class="col-lg-4 ">
+                {{>filter-news-card card=this}}
+            </div>
+            {{/each}}
+        </div>
+        <div class="row mt-13">
+            {{#each cards}}
+            <div class="col-lg-4 ">
+                {{>filter-news-card card=this}}
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>

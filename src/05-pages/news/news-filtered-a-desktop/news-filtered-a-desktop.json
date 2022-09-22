@@ -3,6 +3,7 @@
     "featureCards":[
         {
             "isFeatured": true,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-1-2x.png",
             "title": "Cruise",
             "titleIcon": "card icon",
@@ -11,6 +12,7 @@
         },
         {
             "isFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-2-2x.png",
             "title": "AIRLINES & AIRPORTS",
             "titleIcon": "card icon",
@@ -19,6 +21,7 @@
         },
         {
             "isFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-3-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
@@ -29,7 +32,7 @@
     "cardAds": [
         {
             "isFeatured": false,
-            "isLightFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-4-2x.png",
             "title": "AIRLINES & AIRPORTS",
             "titleIcon": "card icon",

@@ -1,9 +1,9 @@
 {
     "title": "News Filterd B Desktop",
-    "featureCards": [
+    "featureCards":[
         {
             "isFeatured": true,
-            "isLightFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-1-2x.png",
             "title": "Cruise",
             "titleIcon": "card icon",
