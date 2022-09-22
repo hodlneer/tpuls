@@ -64,11 +64,24 @@
 .avtar h4:hover {
   color: #0B5188;
 }
+.avtar .hov .black-icon {
+  transition: display 0.2s;
+}
+.avtar .hov .blue-icon {
+  transition: display 0.2s;
+  display: none;
+}
 .avtar .hov:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 8px;
   z-index: 1000;
+}
+.avtar .hov:hover .black-icon {
+  display: none;
+}
+.avtar .hov:hover .blue-icon {
+  display: inline;
 }
 .avtar .gap-24 {
   gap: 24px;

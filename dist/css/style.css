@@ -14330,11 +14330,24 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 .avtar h4:hover, .avtar .h4:hover {
   color: #0B5188;
 }
+.avtar .hov .black-icon {
+  transition: display 0.2s;
+}
+.avtar .hov .blue-icon {
+  transition: display 0.2s;
+  display: none;
+}
 .avtar .hov:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 8px;
   z-index: 1000;
+}
+.avtar .hov:hover .black-icon {
+  display: none;
+}
+.avtar .hov:hover .blue-icon {
+  display: inline;
 }
 .avtar .gap-24 {
   gap: 24px;
@@ -15872,18 +15885,18 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 @media (max-width: 767px) {
   .header-slider .carousel-control-prev-icon {
-    width: 12px !important;
-    height: 16px !important;
+    width: 24px !important;
+    height: 24px !important;
   }
   .header-slider .carousel-control-next-icon {
-    width: 12px !important;
-    height: 16px !important;
+    width: 24px !important;
+    height: 24px !important;
   }
   .header-slider .carousel-control-prev, .header-slider .carousel-control-next {
     bottom: 12px !important;
     top: auto !important;
     opacity: 1 !important;
-    width: 2% !important;
+    width: 10% !important;
   }
   .header-slider p {
     padding-top: 0px;
@@ -17274,6 +17287,11 @@ img.not-active {
   border-radius: 8px;
   padding: 16px;
 }
+.suppliers .logo-ad .p-32 {
+  padding: 32px;
+  border: 1px solid #DFE3E6;
+  border-radius: 8px;
+}
 .suppliers .logo-ad p {
   font-family: "Roboto";
   font-style: normal;
@@ -17298,19 +17316,23 @@ img.not-active {
   padding-bottom: 14px;
 }
 .suppliers .logo-ad:hover .ad-img {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 9px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.suppliers .logo-ad:hover .p-32 {
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1);
 }
 .suppliers .logo-ad:hover h6, .suppliers .logo-ad:hover .h6 {
   color: #217BC0;
 }
 .suppliers .ad-img:hover {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
 }
 
 @media (max-width: 929px) {
   .suppliers {
-    padding: 0px 0px;
+    padding: 0px 24px;
   }
   .suppliers h1, .suppliers .h1 {
     font-family: "Roboto Slab";
@@ -17322,7 +17344,6 @@ img.not-active {
     padding: 0;
     margin: 0;
     padding-bottom: 24px;
-    padding-left: 24px;
   }
   .suppliers h1 span, .suppliers .h1 span {
     font-family: "Roboto Slab";
