@@ -16893,10 +16893,6 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 .suppliers .logo-ad:hover .ad-img-1 {
   box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1);
 }
-.suppliers .ad-img:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 8px;
-}
 
 @media (max-width: 929px) {
   .suppliers {
