@@ -4,32 +4,6 @@
   margin-bottom: 100px;
   position: relative;
 }
-#expanded-carousel .carousel-content {
-  width: 350px;
-  height: 180px;
-  position: absolute;
-  padding: 16px;
-  left: 165px;
-  bottom: -40px;
-  background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
-  color: #fff;
-}
-#expanded-carousel .carousel-content h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  color: #FFFFFF;
-}
-#expanded-carousel .carousel-content h2 {
-  font-family: "Roboto Serif";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-  color: #FFFFFF;
-}
 #expanded-carousel .bottom-content {
   position: absolute;
   left: 165px;
@@ -59,6 +33,41 @@
   width: 100%;
   cursor: pointer;
   object-fit: cover;
+}
+#expanded-carousel .carousel-body .carousel-img #img-1,
+#expanded-carousel .carousel-body .carousel-img #img-2,
+#expanded-carousel .carousel-body .carousel-img #img-3,
+#expanded-carousel .carousel-body .carousel-img #img-4 {
+  width: 350px;
+  height: 180px;
+  position: absolute;
+  padding: 16px;
+  left: 165px;
+  bottom: -40px;
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
+  color: #fff;
+}
+#expanded-carousel .carousel-body .carousel-img #img-1 h3,
+#expanded-carousel .carousel-body .carousel-img #img-2 h3,
+#expanded-carousel .carousel-body .carousel-img #img-3 h3,
+#expanded-carousel .carousel-body .carousel-img #img-4 h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#expanded-carousel .carousel-body .carousel-img #img-1 h2,
+#expanded-carousel .carousel-body .carousel-img #img-2 h2,
+#expanded-carousel .carousel-body .carousel-img #img-3 h2,
+#expanded-carousel .carousel-body .carousel-img #img-4 h2 {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
 }
 
 .carousel-img.active {
@@ -176,9 +185,12 @@
     object-fit: cover;
     cursor: pointer;
   }
-  #expanded-carousel .carousel-content {
+  #expanded-carousel .carousel-body .carousel-img #img-1,
+#expanded-carousel .carousel-body .carousel-img #img-2,
+#expanded-carousel .carousel-body .carousel-img #img-3,
+#expanded-carousel .carousel-body .carousel-img #img-4 {
     width: 327px;
-    height: 184px;
+    height: 130px;
     z-index: 1000;
     position: absolute;
     padding: 16px;
@@ -186,6 +198,28 @@
     top: 220px;
     background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
     color: #fff;
+  }
+  #expanded-carousel .carousel-body .carousel-img #img-1 h3,
+#expanded-carousel .carousel-body .carousel-img #img-2 h3,
+#expanded-carousel .carousel-body .carousel-img #img-3 h3,
+#expanded-carousel .carousel-body .carousel-img #img-4 h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  #expanded-carousel .carousel-body .carousel-img #img-1 h2,
+#expanded-carousel .carousel-body .carousel-img #img-2 h2,
+#expanded-carousel .carousel-body .carousel-img #img-3 h2,
+#expanded-carousel .carousel-body .carousel-img #img-4 h2 {
+    font-family: "Roboto Serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
   }
   #expanded-carousel .bottom-content {
     display: none;
