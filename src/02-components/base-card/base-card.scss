@@ -178,53 +178,76 @@
 .main-news-card:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-.main-news-card:hover .card-text{
-  color: #0B5188 !important;
-}
-
 @media (max-width: 929px){
 
   .group-card {
     padding-bottom: 64px;
     width: auto!important;
+    .main-news-card {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding:24px 0px;
+      margin: 0;
+      .img-top {
+        width: 100%!important;
+        overflow: initial;
+        .img-bar{
+          display:none;
+        }
+      }
+      .card-img-top {
+        border-radius: 8px;
+        padding-right: 0!important;
+      }
+      .card-body {
+        padding: 16px;
+        width: 100%!important;
+        .title-group{
+         .card-title {
+          font-size: 12px;
+          line-height: 18px;
+          font-weight: 500;
+        }
+        .title-icon{
+          display:none!important;
+        }
+      }
+      .card-text {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0px;
+        padding-top: 0px;
+          padding-bottom: 0px;
+      }
+      }
   }
-  .main-news-card {
-    display: flex!important;
-    flex-direction: row!important;
-    justify-content: center!important;
-    align-items: center!important;
-    padding:24px 0px;
-    margin: 0;
-}
-.img-top {
-  width: 100%!important;
-  .img-bar{
-    display:none!important;
   }
+
+
+
+
 }
-.card-img-top {
-  padding-right: 1rem!important;
-}
-.card-body {
-  padding: 0!important;
-  width: 100%!important;
-  .title-group{
-   .card-title {
-    font-size: 12px!important;
-    line-height: 18px!important;
-    font-weight: 500;
+@media (max-width: 575px){
+  .group-card {
+    .main-news-card {
+      .img-top {
+        width: 128px!important;
+      height: 128px;
+      overflow: initial;
+    }
+    .card-img-top {
+      width: 128px;
+      height: 128px;
+      max-width: 128px!important;
+      border-radius: 8px;
+      padding-right:0!important;
+    }
+    .card-body {
+      padding-left: 1rem;
+    }
+    }
   }
-  .title-icon{
-    display:none!important;
-  }
-}
-.card-text {
-  font-size: 14px!important;
-  line-height: 20px!important;
-  padding-right: 0px!important;
-  padding-top: 0px!important;
-    padding-bottom: 0px!important;
-}
-}
+
 }

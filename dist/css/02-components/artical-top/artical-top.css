@@ -35,6 +35,8 @@
 }
 .top-artical .w-48 {
   width: 48px !important;
+  height: 48px;
+  border-radius: 100px;
 }
 
 @media (max-width: 929px) {
