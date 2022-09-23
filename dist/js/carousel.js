@@ -1,14 +1,14 @@
 
 const cLayers = document.querySelectorAll('.layer');
 
-const cImages = document.querySelectorAll('.img');
+const cImages = document.querySelectorAll('.carousel-img');
 
 
 cLayers.forEach(function(layer) {
     
     layer.addEventListener('click', function(event) {
 
-        let img = $(this).next()[0];
+        let img = $(this).parent()[0];
         
 
         if( img.classList.contains('not-active') ) {
@@ -17,9 +17,9 @@ cLayers.forEach(function(layer) {
                 oimg.classList.remove('active');
                 oimg.classList.add('not-active');
                 
-                $(oimg).prev().show()
-                $('#' + $(oimg).prev().data('id')).hide()
-                $('#' + $(oimg).prev().data('content')).hide()
+                $(oimg).find(':first-child').fadeIn('slow');
+                $('#' +  $(oimg).find(':first-child').data('id')).hide();
+                $('#' +  $(oimg).find(':first-child').data('content')).hide();
             });
 
             img.classList.remove('not-active');
