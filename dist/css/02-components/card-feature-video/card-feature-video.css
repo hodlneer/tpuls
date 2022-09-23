@@ -70,7 +70,7 @@
   font-size: 18px;
   line-height: 28px;
   color: #FFFFFF;
-  padding-bottom: 6px;
+  padding-bottom: 0px;
   margin: 0;
 }
 .card-feature-video .about h3 {
@@ -91,7 +91,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #FFFFFF;
-  padding-bottom: 16px;
+  padding-bottom: 0px;
 }
 .card-feature-video .about .btn-about {
   font-family: "Roboto";
@@ -102,7 +102,7 @@
   color: #82045F;
   background: #FFFFFF;
   border: 1px solid #82045F;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
   padding: 8px 33px;
   border-radius: 22px;
 }

@@ -21,6 +21,7 @@ color: #FFFFFF;
 .card-image{
     overflow: hidden;
     position: relative;
+    border-radius: 8px;
 }
 img{
     transition: transform 0.6s;
@@ -67,7 +68,7 @@ img{
       transform: translateX(-100%);
     }
     .card-ar:hover .card-image {
-        border-radius: 12px;
+        border-radius: 8px;
       }
     .card-ar:hover p {
     color: black;
@@ -75,7 +76,7 @@ img{
   .card-ar:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: #FFFFFF;
-    border-radius: 12px;
+    border-radius: 8px;
   }
   @media (max-width: 929px){
     .artical-card-1{

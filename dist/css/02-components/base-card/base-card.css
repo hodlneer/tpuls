@@ -157,40 +157,59 @@
     padding-bottom: 64px;
     width: auto !important;
   }
-  .main-news-card {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    align-items: center !important;
+  .group-card .main-news-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 24px 0px;
     margin: 0;
   }
-  .img-top {
+  .group-card .main-news-card .img-top {
+    width: 100% !important;
+    overflow: initial;
+  }
+  .group-card .main-news-card .img-top .img-bar {
+    display: none;
+  }
+  .group-card .main-news-card .card-img-top {
+    border-radius: 8px;
+    padding-right: 0 !important;
+  }
+  .group-card .main-news-card .card-body {
+    padding: 16px;
     width: 100% !important;
   }
-  .img-top .img-bar {
-    display: none !important;
-  }
-  .card-img-top {
-    padding-right: 1rem !important;
-  }
-  .card-body {
-    padding: 0 !important;
-    width: 100% !important;
-  }
-  .card-body .title-group .card-title {
-    font-size: 12px !important;
-    line-height: 18px !important;
+  .group-card .main-news-card .card-body .title-group .card-title {
+    font-size: 12px;
+    line-height: 18px;
     font-weight: 500;
   }
-  .card-body .title-group .title-icon {
+  .group-card .main-news-card .card-body .title-group .title-icon {
     display: none !important;
   }
-  .card-body .card-text {
-    font-size: 14px !important;
-    line-height: 20px !important;
-    padding-right: 0px !important;
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
+  .group-card .main-news-card .card-body .card-text {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 575px) {
+  .group-card .main-news-card .img-top {
+    width: 128px !important;
+    height: 128px;
+    overflow: initial;
+  }
+  .group-card .main-news-card .card-img-top {
+    width: 128px;
+    height: 128px;
+    max-width: 128px !important;
+    border-radius: 8px;
+    padding-right: 0 !important;
+  }
+  .group-card .main-news-card .card-body {
+    padding-left: 1rem;
   }
 }

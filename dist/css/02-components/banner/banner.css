@@ -2,29 +2,29 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px !important;
-  gap: 8px !important;
-  width: 303px !important;
-  height: 5px !important;
-  margin-bottom: 12rem !important;
-  margin-left: 0% !important;
-  left: 97px !important;
+  padding: 0px;
+  gap: 8px;
+  width: 303px;
+  height: 5px;
+  margin-bottom: 12rem;
+  margin-left: 0%;
+  left: 97px;
 }
 .banner .carousel-control-prev-icon {
-  width: 44px !important;
-  height: 44px !important;
-  background-color: rgba(0, 0, 0, 0.2) !important;
-  border-radius: 27px !important;
-  padding: 12px 12px !important;
-  background-image: url(../images/png/card/chevron-left.svg) !important;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 27px;
+  padding: 12px 12px;
+  background-image: url(../images/png/card/chevron-left.svg);
 }
 .banner .carousel-control-next-icon {
-  width: 44px !important;
-  height: 44px !important;
-  background-color: rgba(0, 0, 0, 0.2) !important;
-  border-radius: 27px !important;
-  padding: 12px 12px !important;
-  background-image: url(../images/png/card/chevron-right.svg) !important;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 27px;
+  padding: 12px 12px;
+  background-image: url(../images/png/card/chevron-right.svg);
 }
 .banner .bg {
   display: flex;
