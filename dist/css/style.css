@@ -15329,7 +15329,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 .card-border-1 .header-sm {
   padding-top: 0px;
-  padding-bottom: 8px;
+  margin-bottom: 67px;
 }
 .card-border-1 .header-sm h3, .card-border-1 .header-sm .h3 {
   font-family: "Roboto";

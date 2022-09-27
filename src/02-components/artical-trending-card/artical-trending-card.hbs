@@ -1,19 +1,19 @@
 <section class="artical-trending-card">
     <div class="container">
-        <div class="row">
+        <div class="row d-lg-flex d-none">
             <div class="col-lg-4">
                 {{>card-border-1 title="Trending Now"}} 
             </div>
             <div class="col-lg-4">
-                {{>card-border-1 title="Trending Now"}} 
+                {{>card-border-1 title="Most Read on TravelPulse"}} 
             </div>
             <div class="col-lg-4">
-                {{>card-border-1 title="Trending Now"}} 
+                {{>card-border-1 title="Latest Industry Voices"}} 
             </div>
         </div>
         <div class="row">
             {{#each cards}}
-                <div class="col-lg-4 ">
+                <div class="col-lg-4">
                     {{>base-card card=this}}
                 </div>
             {{/each}}
