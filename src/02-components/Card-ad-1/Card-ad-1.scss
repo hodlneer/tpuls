@@ -1,29 +1,32 @@
-.card-ad-1{
+.card-aadd-1 {
     padding-top: 72px;
     padding-bottom: 0px;
-    .ab-card{
+
+    .aabb-card {
         padding: 6px 25px 25px;
-background: #EFEFEF;
-p{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 14px;
-text-align: center;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-margin: 0;
-color: #929292;
-padding-bottom: 6px;
-padding-top: 3px;
-}
+        background: #EFEFEF;
+
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin: 0;
+            color: #929292;
+            padding-bottom: 6px;
+            padding-top: 3px;
+        }
 
     }
 }
-@media (max-width: 930px){
-    .card-ad-1{
-        padding-top: 0!important;
+
+@media (max-width: 930px) {
+    .card-aadd-1 {
+        padding-top: 0 !important;
         padding-left: 16px;
         padding-right: 16px;
     }

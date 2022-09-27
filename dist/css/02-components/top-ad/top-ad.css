@@ -1,9 +1,9 @@
-.horizontal-top-ad {
+.horizontal-top-aadd {
   background: #efefef;
   height: 301px;
   padding: 6px 25px 25px;
 }
-.horizontal-top-ad .label {
+.horizontal-top-aadd .label {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -13,6 +13,6 @@
   text-transform: uppercase;
   color: #929292;
 }
-.horizontal-top-ad .ad-img img {
+.horizontal-top-aadd .aadd-img img {
   max-height: 250px;
 }

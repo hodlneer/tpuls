@@ -1,9 +1,9 @@
-.horizontal-ad {
+.horizontal-aadd {
   background: #efefef;
   height: 301px;
   padding: 6px 25px 25px;
 }
-.horizontal-ad .label {
+.horizontal-aadd .label {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -16,6 +16,6 @@
   padding-bottom: 6px;
   padding-top: 3px;
 }
-.horizontal-ad .ad-img img {
+.horizontal-aadd .aadd-img img {
   max-height: 250px;
 }

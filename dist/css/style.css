@@ -13632,11 +13632,11 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   background-color: white;
 }
 
-.ad-1 {
+.aadd-1 {
   position: relative;
   padding: 64px 0px;
 }
-.ad-1 .ad-2 {
+.aadd-1 .aadd-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13644,7 +13644,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   gap: 6px;
   background: #EFEFEF;
 }
-.ad-1 P {
+.aadd-1 P {
   margin: 0;
   font-family: "Roboto";
   font-style: normal;
@@ -13657,11 +13657,11 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #929292;
 }
 
-.ad-2 {
+.aadd-2 {
   position: relative;
   padding: 64px 0px;
 }
-.ad-2 .ad-3 {
+.aadd-2 .aadd-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13669,7 +13669,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   gap: 6px;
   background: #EFEFEF;
 }
-.ad-2 P {
+.aadd-2 P {
   margin: 0;
   font-family: "Roboto";
   font-style: normal;
@@ -13682,12 +13682,12 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #929292;
 }
 
-.ad {
+.aadd {
   position: relative;
   top: 64px;
   height: 250px;
 }
-.ad .ad-2 {
+.aadd .aadd-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13695,7 +13695,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   gap: 6px;
   background: #EFEFEF;
 }
-.ad P {
+.aadd P {
   margin: 0;
   font-family: "Roboto";
   font-style: normal;
@@ -15266,15 +15266,15 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     padding: 11px 32px 11px 32px !important;
   }
 }
-.card-ad-1 {
+.card-aadd-1 {
   padding-top: 72px;
   padding-bottom: 0px;
 }
-.card-ad-1 .ab-card {
+.card-aadd-1 .aabb-card {
   padding: 6px 25px 25px;
   background: #EFEFEF;
 }
-.card-ad-1 .ab-card p {
+.card-aadd-1 .aabb-card p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -15290,21 +15290,21 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 
 @media (max-width: 930px) {
-  .card-ad-1 {
+  .card-aadd-1 {
     padding-top: 0 !important;
     padding-left: 16px;
     padding-right: 16px;
   }
 }
-.card-ad {
+.card-aadd {
   padding-top: 72px;
   padding-bottom: 82px;
 }
-.card-ad .ab-card {
+.card-aadd .aabb-card {
   padding: 6px 25px 25px;
   background: #EFEFEF;
 }
-.card-ad .ab-card p {
+.card-aadd .aabb-card p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -15320,7 +15320,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 
 @media (max-width: 930px) {
-  .card-ad {
+  .card-aadd {
     padding-top: 0 !important;
     padding-left: 16px;
     padding-right: 16px;
@@ -15867,12 +15867,12 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     padding-bottom: 15px;
   }
 }
-.horizontal-ad {
+.horizontal-aadd {
   background: #efefef;
   height: 301px;
   padding: 6px 25px 25px;
 }
-.horizontal-ad .label {
+.horizontal-aadd .label {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -15885,7 +15885,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-bottom: 6px;
   padding-top: 3px;
 }
-.horizontal-ad .ad-img img {
+.horizontal-aadd .aadd-img img {
   max-height: 250px;
 }
 
@@ -17487,12 +17487,12 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #BFC6CC;
 }
 
-.horizontal-top-ad {
+.horizontal-top-aadd {
   background: #efefef;
   height: 301px;
   padding: 6px 25px 25px;
 }
-.horizontal-top-ad .label {
+.horizontal-top-aadd .label {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -17502,7 +17502,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   text-transform: uppercase;
   color: #929292;
 }
-.horizontal-top-ad .ad-img img {
+.horizontal-top-aadd .aadd-img img {
   max-height: 250px;
 }
 

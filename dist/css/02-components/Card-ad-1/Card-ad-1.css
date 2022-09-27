@@ -1,12 +1,12 @@
-.card-ad-1 {
+.card-aadd-1 {
   padding-top: 72px;
   padding-bottom: 0px;
 }
-.card-ad-1 .ab-card {
+.card-aadd-1 .aabb-card {
   padding: 6px 25px 25px;
   background: #EFEFEF;
 }
-.card-ad-1 .ab-card p {
+.card-aadd-1 .aabb-card p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 930px) {
-  .card-ad-1 {
+  .card-aadd-1 {
     padding-top: 0 !important;
     padding-left: 16px;
     padding-right: 16px;

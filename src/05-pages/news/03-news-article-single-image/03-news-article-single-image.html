@@ -1,9 +1,12 @@
-{{>html-head title=news_article_quebec.title}}
+{{>html-head title=news-article-single-image.title}}
 {{>horizontal-ad}}
   {{>breadcrumbs}}
   {{>page-header}}
-  {{>headerslider}}
+  <div class="d-lg-block d-none">
+  {{>headerslider }}
+</div>
   {{>banner-artical}}
+  {{>sticky-note-blue}}
   {{>artical-top}}
   {{>artical}}
   {{>avtar}}
@@ -11,7 +14,7 @@
   {{>Suppliers-card}}
   {{>artical-card-1}}
   {{>ad-1}}
-  {{>trending-card cards=news-filtered-a-desktop.trendingCards}}
+  {{>artical-trending-card cards=news-article-single-image.trendingCards}}
   {{>artical-feature-card}}
   {{>ad}}
   {{>footer}}

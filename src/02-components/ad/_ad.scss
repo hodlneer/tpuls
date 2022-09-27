@@ -1,26 +1,27 @@
-.ad {
+.aadd {
   position: relative;
-    top: 64px;
-    height: 250px;
-  .ad-2{
+  top: 64px;
+  height: 250px;
+
+  .aadd-2 {
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 6px 25px 25px;
-gap: 6px;
-background: #EFEFEF;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 25px 25px;
+    gap: 6px;
+    background: #EFEFEF;
   }
-  P
-  {
+
+  P {
     margin: 0;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 14px;
-text-align: center;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-color: #929292;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #929292;
   }
 }
