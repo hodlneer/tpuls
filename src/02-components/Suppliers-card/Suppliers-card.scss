@@ -1,117 +1,131 @@
-.suppliers{
+.suppliers {
     padding-top: 48px;
-    .border-bottom-b{
+
+    .border-bottom-b {
         border-bottom: 3px solid #217BC0;
         margin-left: 16px;
     }
-    h1{
+
+    h1 {
         font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 200;
-font-size: 48px;
-line-height: 63px;
-color: black;
-padding-bottom: 40px;
-span{
-    font-weight: 400;
-font-size: 48px;
-line-height: 63px;
-color:black;
-}
+        font-style: normal;
+        font-weight: 200;
+        font-size: 48px;
+        line-height: 63px;
+        color: black;
+        padding-bottom: 40px;
+
+        span {
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 63px;
+            color: black;
+        }
     }
 
-    .logo-ad{
+    .logo-aadd {
         background: #F4EDFC;
-border-radius: 8px;
-padding: 16px;
-.p-32{
-    padding: 32px;
-    border: 1px solid #DFE3E6;
-border-radius: 8px;
-}
-.ad-img-1{
-    padding: 32px;
-    border: 1px solid #DFE3E6;
-border-radius: 8px;
-}
-p{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-text-align: center;
-color: #000000;
-padding-bottom: 12px;
-margin: 0;
-}
-h6{
-    margin: 0;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 18px;
-text-align: center;
-color: #000000;
-padding-top: 24px;
-    padding-bottom: 14px;
-}
+        border-radius: 8px;
+        padding: 16px;
+
+        .p-32 {
+            padding: 32px;
+            border: 1px solid #DFE3E6;
+            border-radius: 8px;
+        }
+
+        .aadd-img-1 {
+            padding: 32px;
+            border: 1px solid #DFE3E6;
+            border-radius: 8px;
+        }
+
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+            color: #000000;
+            padding-bottom: 12px;
+            margin: 0;
+        }
+
+        h6 {
+            margin: 0;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+            color: #000000;
+            padding-top: 24px;
+            padding-bottom: 14px;
+        }
     }
 
-    .logo-ad:hover .p-32{
+    .logo-aadd:hover .p-32 {
         box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1);
     }
-    
-    .logo-ad:hover h6 {
+
+    .logo-aadd:hover h6 {
         color: #217BC0;
     }
-    .logo-ad:hover .ad-img-1{
+
+    .logo-aadd:hover .aadd-img-1 {
         box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1);
     }
 }
-@media (max-width: 929px){
 
-    .suppliers{
+@media (max-width: 929px) {
+
+    .suppliers {
         padding: 0px 24px;
-        h1{
+
+        h1 {
             font-family: 'Roboto Slab';
             font-style: normal;
             font-weight: 200;
             font-size: 20px;
             line-height: 26px;
             color: #000000;
-            padding:0;
+            padding: 0;
             margin: 0;
             padding-bottom: 24px;
-    span{
-        font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 26px;
-color: #000000;
-    }
-    .border-bottom-b{
-        margin-left:0;
-    }
+
+            span {
+                font-family: 'Roboto Slab';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 26px;
+                color: #000000;
+            }
+
+            .border-bottom-b {
+                margin-left: 0;
+            }
         }
-        p{
+
+        p {
             font-family: 'Roboto Serif';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-padding-top: 16px;
-padding-bottom: 10px;
-color: #000000;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            padding-top: 16px;
+            padding-bottom: 10px;
+            color: #000000;
         }
-      
+
     }
-    .w-img-100{
+
+    .w-img-100 {
         width: 100%;
         padding-bottom: 10px;
         box-shadow: 0px 4px 8px -2px rgb(16 24 40 / 10%), 0px 2px 4px -2px rgb(16 24 40 / 6%);
-    border-radius: 8px!important;
+        border-radius: 8px !important;
     }
 }
