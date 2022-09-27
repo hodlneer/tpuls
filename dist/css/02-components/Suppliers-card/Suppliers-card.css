@@ -71,6 +71,7 @@
 @media (max-width: 929px) {
   .suppliers {
     padding: 0px 24px;
+    text-align: center;
   }
   .suppliers h1 {
     font-family: "Roboto Slab";
