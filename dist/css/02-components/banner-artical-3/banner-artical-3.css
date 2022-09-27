@@ -1,10 +1,10 @@
-.banner-artical {
+.banner-artical-3 {
   background-image: url(../images/png/card/banner-a.png);
-  padding-top: 153px;
+  padding-top: 113px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.banner-artical h1 {
+.banner-artical-3 h1 {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 500;
@@ -16,7 +16,7 @@
   padding-bottom: 147px;
   margin: 0;
 }
-.banner-artical p {
+.banner-artical-3 p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -28,16 +28,16 @@
 }
 
 @media (max-width: 929px) {
-  .banner-artical-sm {
+  .banner-artical-sm-5 {
     background-image: url(../images/png/card/Rectangle2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
   }
-  .banner-artical-sm-1 {
+  .banner-artical-sm-6 {
     padding: 24px;
   }
-  .banner-artical-sm-1 h3 {
+  .banner-artical-sm-6 h3 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -46,7 +46,7 @@
     /* identical to box height, or 150% */
     color: #0267B7;
   }
-  .banner-artical-sm-1 h1 {
+  .banner-artical-sm-6 h1 {
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 500;
@@ -57,7 +57,7 @@
     /* Base/Black */
     color: #000000;
   }
-  .banner-artical-sm-1 p {
+  .banner-artical-sm-6 p {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;

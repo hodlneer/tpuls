@@ -1,0 +1,15 @@
+.card-border-1 .header-sm {
+  padding-top: 0px;
+  padding-bottom: 8px;
+}
+.card-border-1 .header-sm h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0B5188;
+}
+.card-border-1 .border-bottom-sm {
+  border-bottom: 7px solid #DFE3E6 !important;
+}

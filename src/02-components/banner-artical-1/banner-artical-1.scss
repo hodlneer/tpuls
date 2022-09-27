@@ -1,0 +1,26 @@
+.banner-artical-1{
+    background-image: url(../images/jpg/banner/Hero-Article.jpg);
+    padding-top: 153px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    p{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+padding-top: 385px;
+padding-bottom: 15px;
+margin: 0;
+text-align: center;
+color: #FFFFFF;
+    }
+}
+@media (max-width: 929px){
+    .banner-artical-1{
+        height: 201px;
+        p{
+            display:none;
+        }
+    }
+}

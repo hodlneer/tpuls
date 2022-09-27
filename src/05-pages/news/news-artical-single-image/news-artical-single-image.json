@@ -1,3 +1,39 @@
 {
-    "title": "news-artical-single-image"
+    "title": "news-artical-single-image",
+    "cardHeadings":[
+     "Trending Now",
+     "Most Read on TravelPulse",
+     "Latest Industry Voices"
+
+    ],
+    "trendingCards": [
+        {
+            "isFeatured": false,
+            "isLightFeatured": true,
+            "cardImageUrl": "/images/png/card/card-image-8-2x.png",
+            "title": "AIRLINES & AIRPORTS",
+            "titleIcon": "card icon",
+            "bodyText": "Weekend Brings Highest Passenger Numbers Since Before COVID-19",
+            "author": "Livia Geidt"
+        },
+        {
+            "isFeatured": true,
+            "isLightFeatured": true,
+            "cardImageUrl": "/images/png/card/card-image-9-2x.png",
+            "title": "BUSINESS TRAVEL",
+            "titleIcon": "card icon",
+            "bodyText": "Is Business Travel Finally Coming Back?",
+            "author": "Livia Geidt"
+        },
+        {
+            "isFeatured": false,
+            "isLightFeatured": true,
+            "cardImageUrl": "/images/png/card/card-image-10-2x.png",
+            "title": "BUSINESS TRAVEL",
+            "titleIcon": "card icon",
+            "bodyText": "Is Business Travel Finally Coming Back?",
+            "author": "Livia Geidt"
+        }
+    ]
+
 }

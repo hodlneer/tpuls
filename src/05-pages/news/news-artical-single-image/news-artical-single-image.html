@@ -2,7 +2,9 @@
 {{>horizontal-ad}}
   {{>breadcrumbs}}
   {{>page-header}}
-  {{>headerslider}}
+  <div class="d-lg-block d-none">
+  {{>headerslider }}
+</div>
   {{>banner-artical}}
   {{>sticky-note-blue}}
   {{>artical-top}}
@@ -12,7 +14,7 @@
   {{>Suppliers-card}}
   {{>artical-card-1}}
   {{>ad-1}}
-  {{>trending-card cards=news-filtered-a-desktop.trendingCards}}
+  {{>artical-trending-card cards=news-artical-single-image.trendingCards headings=news-artical-single-image.cardHeadings}}
   {{>artical-feature-card}}
   {{>ad}}
   {{>footer}}
