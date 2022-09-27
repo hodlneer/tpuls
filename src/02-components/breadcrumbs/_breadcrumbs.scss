@@ -38,6 +38,15 @@ a{
 @media (max-width: 767px){
 .breadcums{
   padding: 11px 32px 11px 32px!important;
+  background: #ffff;
+  li{
+    a{
+      color:#0B5188!important;
+    }
+  }
+  .border-left-1{
+    border-color:#0B5188!important;
+  }
 }
 
 }

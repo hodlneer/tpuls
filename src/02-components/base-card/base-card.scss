@@ -234,16 +234,17 @@
   .group-card {
     .main-news-card {
       .img-top {
-        width: 128px!important;
-      height: 128px;
-      overflow: initial;
+        width: 128px !important;
+        height: 128px;
+        overflow: initial;
     }
     .card-img-top {
       width: 128px;
-      height: 128px;
+      height: 100%;
       max-width: 128px!important;
       border-radius: 8px;
       padding-right:0!important;
+      object-fit: cover;
     }
     .card-body {
       padding-left: 1rem;

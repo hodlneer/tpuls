@@ -1,6 +1,8 @@
 {{>html-head title=news-article-single-image.title}}
 {{>horizontal-ad}}
+<div class="d-lg-block d-none">
   {{>breadcrumbs}}
+  </div>
   {{>page-header}}
   <div class="d-lg-block d-none">
   {{>headerslider }}
@@ -10,11 +12,22 @@
   {{>artical-top}}
   {{>artical}}
   {{>avtar}}
+  <div class="d-lg-block d-none">
   {{>line-artical}}
+</div>
+<div class="d-lg-block d-none">
   {{>Suppliers-card}}
+  </div>
   {{>artical-card-1}}
   {{>ad-1}}
+<<<<<<< HEAD:src/05-pages/news/03-news-article-single-image/03-news-article-single-image.html
   {{>artical-trending-card cards=news-article-single-image.trendingCards}}
+=======
+  {{>artical-trending-card cards=news-artical-single-image.trendingCards headings=news-artical-single-image.cardHeadings}}
+  <div class="d-lg-none d-block">
+    {{>line-artical}}
+  </div>
+>>>>>>> 24bb55555792aa7a4b7252b23d4c62dc72eb19e7:src/05-pages/news/news-artical-single-image/news-artical-single-image.html
   {{>artical-feature-card}}
   {{>ad}}
   {{>footer}}

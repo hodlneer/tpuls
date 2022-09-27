@@ -37,3 +37,9 @@
   line-height: 20px;
   color: #566673;
 }
+
+@media (max-width: 929px) {
+  .line {
+    margin: -64px 0px 64px 0px;
+  }
+}

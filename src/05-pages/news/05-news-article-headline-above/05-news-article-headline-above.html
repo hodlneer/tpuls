@@ -1,18 +1,29 @@
 {{>html-head title=news-article-headline-above.title}}
 {{>horizontal-ad}}
+<div class="d-lg-block d-none">
   {{>breadcrumbs}}
+  </div>
   {{>page-header}}
-  {{>headerslider}}
+  <div class="d-lg-block d-none">
+    {{>headerslider }}
+  </div>
   {{>artical-heading}}
   {{>banner-artical-1}}
   {{>artical-top}}
   {{>artical}}
   {{>avtar}}
-  {{>line-artical}}
-  {{>Suppliers-card}}
+  <div class="d-lg-block d-none">
+    {{>line-artical}}
+  </div>
+  <div class="d-lg-block d-none">
+    {{>Suppliers-card}}
+    </div>
   {{>artical-card-1}}
   {{>ad-1}}
   {{>trending-card cards=news-filtered-a-desktop.trendingCards}}
+  <div class="d-lg-none d-block">
+    {{>line-artical}}
+  </div>
   {{>artical-feature-card}}
   {{>ad}}
   {{>footer}}

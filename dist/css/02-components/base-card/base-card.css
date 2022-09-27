@@ -204,10 +204,11 @@
   }
   .group-card .main-news-card .card-img-top {
     width: 128px;
-    height: 128px;
+    height: 100%;
     max-width: 128px !important;
     border-radius: 8px;
     padding-right: 0 !important;
+    object-fit: cover;
   }
   .group-card .main-news-card .card-body {
     padding-left: 1rem;
