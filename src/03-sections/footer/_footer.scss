@@ -8,6 +8,13 @@
     color: #FFFFFF!important;
   }
  }
+ li{
+  a{
+    &:hover{
+      color: #B2BBC4!important;
+    }
+  }
+ }
 }
 li
 {

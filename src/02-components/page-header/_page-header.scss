@@ -29,6 +29,7 @@ background-color: #0B3D64;
           color: $primary-white;
           position: relative;
           bottom: -7px;
+          text-transform: uppercase;
               &:hover {
                   color: $Secondary;
               }
@@ -366,6 +367,7 @@ background-color: #0B3D64;
         bottom: 0px;
         padding-top: 16px;
         padding-bottom: 16px;
+        text-transform: capitalize;
             &::before {
                     content: '';
                     background: url(../images/png/header/icon-down.png) no-repeat;
@@ -526,6 +528,9 @@ color: #FFFFFF;
 }
 .navbar {
   padding: 16px 24px;
+  position: sticky;
+    top: 0;
+    z-index: 1020;
   .navbar-brand {
       margin: auto;
       img {
@@ -559,6 +564,9 @@ ul{
     padding-right: 0px !important; 
     padding-top: 7px !important; 
     padding-bottom:0px !important; 
+    position: sticky;
+    top: 0;
+    z-index: 1020;
   }
   .navbar-collapse{
     max-width: 100%;

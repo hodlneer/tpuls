@@ -15290,7 +15290,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   border-radius: 100%;
 }
 .breadcums .dropdown-menu.show {
-  padding: 14px 16px 16px 14px !important;
+  padding: 16px 0px 16px 0px !important;
 }
 .breadcums .pb-20 {
   padding-bottom: 20px;
@@ -16360,6 +16360,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   color: #fff;
   position: relative;
   bottom: -7px;
+  text-transform: uppercase;
 }
 .grid-nav-li .grid-nav-link:hover {
   color: #B2BBC4;
@@ -16647,6 +16648,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     bottom: 0px;
     padding-top: 16px;
     padding-bottom: 16px;
+    text-transform: capitalize;
   }
   .grid-nav-li .grid-nav-link::before {
     content: "";
@@ -16787,6 +16789,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   }
   .navbar {
     padding: 16px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
   }
   .navbar .navbar-brand {
     margin: auto;
@@ -16818,6 +16823,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     padding-right: 0px !important;
     padding-top: 7px !important;
     padding-bottom: 0px !important;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
   }
   .navbar-collapse {
     max-width: 100%;
@@ -17685,6 +17693,9 @@ input[type=radio]:checked {
 }
 .footer a:hover {
   color: #FFFFFF !important;
+}
+.footer li a:hover {
+  color: #B2BBC4 !important;
 }
 
 li {
