@@ -2,6 +2,10 @@
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.top-artical #shere-btns {
+  position: absolute;
+  left: -96px;
+}
 .top-artical p {
   font-family: "Roboto";
   font-style: normal;
