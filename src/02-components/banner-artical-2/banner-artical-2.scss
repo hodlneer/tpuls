@@ -14,7 +14,10 @@
     padding-top: 113px;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    .video-js {
+        width: 1109px;
+        height: 650px;
+      }
     .modal-dialog {
         max-width: 1190px;
         height: 650px;

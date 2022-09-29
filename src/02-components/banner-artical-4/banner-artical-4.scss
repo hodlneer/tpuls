@@ -1,0 +1,175 @@
+.banner-articel-4{
+    background-image: url(../images/jpg/banner/Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .modal-backdrop {
+        opacity: 0!important;
+        display:none
+    }
+    .modal-backdrop.in {
+        opacity: 0!important;
+    }
+    .modal {
+        z-index: inherit !important;
+        position: relative;
+    }
+    .modal-dialog {
+        max-width: 1190px;
+        height: 650px;
+        margin: 0px auto;
+    }
+    .modal-content{
+        border-radius: unset!important;
+        border-width: 0px;
+
+    }
+  .modal-body {
+    position:relative;
+    padding:0px;
+  }
+  .btn-close {
+    position:absolute;
+    right:3px;
+    top:3;
+    background: transparent url(../images/svg/icons/x-close.svg)!important;
+  }
+    .p-121{
+        padding: 121px 0px;
+    }
+    span{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+padding-bottom: 8px;
+text-align: center;
+color: #FFFFFF;
+    }
+    h1{
+        font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 60px;
+margin: 0;
+text-align: center;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+    }
+    p{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+margin: 0;
+text-align: center;
+color: #FFFFFF;
+padding-bottom: 18px;
+    }
+    .carousel-item-bg{
+        background-image: url(../images/jpg/banner/slider.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 240px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 160px;
+    h3{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+margin: 0;
+color: #FFFFFF;
+    }
+    h4{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+margin: 0;
+color: #FFFFFF;
+padding: 4px 0px;
+    }
+    h5{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+margin: 0;
+color: #FFFFFF;
+    }
+    p{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+margin: 0;
+width: 600px;
+    text-align: justify;
+    padding-left: 32px;
+    }
+    }
+    .carousel-item-bg-1{
+        background-image: url(../images/jpg/banner/slider-1.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 240px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 160px;
+    h3{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+margin: 0;
+color: #FFFFFF;
+    }
+    h4{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+margin: 0;
+color: #FFFFFF;
+padding: 4px 0px;
+    }
+    h5{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+margin: 0;
+color: #FFFFFF;
+    }
+    p{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+margin: 0;
+width: 600px;
+    text-align: justify;
+    padding-left: 32px;
+    }
+    }
+    .carousel-item-bg-2{
+        background-image: url(../images/jpg/banner/slider-2.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    height: 624px;
+    }
+}
