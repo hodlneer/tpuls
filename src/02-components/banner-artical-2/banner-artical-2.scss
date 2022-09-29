@@ -1,8 +1,39 @@
+.modal-backdrop {
+    opacity: 0!important;
+    display:none
+}
+.modal-backdrop.in {
+    opacity: 0!important;
+}
+.modal {
+    z-index: inherit !important;
+    position: relative;
+}
 .banner-artical-2{
     background-image: url(../images/png/card/banner-a.png);
     padding-top: 113px;
     background-repeat: no-repeat;
     background-size: cover;
+   
+    .modal-dialog {
+        max-width: 1190px;
+        height: 650px;
+        margin: 30px auto;
+    }
+    .modal-content{
+        border-radius: unset!important;
+
+    }
+  .modal-body {
+    position:relative;
+    padding:0px;
+  }
+  .btn-close {
+    position:absolute;
+    right:3px;
+    top:3;
+    background: transparent url(../images/svg/icons/x-close.svg)!important;
+  }
 h1{
     font-family: 'Roboto Slab';
 font-style: normal;

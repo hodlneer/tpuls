@@ -1,8 +1,40 @@
+.modal-backdrop {
+  opacity: 0 !important;
+  display: none;
+}
+
+.modal-backdrop.in {
+  opacity: 0 !important;
+}
+
+.modal {
+  z-index: inherit !important;
+  position: relative;
+}
+
 .banner-artical-2 {
   background-image: url(../images/png/card/banner-a.png);
   padding-top: 113px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.banner-artical-2 .modal-dialog {
+  max-width: 1190px;
+  height: 650px;
+  margin: 30px auto;
+}
+.banner-artical-2 .modal-content {
+  border-radius: unset !important;
+}
+.banner-artical-2 .modal-body {
+  position: relative;
+  padding: 0px;
+}
+.banner-artical-2 .btn-close {
+  position: absolute;
+  right: 3px;
+  top: 3;
+  background: transparent url(../images/svg/icons/x-close.svg) !important;
 }
 .banner-artical-2 h1 {
   font-family: "Roboto Slab";

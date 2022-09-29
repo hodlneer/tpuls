@@ -13644,6 +13644,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   gap: 6px;
   background: #EFEFEF;
 }
+.aadd-1 .aadd-2 img {
+  max-height: 250px;
+}
 .aadd-1 P {
   margin: 0;
   font-family: "Roboto";
@@ -13669,6 +13672,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   gap: 6px;
   background: #EFEFEF;
 }
+.aadd-2 .aadd-3 img {
+  max-height: 250px;
+}
 .aadd-2 P {
   margin: 0;
   font-family: "Roboto";
@@ -13684,8 +13690,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 
 .aadd {
   position: relative;
-  top: 64px;
-  height: 250px;
+  top: 144px;
 }
 .aadd .aadd-2 {
   display: flex;
@@ -13694,6 +13699,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding: 6px 25px 25px;
   gap: 6px;
   background: #EFEFEF;
+}
+.aadd .aadd-2 img {
+  max-height: 250px !important;
 }
 .aadd P {
   margin: 0;
@@ -14842,11 +14850,43 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     display: none;
   }
 }
+.modal-backdrop {
+  opacity: 0 !important;
+  display: none;
+}
+
+.modal-backdrop.in {
+  opacity: 0 !important;
+}
+
+.modal {
+  z-index: inherit !important;
+  position: relative;
+}
+
 .banner-artical-2 {
   background-image: url(../images/png/card/banner-a.png);
   padding-top: 113px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.banner-artical-2 .modal-dialog {
+  max-width: 1190px;
+  height: 650px;
+  margin: 30px auto;
+}
+.banner-artical-2 .modal-content {
+  border-radius: unset !important;
+}
+.banner-artical-2 .modal-body {
+  position: relative;
+  padding: 0px;
+}
+.banner-artical-2 .btn-close {
+  position: absolute;
+  right: 3px;
+  top: 3;
+  background: transparent url(../images/svg/icons/x-close.svg) !important;
 }
 .banner-artical-2 h1, .banner-artical-2 .h1 {
   font-family: "Roboto Slab";
@@ -16138,15 +16178,6 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-top: 12px;
 }
 
-@media (max-width: 929px) {
-  .light-featuer-card-tag {
-    width: 0 !important;
-    height: 0 !important;
-  }
-  .label {
-    display: none;
-  }
-}
 .line {
   display: block;
   margin: 64px 0px 64px 0px;
