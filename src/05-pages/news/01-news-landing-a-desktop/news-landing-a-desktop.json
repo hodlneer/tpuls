@@ -69,7 +69,7 @@
             "author": "Livia Geidt"
         }
     ],
-    "trendingCards": [
+    "cardsOnlyOneFeature": [
         {
             "isFeatured": false,
             "isLightFeatured": false,
@@ -90,7 +90,36 @@
         },
         {
             "isFeatured": false,
-            "isLightFeatured": false,
+            "isLightFeatured": true,
+            "cardImageUrl": "/images/png/card/card-image-10-2x.png",
+            "title": "BUSINESS TRAVEL",
+            "titleIcon": "card icon",
+            "bodyText": "Is Business Travel Finally Coming Back?",
+            "author": "Livia Geidt"
+        }
+    ],
+    "trendingCards": [
+        {
+            "isFeatured": false,
+            "isLightFeatured": true,
+            "cardImageUrl": "/images/png/card/card-image-8-2x.png",
+            "title": "AIRLINES & AIRPORTS",
+            "titleIcon": "card icon",
+            "bodyText": "Weekend Brings Highest Passenger Numbers Since Before COVID-19",
+            "author": "Livia Geidt"
+        },
+        {
+            "isFeatured": false,
+            "isLightFeatured": true,
+            "cardImageUrl": "/images/png/card/card-image-9-2x.png",
+            "title": "BUSINESS TRAVEL",
+            "titleIcon": "card icon",
+            "bodyText": "Is Business Travel Finally Coming Back?",
+            "author": "Livia Geidt"
+        },
+        {
+            "isFeatured": false,
+            "isLightFeatured": true,
             "cardImageUrl": "/images/png/card/card-image-10-2x.png",
             "title": "BUSINESS TRAVEL",
             "titleIcon": "card icon",
