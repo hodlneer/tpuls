@@ -1,9 +1,12 @@
 
-<div class="group-card-article">
+<div class="group-card-article" {{#if card.isFeatured}}style="margin-top:41px;"{{/if}}>
+  {{>card-border}}
+  {{#if card.isFeatured}}
+       {{>feature-card-tag}}
+  {{/if}}
+
   {{#if card.isLightFeatured}}
-       {{>light-feature-card-tag}}
-  {{else}}
-    {{>feature-card-tag}}
+      {{>light-feature-card-tag}}
   {{/if}}
 
   <div class="card main-news-card-article">
