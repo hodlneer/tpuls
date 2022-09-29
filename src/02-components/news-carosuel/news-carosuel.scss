@@ -20,39 +20,38 @@
         object-fit: cover;
       }
 
-      #img-1,
-      #img-2,
-      #img-3,
-      #img-4 {
-        width: 350px;
-        height: 180px;
-        border-radius: 8px;
-        position: absolute;
-        padding: 16px;
-        left: 165px;
-        bottom: -40px;
-        background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
-        color: #fff;
-
-        h3 {
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 14px;
-          line-height: 20px;
-          color: #FFFFFF;
-        }
-
-        h2 {
-          font-family: 'Roboto Serif';
-          font-style: normal;
-          font-weight: 500;
-          font-size: 24px;
-          line-height: 32px;
-          color: #FFFFFF;
-        }
-      }
+    
     }
+  }
+}
+
+.img-content {
+  width: 350px;
+  height: 180px;
+  border-radius: 8px;
+  position: absolute;
+  padding: 16px;
+  // left: 165px;
+  bottom: -40px;
+  background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
+  color: #fff;
+
+  h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  h2 {
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
   }
 }
 
@@ -209,42 +208,41 @@
           cursor: pointer;
         }
 
-        #img-1,
-        #img-2,
-        #img-3,
-        #img-4 {
-
-          width: 327px;
-          height: 130px;
-          z-index: 1000;
-          position: absolute;
-          padding: 16px;
-          left: 25px;
-          top: 220px;
-          background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
-          color: #fff;
-
-          h3 {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 12px;
-            line-height: 18px;
-            color: #FFFFFF;
-          }
-
-          h2 {
-            font-family: 'Roboto Serif';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 24px;
-            color: #FFFFFF;
-          }
-        }
+        
       }
     }
 
+  }
+
+  .img-content {
+
+    width: 327px;
+    height: 130px;
+    z-index: 1000;
+    position: absolute;
+    padding: 16px;
+    left: 25px;
+    top: 220px;
+    background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
+    color: #fff;
+
+    h3 {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      color: #FFFFFF;
+    }
+
+    h2 {
+      font-family: 'Roboto Serif';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
   }
 
   .carousel-img.active {

@@ -16212,27 +16212,18 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   cursor: pointer;
   object-fit: cover;
 }
-#expanded-carousel .carousel-body .carousel-img #img-1,
-#expanded-carousel .carousel-body .carousel-img #img-2,
-#expanded-carousel .carousel-body .carousel-img #img-3,
-#expanded-carousel .carousel-body .carousel-img #img-4 {
+
+.img-content {
   width: 350px;
   height: 180px;
   border-radius: 8px;
   position: absolute;
   padding: 16px;
-  left: 165px;
   bottom: -40px;
   background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
   color: #fff;
 }
-#expanded-carousel .carousel-body .carousel-img #img-1 h3, #expanded-carousel .carousel-body .carousel-img #img-1 .h3,
-#expanded-carousel .carousel-body .carousel-img #img-2 h3,
-#expanded-carousel .carousel-body .carousel-img #img-2 .h3,
-#expanded-carousel .carousel-body .carousel-img #img-3 h3,
-#expanded-carousel .carousel-body .carousel-img #img-3 .h3,
-#expanded-carousel .carousel-body .carousel-img #img-4 h3,
-#expanded-carousel .carousel-body .carousel-img #img-4 .h3 {
+.img-content h3, .img-content .h3 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -16240,13 +16231,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   line-height: 20px;
   color: #FFFFFF;
 }
-#expanded-carousel .carousel-body .carousel-img #img-1 h2, #expanded-carousel .carousel-body .carousel-img #img-1 .h2,
-#expanded-carousel .carousel-body .carousel-img #img-2 h2,
-#expanded-carousel .carousel-body .carousel-img #img-2 .h2,
-#expanded-carousel .carousel-body .carousel-img #img-3 h2,
-#expanded-carousel .carousel-body .carousel-img #img-3 .h2,
-#expanded-carousel .carousel-body .carousel-img #img-4 h2,
-#expanded-carousel .carousel-body .carousel-img #img-4 .h2 {
+.img-content h2, .img-content .h2 {
   font-family: "Roboto Serif";
   font-style: normal;
   font-weight: 500;
@@ -16383,10 +16368,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     object-fit: cover;
     cursor: pointer;
   }
-  #expanded-carousel .carousel-body .carousel-img #img-1,
-#expanded-carousel .carousel-body .carousel-img #img-2,
-#expanded-carousel .carousel-body .carousel-img #img-3,
-#expanded-carousel .carousel-body .carousel-img #img-4 {
+  .img-content {
     width: 327px;
     height: 130px;
     z-index: 1000;
@@ -16397,13 +16379,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
     color: #fff;
   }
-  #expanded-carousel .carousel-body .carousel-img #img-1 h3, #expanded-carousel .carousel-body .carousel-img #img-1 .h3,
-#expanded-carousel .carousel-body .carousel-img #img-2 h3,
-#expanded-carousel .carousel-body .carousel-img #img-2 .h3,
-#expanded-carousel .carousel-body .carousel-img #img-3 h3,
-#expanded-carousel .carousel-body .carousel-img #img-3 .h3,
-#expanded-carousel .carousel-body .carousel-img #img-4 h3,
-#expanded-carousel .carousel-body .carousel-img #img-4 .h3 {
+  .img-content h3, .img-content .h3 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -16411,13 +16387,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     line-height: 18px;
     color: #FFFFFF;
   }
-  #expanded-carousel .carousel-body .carousel-img #img-1 h2, #expanded-carousel .carousel-body .carousel-img #img-1 .h2,
-#expanded-carousel .carousel-body .carousel-img #img-2 h2,
-#expanded-carousel .carousel-body .carousel-img #img-2 .h2,
-#expanded-carousel .carousel-body .carousel-img #img-3 h2,
-#expanded-carousel .carousel-body .carousel-img #img-3 .h2,
-#expanded-carousel .carousel-body .carousel-img #img-4 h2,
-#expanded-carousel .carousel-body .carousel-img #img-4 .h2 {
+  .img-content h2, .img-content .h2 {
     font-family: "Roboto Serif";
     font-style: normal;
     font-weight: 500;
