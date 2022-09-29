@@ -132,6 +132,7 @@
 .group-card-article .group-list-card .list-group .top-border-article {
   border-top: 2px solid #BFC6CC;
   transition: all 0.1s;
+  list-style: none;
 }
 
 .main-news-card-article:hover .card-img-top-article {
