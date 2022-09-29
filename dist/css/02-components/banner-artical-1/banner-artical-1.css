@@ -4,13 +4,16 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.banner-artical-1:hover {
+  transform: scale(1.1);
+}
 .banner-artical-1 p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  padding-top: 385px;
+  padding-top: 232px;
   padding-bottom: 15px;
   margin: 0;
   text-align: center;

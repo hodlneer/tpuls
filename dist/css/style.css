@@ -14344,6 +14344,9 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   border-radius: 100px;
   object-fit: cover;
 }
+.top-artical figure {
+  min-width: 48px !important;
+}
 
 @media (max-width: 929px) {
   .top-artical {
@@ -14655,13 +14658,16 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.banner-artical-1:hover {
+  transform: scale(1.1);
+}
 .banner-artical-1 p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  padding-top: 385px;
+  padding-top: 232px;
   padding-bottom: 15px;
   margin: 0;
   text-align: center;
@@ -14764,7 +14770,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 .banner-artical-3 {
   background-image: url(../images/png/card/banner-a.png);
-  padding-top: 113px;
+  padding-top: 133px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -14989,6 +14995,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   left: 165px;
   bottom: 0px;
   background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
+  border-radius: 8px;
 }
 .banner .item-slider p {
   font-family: "Roboto";
@@ -15019,6 +15026,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     width: 375px;
     height: 201px;
     left: 0;
+    border-radius: 0px;
   }
   .banner .carousel-control-prev-icon {
     opacity: 0 !important;
@@ -15294,7 +15302,12 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   border-radius: 100%;
 }
 .breadcums .dropdown-menu.show {
-  padding: 16px 0px 16px 0px !important;
+  padding: 16px;
+  width: 156px;
+  min-width: 156px !important;
+  height: 108px;
+  box-shadow: 0px 24px 48px -12px rgba(16, 24, 40, 0.18);
+  border-radius: 8px;
 }
 .breadcums .pb-20 {
   padding-bottom: 20px;
@@ -16614,7 +16627,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     padding: 32px !important;
   }
   .navbar-toggler-icon {
-    background-image: url(../images/png/header/menu.png) !important;
+    background-image: url(../images/svg/icons/menu-01.svg) !important;
   }
   .border-bottom-1 {
     border-top: 1px solid #BFC6CC;

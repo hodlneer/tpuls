@@ -1,20 +1,9 @@
 <section class="artical-trending-card">
     <div class="container">
-        <div class="row d-lg-flex d-none">
-            <div class="col-lg-4">
-                {{>card-border-1 title="Trending Now"}} 
-            </div>
-            <div class="col-lg-4">
-                {{>card-border-1 title="Most Read on TravelPulse"}} 
-            </div>
-            <div class="col-lg-4">
-                {{>card-border-1 title="Latest Industry Voices"}} 
-            </div>
-        </div>
         <div class="row">
             {{#each cards}}
-                <div class="col-lg-4">
-                    {{>base-card card=this}}
+                <div class="col-xl-4 col-lg-6 mb-lg-4 mb-xl-0 mb-3 col-12">
+                    {{>article-base-card card=this}}
                 </div>
             {{/each}}
         </div>
@@ -23,4 +12,4 @@
                     <img src="images/png/card/hilton-1@2x.png" alt="" class="img-fluid">
                     </div>
     </div>
-</section>
+</ 

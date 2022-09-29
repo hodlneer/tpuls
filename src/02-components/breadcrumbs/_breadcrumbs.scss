@@ -25,8 +25,14 @@ a{
   border-radius: 100%;
 }
 .dropdown-menu.show {
-  padding: 16px 0px 16px 0px!important;
+  padding: 16px;
+  width: 156px;
+  min-width: 156px!important;
+  height: 108px;
+  box-shadow: 0px 24px 48px -12px rgb(16 24 40 / 18%);
+  border-radius: 8px;
 }
+
 .pb-20{
   padding-bottom: 20px;
 }

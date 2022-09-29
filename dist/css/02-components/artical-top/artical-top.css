@@ -43,6 +43,9 @@
   border-radius: 100px;
   object-fit: cover;
 }
+.top-artical figure {
+  min-width: 48px !important;
+}
 
 @media (max-width: 929px) {
   .top-artical {

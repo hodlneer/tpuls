@@ -53,6 +53,7 @@
   left: 165px;
   bottom: 0px;
   background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
+  border-radius: 8px;
 }
 .banner .item-slider p {
   font-family: "Roboto";
@@ -83,6 +84,7 @@
     width: 375px;
     height: 201px;
     left: 0;
+    border-radius: 0px;
   }
   .banner .carousel-control-prev-icon {
     opacity: 0 !important;
