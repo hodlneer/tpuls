@@ -18,6 +18,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.banner-artical-2 .video-js {
+  width: 1109px;
+  height: 650px;
+}
 .banner-artical-2 .modal-dialog {
   max-width: 1190px;
   height: 650px;
