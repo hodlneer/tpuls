@@ -10,6 +10,9 @@
   gap: 6px;
   background: #EFEFEF;
 }
+.aadd-2 .aadd-3 img {
+  max-height: 250px;
+}
 .aadd-2 P {
   margin: 0;
   font-family: "Roboto";

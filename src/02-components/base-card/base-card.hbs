@@ -1,7 +1,7 @@
 
 <div class="group-card" {{#if card.isFeatured}}style="margin-top:41px;"{{/if}} {{#if card.isLightFeatured}}style="margin-top:41px;"{{/if}}>
   {{>card-border}}
-
+<div class="d-lg-block d-none">
   {{#if card.isFeatured}}
        {{>feature-card-tag}}
   {{/if}}
@@ -9,6 +9,7 @@
   {{#if card.isLightFeatured}}
       {{>light-feature-card-tag}}
   {{/if}}
+  </div>
 
   <div class="card main-news-card">
     <div class="img-top">
