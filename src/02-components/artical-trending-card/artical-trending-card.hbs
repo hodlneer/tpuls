@@ -1,26 +1,26 @@
-<div class="artical-trending-card">
+<section class="artical-trending-card">
     <div class="container">
         <div class="row d-lg-flex d-none">
             <div class="col-lg-4">
-                {{>card-border-1 title="Trending Now"}}
+                {{>card-border-1 title="Trending Now"}} 
             </div>
             <div class="col-lg-4">
-                {{>card-border-1 title="Most Read on TravelPulse"}}
+                {{>card-border-1 title="Most Read on TravelPulse"}} 
             </div>
             <div class="col-lg-4">
-                {{>card-border-1 title="Latest Industry Voices"}}
+                {{>card-border-1 title="Latest Industry Voices"}} 
             </div>
         </div>
         <div class="row">
             {{#each cards}}
-            <div class="col-xl-4 col-lg-6 mb-lg-4 mb-xl-0 mb-3 col-12">
-                {{>article-base-card card=this}}
-            </div>
+                <div class="col-xl-4 col-lg-6 mb-lg-4 mb-xl-0 mb-3 col-12">
+                    {{>article-base-card card=this}}
+                </div>
             {{/each}}
         </div>
-        <div class="ab-card d-none m-0 mb-12 col-md-6">
-            <p class="p-0">advertisement</p>
-            <img src="images/png/card/hilton-1@2x.png" alt="Image Alt Tag Goes here" class="img-fluid">
-        </div>
+       <div class="ab-card d-none m-0 mb-12 col-md-6">
+                    <p class="p-0">advertisement</p>
+                    <img src="./images/png/card/hilton-1@2x.png" alt="" class="img-fluid">
+                    </div>
     </div>
-</div>
+</ 

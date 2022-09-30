@@ -12,7 +12,7 @@
     padding-bottom: 0px;
     margin: 0;
     }
-    .btn-see-more{
+    p {
         font-family: "Roboto";
         font-style: normal;
         font-weight: 500;
@@ -21,12 +21,6 @@
         text-align: right;
         color: #0267B8;
         margin: 0;
-        padding: 0;
-        text-decoration: none;
-        &:hover{
-            color: white;
-            border: none!important;
-        }
     }
     
 }

@@ -2,14 +2,10 @@
     padding-top: 69px;
     padding-bottom: 64px;
     a{
-        cursor: default!important;
-    }
-    .btn-see-more{
         &:hover{
-            color: white;
-            border: none!important;
+          color: #434F5A;
         }
-    }
+      }
     .border-bottom-t{
         border-bottom: 3px solid #FFFFFF;
         margin-left: 16px;

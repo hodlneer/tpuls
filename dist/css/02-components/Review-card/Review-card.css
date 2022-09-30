@@ -2,12 +2,8 @@
   padding-top: 69px;
   padding-bottom: 64px;
 }
-.review-card a {
-  cursor: default !important;
-}
-.review-card .btn-see-more:hover {
-  color: white;
-  border: none !important;
+.review-card a:hover {
+  color: #434F5A;
 }
 .review-card .border-bottom-t {
   border-bottom: 3px solid #FFFFFF;
