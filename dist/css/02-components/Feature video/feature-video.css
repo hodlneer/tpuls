@@ -2,6 +2,13 @@
   padding-top: 64px;
   background: linear-gradient(0deg, rgb(20, 19, 19) 0%, rgb(0, 0, 0) 35%, rgba(255, 255, 255, 0) 100%);
 }
+.feature-video a {
+  cursor: default !important;
+}
+.feature-video .btn-see-more:hover {
+  color: white;
+  border: none !important;
+}
 .feature-video video {
   object-fit: fill;
   width: 100%;

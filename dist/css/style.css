@@ -15804,7 +15804,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-bottom: 0px;
   margin: 0;
 }
-.card-border .header-sm p {
+.card-border .header-sm .btn-see-more {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -15813,6 +15813,12 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   text-align: right;
   color: #0267B8;
   margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.card-border .header-sm .btn-see-more:hover {
+  color: white;
+  border: none !important;
 }
 .card-border .border-bottom-sm {
   border-bottom: 7px solid #DFE3E6 !important;
@@ -16005,6 +16011,13 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 .feature-video {
   padding-top: 64px;
   background: linear-gradient(0deg, rgb(20, 19, 19) 0%, rgb(0, 0, 0) 35%, rgba(255, 255, 255, 0) 100%);
+}
+.feature-video a {
+  cursor: default !important;
+}
+.feature-video .btn-see-more:hover {
+  color: white;
+  border: none !important;
 }
 .feature-video video {
   object-fit: fill;
@@ -17426,8 +17439,12 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-top: 69px;
   padding-bottom: 64px;
 }
-.review-card a:hover {
-  color: #434F5A;
+.review-card a {
+  cursor: default !important;
+}
+.review-card .btn-see-more:hover {
+  color: white;
+  border: none !important;
 }
 .review-card .border-bottom-t {
   border-bottom: 3px solid #FFFFFF;

@@ -1,7 +1,15 @@
 .feature-video{
     padding-top: 64px;
     background: linear-gradient(0deg, rgba(20,19,19,1) 0%, rgba(0,0,0,1) 35%, rgba(255,255,255,0) 100%);
-    
+    a{
+        cursor: default!important;
+    }
+    .btn-see-more{
+        &:hover{
+            color: white;
+            border: none!important;
+        }
+    }
     video {
         object-fit: fill;
         width: 100%;
