@@ -15329,7 +15329,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   height: 5px;
   margin-bottom: 12rem;
   margin-left: 0%;
-  left: 97px;
+  left: 164px;
 }
 .banner .carousel-control-prev-icon {
   width: 44px;
@@ -15371,7 +15371,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   position: absolute;
   width: 350px;
   height: 201px;
-  left: 165px;
+  left: auto;
   bottom: 0px;
   background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
   border-radius: 8px;
@@ -15405,7 +15405,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     width: 375px;
     height: 201px;
     left: 0;
-    border-radius: 0px;
+    border-radius: 8px;
   }
   .banner .carousel-control-prev-icon {
     opacity: 0 !important;
@@ -15430,6 +15430,8 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
     width: 100%;
     height: auto !important;
     left: 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
   }
   .banner .carousel-control-prev-icon {
     opacity: 0 !important;
@@ -15683,7 +15685,6 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 .breadcums .dropdown-menu.show {
   padding: 16px;
   width: 156px;
-  min-width: 156px !important;
   height: 108px;
   box-shadow: 0px 24px 48px -12px rgba(16, 24, 40, 0.18);
   border-radius: 8px;
@@ -16005,6 +16006,10 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
 }
 .feature-video video {
   object-fit: fill;
+}
+.feature-video .icon-video {
+  top: 22%;
+  left: 43%;
 }
 .feature-video .py-99 {
   padding-top: 92px;
@@ -16687,6 +16692,10 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   padding-bottom: 16px !important;
 }
 
+.font-f-r-s {
+  font-family: "Roboto Serif" !important;
+}
+
 .pe-14 {
   padding-right: 14px !important;
 }
@@ -16748,7 +16757,7 @@ ul.link-list li a:hover, ul.link-list li a:focus, ul.link-list li a.active {
   margin-top: 0;
   border: none;
   border-radius: 0;
-  padding: 32px 166px 48px;
+  padding: 32px 135px 48px;
   gap: 32px;
 }
 .grid-nav-li .main-gridbox-ul .main-gridbox-li:not(:last-child) {

@@ -10,7 +10,7 @@ width: 303px;
 height: 5px;
 margin-bottom: 12rem;
     margin-left: 0%;
-    left: 97px;}
+    left: 164px;}
     .carousel-control-prev-icon{
         width: 44px;
     height: 44px;
@@ -52,7 +52,7 @@ gap: 16px;
 position: absolute;
 width: 350px;
 height: 201px;
-left: 165px;
+left: auto;
 bottom: 0px;
 background: radial-gradient(84% 84% at 24.71% 8.4%, #073152 0%, #0B5188 100%);
 border-radius: 8px;
@@ -89,7 +89,7 @@ color: #FFFFFF;
         width: 375px;
     height: 201px;
     left: 0;
-    border-radius: 0px;
+    border-radius: 8px;
     }
     .carousel-control-prev-icon{opacity: 0!important;}
     .carousel-control-next-icon{opacity: 0!important;}
@@ -114,6 +114,8 @@ color: #FFFFFF;
         width: 100%;
     height: auto!important;
     left: 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
     }
     .carousel-control-prev-icon{opacity: 0!important;}
     .carousel-control-next-icon{opacity: 0!important;}
