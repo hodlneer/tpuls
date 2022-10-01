@@ -2,10 +2,30 @@
   padding-top: 64px;
   background: linear-gradient(0deg, rgb(20, 19, 19) 0%, rgb(0, 0, 0) 35%, rgba(255, 255, 255, 0) 100%);
 }
+.feature-video img {
+  cursor: default;
+}
+.feature-video a {
+  cursor: default !important;
+}
+.feature-video .btn-see-more:hover {
+  color: white;
+  border: none !important;
+}
 .feature-video video {
   object-fit: fill;
   width: 100%;
   height: 100%;
+}
+.feature-video .icon-video {
+  top: 22%;
+  left: 43%;
+  border-radius: 100px;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+.feature-video .icon-video:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 .feature-video .py-99 {
   padding-top: 92px;

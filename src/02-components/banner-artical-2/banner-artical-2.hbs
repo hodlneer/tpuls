@@ -1,8 +1,21 @@
-<section class="banner-artical-2 d-lg-block d-none">
-<div class="container">
-    <div class="row">
-        <div class="col-12 text-center">
-            <img src="./images/png/card/Media Type.png" alt="">
+<section class="banner-artical-2">
+<div class="container p-0">
+    <div class="row m-0">
+        <div class="col-12 p-0 text-center">
+            <div id="light">
+  <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+  <video id="VisaChipCardVideo"  controls class="w-h-624">
+      <source src="images/png/card/video.mp4" type="video/mp4">
+      <!--Browser does not support <video> tag -->
+    </video>
+</div>
+
+<div id="fade" onClick="lightbox_close();"></div>
+
+<div>
+ <img src="./images/png/card/Media Type.png" class="p-113" alt="Image Alt Tag Goes here"  onclick="lightbox_open();">
+</div>
+           
             <h1 class="">
                 Title of Article with Venenatis Tortor Egestas Dapibus Lorem Ipsum
             </h1>
@@ -11,8 +24,8 @@
     </div>
 </div>
 </section>
-<section class="banner-artical-sm-3 d-lg-none d-block ">   
-</section>
+{{!-- <section class="banner-artical-sm-3 d-lg-none d-block ">   
+</section> --}}
 <section class="banner-artical-sm-4 d-lg-none d-flex ">
     <div class="container">
         <div class="row">
