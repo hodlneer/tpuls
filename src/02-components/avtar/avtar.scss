@@ -68,11 +68,13 @@ line-height: 24px;
 color: #111824;
 padding: 16px;
 margin: 0;
+transition: 0.7s all ease;
 &:hover{
   color: #0B5188;
 }
     }
     .hov{
+        transition: 0.7s all ease;
         .black-icon {
             transition: display 0.2s;
         }
@@ -87,6 +89,7 @@ margin: 0;
         border: none;
         border-radius: 8px;
         z-index: 1000;
+        background: white;
         .black-icon{
             display: none;
         }

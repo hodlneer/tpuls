@@ -2,15 +2,16 @@
     .carousel-indicators{
     
     display: flex;
-flex-direction: row;
-align-items: flex-start;
+    justify-content: flex-start;
 padding: 0px;
 gap: 8px;
 width: 303px;
 height: 5px;
 margin-bottom: 12rem;
-    margin-left: 0%;
-    left: 164px;}
+    left: -765px;
+    margin-right: auto;
+    margin-left: auto;
+}
     .carousel-control-prev-icon{
         width: 44px;
     height: 44px;

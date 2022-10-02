@@ -156,6 +156,7 @@
 @media (max-width: 929px) {
   .group-card-article {
     padding-bottom: 64px;
-    width: auto !important;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

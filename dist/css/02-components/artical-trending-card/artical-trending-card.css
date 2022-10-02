@@ -21,7 +21,6 @@
 
 @media (max-width: 930px) {
   .artical-trending-card {
-    padding-top: 0 !important;
     padding-left: 16px;
     padding-right: 16px;
   }

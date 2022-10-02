@@ -3,16 +3,13 @@
     padding-top: 153px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 100% 100%;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
     &:hover{
-        -webkit-transform: translatey(10px);
-        -moz-transform: translatey(10px);
-        -ms-transform: translatey(10px);
-        -o-transform: translatey(10px);
-        transform: translatey(10px);
+        background-size: 103% 103%;
     }
     p{
         font-family: 'Roboto';
